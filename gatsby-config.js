@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/',
+  pathPrefix: '/bitacora',
   siteMetadata: {
     title: `Bitacora pdep-lunes`,
     author: `pdep`,
