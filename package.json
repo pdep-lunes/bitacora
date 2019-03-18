@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "pdep-lunes",
   "bugs": {
-    "url": "https://github.com/pdep-lunes/pdep-lunes.github.io/issues"
+    "url": "https://github.com/pdep-lunes/bitacora/issues"
   },
   "dependencies": {
     "gatsby": "^2.1.31",
@@ -39,7 +39,7 @@
     "gh-pages": "^2.0.1",
     "prettier": "^1.16.4"
   },
-  "homepage": "https://pdep-lunes.github.io/",
+  "homepage": "https://pdep-lunes.github.io/bitacora/",
   "keywords": [
     "utn",
     "paradigmas"
@@ -48,7 +48,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pdep-lunes/pdep-lunes.github.io.git"
+    "url": "git+https://github.com/pdep-lunes/bitacora.git"
   },
   "scripts": {
     "build": "gatsby build",
@@ -57,6 +57,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
   }
 }
