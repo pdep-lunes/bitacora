@@ -4,7 +4,7 @@ module.exports = {
     title: `Bitacora pdep-lunes`,
     author: `pdep`,
     description: `Bitacora con resumenes clase a clase`,
-    siteUrl: `https://pdep-lunes.github.io`,
+    siteUrl: `https://pdep-lunes.github.io/bitacora`,
     social: {
       github: `pdep-lunes`,
     },
@@ -60,10 +60,10 @@ module.exports = {
       options: {
         name: `Bitacora pdep-lunes`,
         short_name: `pdep-bitacora`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
+        start_url: `/bitacora`,
+        background_color: `#90a4ae`,
+        theme_color: `#90a4ae`,
+        display: `standalone`,
         icon: `content/assets/profile-pic.png`,
       },
     },
