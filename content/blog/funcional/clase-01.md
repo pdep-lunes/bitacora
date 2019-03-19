@@ -66,5 +66,3 @@ Es ``triple`` y ``esMayor`` son dos funciones, y al igual que las funciones que 
   - [Visual Studio Code](https://code.visualstudio.com/)
   - [Atom](https://atom.io/)
   - Notepad ++
-
-<div style='margin-top: 100px;'></div>
