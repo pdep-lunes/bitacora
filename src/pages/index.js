@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import { dateParser } from "../utils/dateParser";
+import '../utils/index.css';
 
 class BlogIndex extends React.Component {
   render() {
@@ -22,19 +23,44 @@ class BlogIndex extends React.Component {
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
+          const tags = node.frontmatter.tags;
           return (
             <div key={node.fields.slug}>
               <h3
                 style={{
+                  fontFamily: 'Montserrat, sans-serif',
+                  fontSize: '1.75rem',
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <Link style={{ boxShadow: `none`, color: '#2b2b2b' }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
-              <small>{dateParser(node.frontmatter.date)}</small>
+              {
+                tags
+                ? (
+                  <div className='tags-container'>
+                    {tags.map((tag, i) => (
+                      <div
+                        // to={`/tag/${tag}`}
+                        key={i}
+                        className={`tag tag-${tag}`}
+                      >{tag}</div>
+                    ))}
+                  </div>
+                )
+                : null
+              }
+              <small
+                style={{
+                  color: '#929292',
+                }}
+              >{dateParser(node.frontmatter.date)}</small>
               <p
+                style={{
+                  color: '#929292',
+                }}
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
                 }}
@@ -67,6 +93,7 @@ export const pageQuery = graphql`
             date(formatString: "DD-MM-YYYY")
             title
             description
+            tags
           }
         }
       }
