@@ -39,8 +39,6 @@ function Bio({style}) {
               }}
             />
             <p>
-              Escrito por <strong>{author}</strong>.
-              <br/>
               <a href={`https://github.com/${social.github}`} target='_blank' rel='noopener noreferrer'>
                 Podes ver nuestro github acá.
               </a>

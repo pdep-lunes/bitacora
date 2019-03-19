@@ -11,10 +11,11 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
+        <>
         <h1
           style={{
             ...scale(1.5),
-            marginBottom: rhythm(1.5),
+            marginBottom: rhythm(0.5),
             marginTop: 0,
           }}
         >
@@ -27,8 +28,19 @@ class Layout extends React.Component {
             to={`/`}
           >
             {title}
+            
           </Link>
         </h1>
+        <h5
+          style={{
+            ...scale(0.3),
+            fontFamily: `Montserrat, sans-serif`,
+            display: 'inline-flex',
+            marginTop: 0,
+            fontWeight: 600,
+          }}
+        >{'pdep-lunes'}</h5>
+        </>
       )
     } else {
       header = (

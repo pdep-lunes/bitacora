@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: '/bitacora',
   siteMetadata: {
-    title: `Bitacora pdep-lunes`,
+    title: `Bitácora 📚`,
     author: `pdep`,
-    description: `Bitacora con resumenes clase a clase`,
+    description: `Bitácora con resumenes clase a clase`,
     siteUrl: `https://pdep-lunes.github.io/bitacora`,
     social: {
       github: `pdep-lunes`,
