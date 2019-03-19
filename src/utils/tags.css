@@ -1,0 +1,43 @@
+.tag {
+  min-width: 40px;
+  height: 20px;
+  font-size: 14px;
+  padding: 8px;
+  background-color: #b5abab;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+
+  color: white;
+  font-family: 'Montserrat', 'sans-serif';
+  transition: ease-in 0.1s all;
+}
+
+.tag-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* tag `funcional` */
+.tag-funcional { background-color: rgb(98, 80, 134); }
+.tag-funcional:hover { background-color: rgba(98, 80, 134, 0.7); }
+/* tag `funcional` */
+
+/* tag `logico` o `lógico` */
+.tag-logico,
+.tag-lógico { background-color: rgb(239, 148, 57); }
+.tag-logico:hover,
+.tag-lógico:hover { background-color: rgba(239, 148, 57, 0.7); }
+/* tag `logico` o `lógico` */
+
+/* tag `objetos` */
+.tag-objetos { background-color: rgb(172, 65, 66); }
+.tag-objetos:hover { background-color: rgba(172, 65, 66, 0.7); }
+/* tag `objetos` */
+
+

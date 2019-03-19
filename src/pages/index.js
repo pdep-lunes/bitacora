@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import { dateParser } from "../utils/dateParser";
-import '../utils/index.css';
+import '../utils/tags.css';
 
 class BlogIndex extends React.Component {
   render() {
