@@ -35,19 +35,12 @@ class PostsByTagTemplate extends React.Component {
             tag={tag}
           />
         </h1>
-        {posts.map(({ node }) => {
-          const { excerpt } = node
-          const { slug } = node.fields
-          const { tags, date, description } = node.frontmatter
-          const title = node.frontmatter.title || node.fields.slug
-          const itemProps = { slug, title, tags, date, description, excerpt }
-          return (
-            <PostListItem
-              key={slug}
-              {...itemProps}
-            />
-          )
-        })}
+        {posts.map(({ node }, index) => (
+          <PostListItem
+            key={index}
+            node={node}
+          />
+        ))}
         <hr
           style={{
             marginBottom: rhythm(1),

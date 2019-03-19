@@ -6,7 +6,12 @@ import { dateParser } from "../utils/dateParser"
 
 import Tag from "../components/tag"
 
-const PostListItem = ({slug, title, tags, date, description, excerpt}) => {
+const PostListItem = ({node}) => {
+  const { excerpt } = node
+  const { slug } = node.fields
+  const { tags, date, description } = node.frontmatter
+  const title = node.frontmatter.title || node.fields.slug
+  const itemProps = { slug, title, tags, date, description, excerpt }
   return (
     <div key={slug}>
       <h3
