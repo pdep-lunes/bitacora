@@ -2,6 +2,7 @@
 title: Primera clase
 date: "2019-03-18"
 description: "Primera clase de PdeP"
+tags: [funcional]
 ---
 
 ## Links útiles
