@@ -1,12 +1,11 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
-import { dateParser } from "../utils/dateParser";
 import '../utils/tags.css';
+import PostListItem from "../components/post-list-item";
 
 class BlogIndex extends React.Component {
   render() {
@@ -22,50 +21,16 @@ class BlogIndex extends React.Component {
         />
         <Bio />
         {posts.map(({ node }) => {
+          const { excerpt } = node
+          const { slug } = node.fields
+          const { tags, date, description } = node.frontmatter
           const title = node.frontmatter.title || node.fields.slug
-          const tags = node.frontmatter.tags;
+          const itemProps = { slug, title, tags, date, description, excerpt }
           return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '1.75rem',
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none`, color: '#2b2b2b' }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              {
-                tags
-                ? (
-                  <div className='tags-container'>
-                    {tags.map((tag, i) => (
-                      <div
-                        // to={`/tag/${tag}`}
-                        key={i}
-                        className={`tag tag-${tag}`}
-                      >{tag}</div>
-                    ))}
-                  </div>
-                )
-                : null
-              }
-              <small
-                style={{
-                  color: '#929292',
-                }}
-              >{dateParser(node.frontmatter.date)}</small>
-              <p
-                style={{
-                  color: '#929292',
-                }}
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </div>
+            <PostListItem
+              key={slug}
+              {...itemProps}
+            />
           )
         })}
       </Layout>
