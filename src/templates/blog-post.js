@@ -7,19 +7,23 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 import { dateParser } from "../utils/dateParser";
 
+import RetomarScrollTooltip from '../components/retomar-scroll-tooltip'
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
+    const postTitle = post.frontmatter.title;
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
+        <RetomarScrollTooltip postTitle={postTitle}/>
         <SEO
-          title={post.frontmatter.title}
+          title={postTitle}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
+        <h1>{postTitle}</h1>
         <p
           style={{
             ...scale(-1 / 5),
