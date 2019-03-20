@@ -77,6 +77,7 @@ export const pageQuery = graphql`
               tags
               title
               date
+              description
             }
           }
         }
