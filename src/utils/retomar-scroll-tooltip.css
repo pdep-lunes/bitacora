@@ -1,6 +1,6 @@
 #retomar {
   display: block;
-  width: 250px;
+  width: 270px;
   height: 65px;
   outline: none;
   position: fixed;
@@ -9,7 +9,6 @@
   border-radius: 20px;
   transform: translate(-50%);
   left: 50%;
-  cursor: pointer;
   opacity: 1;
   transition: opacity 0.3s;
 }
@@ -67,4 +66,5 @@
   box-shadow: 0 1px 0 0 currentColor;
   text-decoration: none;
   cursor: pointer;
+  padding: 0px 3px;
 }

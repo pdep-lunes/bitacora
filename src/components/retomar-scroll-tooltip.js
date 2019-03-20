@@ -10,7 +10,6 @@ const RetomarScrollTooltip = ({postTitle}) => {
   function savePostScrolling(postTitle) {
     interval = setInterval(function() {
       localStorage.setItem(postTitle, window.scrollY);
-      console.log(window.scrollY)
     }, 5000);
   }
 
@@ -38,11 +37,12 @@ const RetomarScrollTooltip = ({postTitle}) => {
     <div id="retomar"
       style={{
         opacity: showTooltip ? '1' : '0',
+        display: showTooltip ? 'block' : 'none',
       }}
     >
       <div className="arrow"></div>
       <div className="body">
-        <p>¿Querés retomar de donde dejaste?</p>
+        <p>¿Querés retomar desde donde dejaste?</p>
         <div className="options">
           <span onClick={onClick('si')}>Si</span>
           <span onClick={onClick('no')}>No</span>
