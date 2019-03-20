@@ -3,18 +3,7 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
-// const useSavedScrollPosition = (pathname) => {
-//   React.useEffect(() => {
-//     const interval = setInterval(() => {
-//       localStorage.setItem(pathname, window.scrollY);
-//     }, 6000)
-//     return () => { clearInterval(interval) }
-//   }, [pathname])
-//   return localStorage.getItem(pathname);
-// }
-
 const Layout = ({location, title, children}) => {
-  // const savedScrollPosition = useSavedScrollPosition(location.pathname);
   const rootPath = `${__PATH_PREFIX__}/`
   let header
 
