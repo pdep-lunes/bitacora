@@ -75,5 +75,11 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: `gatsby-plugin-scroll-indicator`,
+      options: {
+        color: '#000000',
+      },
+    },
   ],
 }
