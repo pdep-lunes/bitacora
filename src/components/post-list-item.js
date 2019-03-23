@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link } from "gatsby"
+import { Link } from 'gatsby'
 
-import { rhythm } from "../utils/typography"
-import { dateParser } from "../utils/dateParser"
+import { rhythm } from '../utils/typography'
+import { dateParser } from '../utils/dateParser'
 
-import Tag from "../components/tag"
+import Tag from '../components/tag'
 
-const PostListItem = ({node}) => {
+const PostListItem = ({ node }) => {
   const { excerpt } = node
   const { slug } = node.fields
   const { tags, date, description } = node.frontmatter
@@ -24,18 +24,20 @@ const PostListItem = ({node}) => {
           {title}
         </Link>
       </h3>
-      {
-        tags
-          ? (<div className='tags-container'>
-              {tags.map((tag, i) => <Tag tag={tag} key={i} />)}
-            </div>)
-          : null
-      }
+      {tags ? (
+        <div className="tags-container">
+          {tags.map((tag, i) => (
+            <Tag tag={tag} key={i} />
+          ))}
+        </div>
+      ) : null}
       <small
         style={{
           color: '#929292',
         }}
-      >{dateParser(date)}</small>
+      >
+        {dateParser(date)}
+      </small>
       <p
         style={{
           color: '#929292',

@@ -1,38 +1,35 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react'
+import { Link, graphql } from 'gatsby'
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Tag from "../components/tag"
-import { rhythm, scale } from "../utils/typography"
-import { dateParser } from "../utils/dateParser"
+import Bio from '../components/bio'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import Tag from '../components/tag'
+import { rhythm, scale } from '../utils/typography'
+import { dateParser } from '../utils/dateParser'
 
 import RetomarScrollTooltip from '../components/retomar-scroll-tooltip'
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const { title: postTitle, tags, description, date } = post.frontmatter;
+    const { title: postTitle, tags, description, date } = post.frontmatter
     const siteTitle = this.props.data.site.siteMetadata.title
 
     const { previous, next } = this.props.pageContext
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <RetomarScrollTooltip postTitle={postTitle}/>
-        <SEO
-          title={postTitle}
-          description={description || post.excerpt}
-        />
+        <RetomarScrollTooltip postTitle={postTitle} />
+        <SEO title={postTitle} description={description || post.excerpt} />
         <h1>{postTitle}</h1>
-        {
-          tags
-            ? (<div className='tags-container' style={{marginTop: rhythm(-1)}}>
-                {tags.map((tag, i) => <Tag tag={tag} key={i} />)}
-              </div>)
-            : null
-        }
+        {tags ? (
+          <div className="tags-container" style={{ marginTop: rhythm(-1) }}>
+            {tags.map((tag, i) => (
+              <Tag tag={tag} key={i} />
+            ))}
+          </div>
+        ) : null}
         <p
           style={{
             ...scale(-1 / 5),
@@ -48,37 +45,33 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <Bio style={{marginBottom: '0px'}}/>
-        {
-          previous || next
-            ? (
-              <ul
-                style={{
-                  display: `flex`,
-                  flexWrap: `wrap`,
-                  justifyContent: `space-between`,
-                  listStyle: `none`,
-                  padding: 0,
-                }}
-              >
-                <li>
-                  {previous && (
-                    <Link to={previous.fields.slug} rel="prev">
-                      ← {previous.frontmatter.title}
-                    </Link>
-                  )}
-                </li>
-                <li>
-                  {next && (
-                    <Link to={next.fields.slug} rel="next">
-                      {next.frontmatter.title} →
-                    </Link>
-                  )}
-                </li>
-              </ul>
-            )
-            : null
-        }
+        <Bio style={{ marginBottom: '0px' }} />
+        {previous || next ? (
+          <ul
+            style={{
+              display: `flex`,
+              flexWrap: `wrap`,
+              justifyContent: `space-between`,
+              listStyle: `none`,
+              padding: 0,
+            }}
+          >
+            <li>
+              {previous && (
+                <Link to={previous.fields.slug} rel="prev">
+                  ← {previous.frontmatter.title}
+                </Link>
+              )}
+            </li>
+            <li>
+              {next && (
+                <Link to={next.fields.slug} rel="next">
+                  {next.frontmatter.title} →
+                </Link>
+              )}
+            </li>
+          </ul>
+        ) : null}
       </Layout>
     )
   }

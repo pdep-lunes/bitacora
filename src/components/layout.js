@@ -1,43 +1,44 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm, scale } from '../utils/typography'
 
-const Layout = ({location, title, children}) => {
+const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
 
   if (location.pathname === rootPath) {
     header = (
       <>
-      <h1
-        style={{
-          ...scale(1.2),
-          marginBottom: rhythm(0.5),
-          marginTop: 0,
-        }}
-      >
-        <Link
+        <h1
           style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
+            ...scale(1.2),
+            marginBottom: rhythm(0.5),
+            marginTop: 0,
           }}
-          to={`/`}
         >
-          {title}
-          
-        </Link>
-      </h1>
-      <h5
-        style={{
-          ...scale(0.3),
-          fontFamily: `Montserrat, sans-serif`,
-          display: 'inline-flex',
-          marginTop: 0,
-          fontWeight: 600,
-        }}
-      >{'pdep-lunes'}</h5>
+          <Link
+            style={{
+              boxShadow: `none`,
+              textDecoration: `none`,
+              color: `inherit`,
+            }}
+            to={`/`}
+          >
+            {title}
+          </Link>
+        </h1>
+        <h5
+          style={{
+            ...scale(0.3),
+            fontFamily: `Montserrat, sans-serif`,
+            display: 'inline-flex',
+            marginTop: 0,
+            fontWeight: 600,
+          }}
+        >
+          {'pdep-lunes'}
+        </h5>
       </>
     )
   } else {

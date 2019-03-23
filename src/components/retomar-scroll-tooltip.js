@@ -2,45 +2,52 @@ import React, { useEffect } from 'react'
 
 import '../utils/retomar-scroll-tooltip.css'
 
-const RetomarScrollTooltip = ({postTitle}) => {
-  const [showTooltip, setShowTooltip] = React.useState(false);
+const RetomarScrollTooltip = ({ postTitle }) => {
+  const [showTooltip, setShowTooltip] = React.useState(false)
 
-  let interval;
+  let interval
 
   function savePostScrolling(postTitle) {
     interval = setInterval(function() {
-      localStorage.setItem(postTitle, window.scrollY);
-    }, 5000);
+      localStorage.setItem(postTitle, window.scrollY)
+    }, 5000)
   }
 
   useEffect(() => {
-    const lastScroll = parseInt(localStorage.getItem(postTitle));
-    if (localStorage.getItem(postTitle) !== null && lastScroll > 300 && window.scrollY < (lastScroll - 100)) {
-      setShowTooltip(true);
+    const lastScroll = parseInt(localStorage.getItem(postTitle))
+    if (
+      localStorage.getItem(postTitle) !== null &&
+      lastScroll > 300 &&
+      window.scrollY < lastScroll - 100
+    ) {
+      setShowTooltip(true)
     } else {
-      localStorage.removeItem(postTitle);
-      savePostScrolling(postTitle);
+      localStorage.removeItem(postTitle)
+      savePostScrolling(postTitle)
     }
-    return () => { clearInterval(interval) }
+    return () => {
+      clearInterval(interval)
+    }
   }, [postTitle])
 
   const onClick = (option /* si | no */) => () => {
-    setShowTooltip(false);
-    if(option === 'si') {
-      const top = parseInt(localStorage.getItem(postTitle));
-      window.scrollTo({ behavior: "smooth", top });
+    setShowTooltip(false)
+    if (option === 'si') {
+      const top = parseInt(localStorage.getItem(postTitle))
+      window.scrollTo({ behavior: 'smooth', top })
     }
-    savePostScrolling(postTitle);
+    savePostScrolling(postTitle)
   }
 
   return (
-    <div id="retomar"
+    <div
+      id="retomar"
       style={{
         opacity: showTooltip ? '1' : '0',
         display: showTooltip ? 'block' : 'none',
       }}
     >
-      <div className="arrow"></div>
+      <div className="arrow" />
       <div className="body">
         <p>¿Querés retomar desde donde dejaste?</p>
         <div className="options">
