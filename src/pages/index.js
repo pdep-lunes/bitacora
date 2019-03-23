@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Bio from '../components/bio'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import '../utils/tags.css'
+import '../css/tags.css'
 import PostListItem from '../components/post-list-item'
 
 class BlogIndex extends React.Component {

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-import '../utils/retomar-scroll-tooltip.css'
+import '../css/retomar-scroll-tooltip.css'
 
 const RetomarScrollTooltip = ({ postTitle }) => {
   const [showTooltip, setShowTooltip] = React.useState(false)

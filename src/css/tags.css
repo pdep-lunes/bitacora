@@ -23,20 +23,30 @@
 }
 
 /* tag `funcional` */
-.tag-funcional { background-color: rgb(98, 80, 134); }
-.tag-funcional:hover { background-color: rgba(98, 80, 134, 0.7); }
+.tag-funcional {
+  background-color: rgb(98, 80, 134);
+}
+.tag-funcional:hover {
+  background-color: rgba(98, 80, 134, 0.7);
+}
 /* tag `funcional` */
 
 /* tag `logico` o `lógico` */
 .tag-logico,
-.tag-lógico { background-color: rgb(239, 148, 57); }
+.tag-lógico {
+  background-color: rgb(239, 148, 57);
+}
 .tag-logico:hover,
-.tag-lógico:hover { background-color: rgba(239, 148, 57, 0.7); }
+.tag-lógico:hover {
+  background-color: rgba(239, 148, 57, 0.7);
+}
 /* tag `logico` o `lógico` */
 
 /* tag `objetos` */
-.tag-objetos { background-color: rgb(172, 65, 66); }
-.tag-objetos:hover { background-color: rgba(172, 65, 66, 0.7); }
+.tag-objetos {
+  background-color: rgb(172, 65, 66);
+}
+.tag-objetos:hover {
+  background-color: rgba(172, 65, 66, 0.7);
+}
 /* tag `objetos` */
-
-
