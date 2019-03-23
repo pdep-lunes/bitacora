@@ -10,12 +10,10 @@ const months = [
   'Septiembre',
   'Octubre',
   'Noviembre',
-  'Diciembre'
+  'Diciembre',
 ]
 
-export const dateParser = (dateString) => {
-  const [day, month, year] = dateString.split('-');
-  return (
-    `${day} de ${months[month - 1]}, ${year}`
-  )
+export const dateParser = dateString => {
+  const [day, month, year] = dateString.split('-')
+  return `${day} de ${months[month - 1]}, ${year}`
 }

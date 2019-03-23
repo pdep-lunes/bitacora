@@ -5,13 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 import Image from 'gatsby-image'
 
-import { rhythm } from "../utils/typography"
+import { rhythm } from '../utils/typography'
 
-function Bio({style}) {
+function Bio({ style }) {
   return (
     <StaticQuery
       query={bioQuery}
@@ -39,14 +39,22 @@ function Bio({style}) {
               }}
             />
             <p>
-              <a href={`https://github.com/${social.github}`} target='_blank' rel='noopener noreferrer'>
+              <a
+                href={`https://github.com/${social.github}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Podes ver nuestro github acá.
               </a>
-              <br/>
+              <br />
               <p>
                 Y saber mas sobre nosotros
                 {` `}
-                <a href='http://www.pdep.com.ar/Cursos/cursadas-anteriores/2019/2019-man-lunes' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href="http://www.pdep.com.ar/Cursos/cursadas-anteriores/2019/2019-man-lunes"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   acá
                 </a>
               </p>
