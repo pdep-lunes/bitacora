@@ -119,7 +119,7 @@ En haskell también se respeta esto. Les dejamos una tabla para que puedan ver l
 | 5                                             |                :                 |
 | 4                                             |       ==, /=, <, <=, >, >=       |
 | 3                                             |                &&                |
-| 2                                             |               `||`               |
+| 2                                             |               \|\|               |
 | 1                                             |                \$                |
 
 ## Tipado
