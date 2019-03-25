@@ -22,6 +22,21 @@
   flex-wrap: wrap;
 }
 
+/*
+  Para agregarle color a glun tag lo que hay que hacer es lo siguiente:
+    - crear una clase (de css) con el nombre tag-{nombre_del_tag} y
+    poner su `background-color`
+    - también se puede poner un color distinto para cuando el mouse pase por arriba
+    usendo el pseudo selectro `:hover`
+    - ejemplo: tag `pdep`
+    .tag-pdep {
+      background-color: ...;
+    }
+    .tag-pdep:hover {
+      ...
+    }
+*/
+
 /* tag `funcional` */
 .tag-funcional {
   background-color: rgb(98, 80, 134);
