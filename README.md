@@ -1,27 +1,28 @@
 # pdep-lunes bitacora
 
-## 🚀 Quick start
+## 🚀 Comienzo rápido
 
-1.  **Start developing.**
+1.  **Empezar a desarrollar.**
 
-    Navigate into your new site’s directory and start it up.
+    Navega hasta la carpeta/directorio donde clonaste este repo, instala las dependencias e inicia el servidor de desarrollo
 
     ```sh
     cd bitacora/
+    npm install
     gatsby develop
     ```
 
-2.  **Open the source code and start editing!**
+2.  **Abrí el código fuente y empeza a editar!**
 
-    Your site is now running at `http://localhost:8000`!
+    El servidor de la página esta corriendo en `http://localhost:8000`!
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+    _Nota: También vas a ver otro link: _`http://localhost:8000/___graphql`_. Esta es una herramienta que podes usar para experimentar queries de data. Podes investigar y aprender un poco mas sobre como usar esta herramienta en [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `bitacora` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Abrí la carpeta `bitacora` editor de código y modifica el archivo`src/pages/index.js` o crea un nuevo post dentro de la carpeta `content/blog/`. Guarda los cambios y tu navegador se va a refrescar automáticamente!
 
-## 🧐 What's inside?
+## 🧐 Que tiene este proyecto?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+Una mirada rápida y a alto nivel de los archivos y directorios que vas a ver en este proyecto.
 
     .
     ├── node_modules
@@ -31,19 +32,18 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── gatsby-browser.js
     ├── gatsby-config.js
     ├── gatsby-node.js
-    ├── gatsby-ssr.js
     ├── LICENSE
     ├── package-lock.json
     ├── package.json
     └── README.md
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+1.  **`/node_modules`**: Este directorio contiene todos los paquetes de npm (npm packages) que funcionan como dependencias y que son instalados con el comando `npm intall`.
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+2.  **`/src`**: Este directorio contiene todo el código relacionado con lo que se ve en el front-end del sitio (lo que se ve en el browser) como el header o el template de un post. `src` es una convención para referirse a “source code” (código fuente).
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+3.  **`.gitignore`**: Este archivo a git que cosas tiene que ignorar y evitar tener en cuenta al momento de trackear cambios.
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+4.  **`.prettierrc`**: Archivo de configuración de [Prettier](https://prettier.io/). Prettier es una herramienta para mantener el formateo de código de manera consistente.
 
 5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
@@ -51,15 +51,13 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+8.  **`LICENSE`**: Gatsby esta licenciado bajo la licencia MIT .
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+9.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+10. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
+11. **`README.md`**: A text file containing useful reference information about your project.
 
 ## 💫 Deploy
 
@@ -68,4 +66,3 @@ Deploy to gh-pages using the `deploy` script in **package.json**
 ```sh
 npm run deploy
 ```
-
