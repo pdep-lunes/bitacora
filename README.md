@@ -22,7 +22,7 @@
 
 3.  **Hacer un post.**
 
-    Hay pasos bien detallados en este [post](./como-hacer-un-post.md)
+    Hay pasos bien detallados [acá](./como-hacer-un-post.md)
 
 ## 🧐 Que tiene este proyecto?
 
