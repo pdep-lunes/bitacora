@@ -43,7 +43,7 @@ En esta materia vamos a ver 3 paradigmas y vamos a usar un lenguaje distinto par
 
 Vimos también los conceptos de:
  - **Declaratividad:**
-   - Nos importa el ***qué*** y no el ***como***.
+   - Nos importa el ***qué*** y no el ***cómo***.
    - Ocultamos el detalle algorítmico.
 
  - **Expresividad:** los nombres que usamos en nuestro código deberían describir el propósito de nuestras variables, funciones, métodos, etc.
