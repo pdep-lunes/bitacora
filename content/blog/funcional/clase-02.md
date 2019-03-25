@@ -105,7 +105,7 @@ ganarLoteriaYComprarAgua = comprarAgua.ganarLoteria
 
 ## Precedencia de Operadores
 
-En matemática, cuando tenemos una expresión como 2 _ 3 + 4, solemos operarla dependiendo de la precedencia de cada operador. Como el _ es de mayor precedencia que el +, operamos primero 2 \* 3 y luego le sumamos 4.
+En matemática, cuando tenemos una expresión como 2 \* 3 + 4, solemos operarla dependiendo de la precedencia de cada operador. Como el \* es de mayor precedencia que el +, operamos primero 2 \* 3 y luego le sumamos 4.
 
 En haskell también se respeta esto. Les dejamos una tabla para que puedan ver la precedencia que utiliza Haskell:
 
