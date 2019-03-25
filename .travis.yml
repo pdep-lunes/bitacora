@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - '10.0'
+dist: trusty
+sudo: false
+
+deploy:
+- provider: script
+  skip_cleanup: true
+  script: npm run deploy
+  on:
+    branch: master
