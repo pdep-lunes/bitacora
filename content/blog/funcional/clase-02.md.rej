@@ -1,0 +1,16 @@
+diff a/content/blog/funcional/clase-02.md b/content/blog/funcional/clase-02.md	(rejected hunks)
+@@ -3,3 +3,11 @@ title: Segunda clase
+-date: "2019-03-25"
+-description: "Introducción a Funcional. Composición, Precedencia de Operadores, primera parte de Tipado."
+-tags: [funcional, Precedencia de Operadores, Composición, Tipado, Inmutabilidad, Transparencia Referencial]
++date: '2019-03-25'
++description: 'Introducción a Funcional. Composición, Precedencia de Operadores, primera parte de Tipado.'
++tags:
++  [
++    funcional,
++    Precedencia de Operadores,
++    Composición,
++    Tipado,
++    Inmutabilidad,
++    Transparencia Referencial,
++  ]

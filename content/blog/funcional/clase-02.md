@@ -2,15 +2,7 @@
 title: Segunda clase
 date: '2019-03-25'
 description: 'Introducción a Funcional. Composición, Precedencia de Operadores, primera parte de Tipado.'
-tags:
-  [
-    funcional,
-    Precedencia de Operadores,
-    Composición,
-    Tipado,
-    Inmutabilidad,
-    Transparencia Referencial,
-  ]
+tags: [funcional, composicion, tipado, precedencia de operadores, inmutabilidad]
 ---
 
 ## Tarea para la clase que viene
@@ -141,6 +133,7 @@ billetera :: Int
 
 comprarAgua :: Int -> Int
 
+
 ganarLoteria :: Int -> Int
 
 esRico :: Int -> Bool
@@ -164,20 +157,25 @@ Nos sirve para que, solo mirando el tipado de una función y el nombre de ésta 
 ```haskell
 > odd 2
 => False
+
 ```
 
 - id: Dado un valor, devuelve ese mismo valor
 
 ```haskell
 > id "Hola!"
+
 => "Hola!"
+
 ```
 
 - (\$): Dada una funcion y un valor, devuelve el valor que es la aplicacion de la funcion al valor
 
 ```haskell
 > even $ 2
+
 => True
+
 ```
 
 Sirve mucho para deshacernos de paréntesis. por ejemplo, para las composiciones:
