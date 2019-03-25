@@ -2,7 +2,7 @@
 title: Segunda clase
 date: '2019-03-25'
 description: 'Introducción a Funcional. Composición, Precedencia de Operadores, primera parte de Tipado.'
-tags: [funcional, composicion, tipado, precedencia de operadores, inmutabilidad]
+tags: [funcional, composicion, tipado, precedencia-de-operadores, inmutabilidad]
 ---
 
 ## Tarea para la clase que viene
