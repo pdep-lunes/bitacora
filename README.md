@@ -20,6 +20,10 @@
 
     Abrí la carpeta `bitacora` editor de código y modifica el archivo`src/pages/index.js` o crea un nuevo post dentro de la carpeta `content/blog/`. Guarda los cambios y tu navegador se va a refrescar automáticamente!
 
+3.  **Hacer un post.**
+
+    Hay pasos bien detallados en este [post](./como-hacer-un-post.md)
+
 ## 🧐 Que tiene este proyecto?
 
 Una mirada rápida y a alto nivel de los archivos y directorios que vas a ver en este proyecto.
