@@ -156,3 +156,10 @@ pre[data-line] {
   float: left;
   min-width: 100%;
 }
+
+code.language-text {
+  background-color: #011627 !important;
+  color: white !important;
+  padding: 2px !important;
+  box-sizing: border-box !important;
+}
