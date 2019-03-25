@@ -1,4 +1,154 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bitácora 📚]]></title><description><![CDATA[Bitácora con resumenes clase a clase]]></description><link>https://pdep-lunes.github.io/bitacora</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Mar 2019 18:28:50 GMT</lastBuildDate><item><title><![CDATA[Primera clase]]></title><description><![CDATA[Links útiles Grupo de Google:   pdep-lunes-cursada@googlegroups.com Suscribirse  obligatoriamente  enviando mail a  pdep-lunes-cursada…]]></description><link>https://pdep-lunes.github.io/bitacora/funcional/clase-01/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/funcional/clase-01/</guid><pubDate>Mon, 18 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;links-útiles&quot;&gt;&lt;a href=&quot;#links-%C3%BAtiles&quot; aria-label=&quot;links útiles permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Links útiles&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bitácora 📚]]></title><description><![CDATA[Bitácora con resumenes clase a clase]]></description><link>https://pdep-lunes.github.io/bitacora</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Mar 2019 20:33:32 GMT</lastBuildDate><item><title><![CDATA[Segunda clase]]></title><description><![CDATA[Tarea para la clase que viene Hacer parejas para los trabajos practicos que ya se vienen! Hacer las lecciones 1 a 4 (inclusive) del capítulo…]]></description><link>https://pdep-lunes.github.io/bitacora/funcional/clase-02/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/funcional/clase-02/</guid><pubDate>Mon, 25 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-para-la-clase-que-viene&quot;&gt;&lt;a href=&quot;#tarea-para-la-clase-que-viene&quot; aria-label=&quot;tarea para la clase que viene permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea para la clase que viene&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hacer parejas para los trabajos practicos que ya se vienen!&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hacer las lecciones 1 a 4 (inclusive) del capítulo 1 de &lt;a href=&quot;https://mumuki.io/pdep-utn&quot;&gt;mumuki&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;qué-empezamos-viendo-hoy&quot;&gt;&lt;a href=&quot;#qu%C3%A9-empezamos-viendo-hoy&quot; aria-label=&quot;qué empezamos viendo hoy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Qué empezamos viendo hoy?&lt;/h2&gt;
+&lt;p&gt;Repasamos lo que vimos la clase pasada (los conceptos de &lt;strong&gt;declaratividad&lt;/strong&gt; y &lt;strong&gt;expresividad&lt;/strong&gt;, &lt;strong&gt;abstraccion&lt;/strong&gt;, &lt;strong&gt;delegacion&lt;/strong&gt;), y arrancamos con el paradigma &lt;strong&gt;Funcional&lt;/strong&gt; y Haskell.&lt;/p&gt;
+&lt;h2 id=&quot;y-qué-es-el-paradigma-funcional&quot;&gt;&lt;a href=&quot;#y-qu%C3%A9-es-el-paradigma-funcional&quot; aria-label=&quot;y qué es el paradigma funcional permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Y qué es el paradigma funcional?&lt;/h2&gt;
+&lt;p&gt;En el paradigma funcional veremos y trabajaremos, justamente, con el concepto de &lt;strong&gt;&lt;em&gt;funciones&lt;/em&gt;&lt;/strong&gt;. Y como las funciones de análisis matemático, las funciones tienen dos propiedades importantes: &lt;strong&gt;existencia&lt;/strong&gt; y &lt;strong&gt;unicidad&lt;/strong&gt;. Estas propiedades también se respetan en Haskell.&lt;/p&gt;
+&lt;h2 id=&quot;valores-y-funciones&quot;&gt;&lt;a href=&quot;#valores-y-funciones&quot; aria-label=&quot;valores y funciones permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Valores y Funciones&lt;/h2&gt;
+&lt;p&gt;En Haskell, nosotros podemos definir valores, como tambien funciones:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token hvariable&quot;&gt;billetera&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;-- Los valores pueden ser booleanos, enteros, strings, etc.&lt;/span&gt;
+
+&lt;span class=&quot;token hvariable&quot;&gt;comprarAgua&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;unaBilletera&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;unaBilletera&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Las funciones van a ser nuestra herramienta para poder operar sobre los valores. Si yo en la consola de Haskell escribo:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt; comprarAgua billetera
+=&amp;gt; 70&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Y algo muy importante: &lt;strong&gt;En Haskell no hay efecto&lt;/strong&gt;. Esto quiere decir que, los valores igualados no van a mutar luego de ser operados por las funciones (Este concepto se llama &lt;strong&gt;&lt;em&gt;inmutabilidad&lt;/em&gt;&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;Por ejemplo, si aplicamos &lt;code class=&quot;language-text&quot;&gt;comprarAgua&lt;/code&gt; a &lt;code class=&quot;language-text&quot;&gt;billetera&lt;/code&gt;, podemos ver que &lt;code class=&quot;language-text&quot;&gt;billetera&lt;/code&gt; no cambia su valor:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt; billetera
+=&amp;gt; 100
+&amp;gt; comprarAgua billetera
+=&amp;gt; 70
+&amp;gt; billetera
+=&amp;gt; 100&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Por esto, es que en haskell logramos tener lo que se llama &lt;strong&gt;Transparencia Referencial&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;composición&quot;&gt;&lt;a href=&quot;#composici%C3%B3n&quot; aria-label=&quot;composición permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Composición&lt;/h2&gt;
+&lt;p&gt;Supongamos que, como vimos en clase, tenemos esta otra funcion:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token hvariable&quot;&gt;ganarLoteria&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;unaBilletera&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;unaBilletera&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ahora, quiero que en la billetera se vea que haya ganado la loteria y que me compré un agua. Como se hace?&lt;/p&gt;
+&lt;p&gt;Pues podemos utilizar la &lt;strong&gt;Composicion&lt;/strong&gt; de funciones:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt; (comprarAgua.ganarLoteria) billetera
+=&amp;gt; 1070&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Lo que está ocurriendo acá es lo mismo que con la composición de funciones matemáticas ( FoG(x) ). Primero se aplica la función de la derecha al valor, y luego, la de la izquierda, con el valor que nos da la funcion de la derecha aplicada.&lt;/p&gt;
+&lt;p&gt;Recordemos que, como en matemática, el valor que retorne la función de la derecha, tiene que ser &lt;strong&gt;un valor que la función de la izquierda pueda operar&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, si tenemos esta nueva función:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token hvariable&quot;&gt;esRico&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;unaBilletera&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;unaBilletera&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;y la intento componer así:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt; (ganarLoteria.esRico) billetera&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Haskell nos va a decir que esta mal, ya que ganarLoteria tiene que recibir un numero, y esta recibiendo un booleano.&lt;/p&gt;
+&lt;p&gt;La version correcta seria asi:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt; (esRico.ganarLoteria) billetera&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Lo que nos queda después de componer dos funciones es una &lt;strong&gt;nueva funcion&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;tambien las podemos definir:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token hvariable&quot;&gt;ganarLoteriaYComprarAgua&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;comprarAgua&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token hvariable&quot;&gt;ganarLoteria&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;-- Notacion Point-Free, podemos ignorar parametros cuando las funciones&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;-- esperan ese mismo parametro (En este caso, la billetera).&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;precedencia-de-operadores&quot;&gt;&lt;a href=&quot;#precedencia-de-operadores&quot; aria-label=&quot;precedencia de operadores permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Precedencia de Operadores&lt;/h2&gt;
+&lt;p&gt;En matemática, cuando tenemos una expresión como 2 * 3 + 4, solemos operarla dependiendo de la precedencia de cada operador. Como el * es de mayor precedencia que el +, operamos primero 2 * 3 y luego le sumamos 4.&lt;/p&gt;
+&lt;p&gt;En haskell también se respeta esto. Les dejamos una tabla para que puedan ver la precedencia que utiliza Haskell:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Precedencia (Mayor numero, mayor precedencia)&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;“Operador”&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Aplicacion Normal de una Funcion&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;^&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;*,/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;+,-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;==, /=, &amp;#x3C;, &amp;#x3C;=, &gt;, &gt;=&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&amp;#x26;&amp;#x26;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;||&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;tipado&quot;&gt;&lt;a href=&quot;#tipado&quot; aria-label=&quot;tipado permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tipado&lt;/h2&gt;
+&lt;p&gt;un &lt;strong&gt;tipo&lt;/strong&gt; es un conjunto de valores, a los cuales uno puede operar con un conjunto de funciones (Que entienden esos valores). Se puede pensar como en las funciones matemáticas y los dominios de una función.&lt;/p&gt;
+&lt;p&gt;por ejemplo, los tipos de las funciones que utilizamos anteriormente serían:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token hvariable&quot;&gt;billetera&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Int&lt;/span&gt;
+
+&lt;span class=&quot;token hvariable&quot;&gt;comprarAgua&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Int&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Int&lt;/span&gt;
+
+
+&lt;span class=&quot;token hvariable&quot;&gt;ganarLoteria&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Int&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Int&lt;/span&gt;
+
+&lt;span class=&quot;token hvariable&quot;&gt;esRico&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Int&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Bool&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ahora, &lt;strong&gt;Para qué nos sirve tipar?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nos sirve para que, solo mirando el tipado de una función y el nombre de ésta (Y con una buena expresividad), podamos inferir que es lo que la función hace. También, es una gran forma de validar que lo que estamos pensando está bien. (Aparte, en el examen vamos a pedir que tipen las funciones, asi que ojo con esto!)&lt;/p&gt;
+&lt;h2 id=&quot;algunas-funciones-que-vimos-en-clase&quot;&gt;&lt;a href=&quot;#algunas-funciones-que-vimos-en-clase&quot; aria-label=&quot;algunas funciones que vimos en clase permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Algunas funciones que vimos en clase&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;even: Dado un numero, devuelve si este es par&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;even&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;True&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;odd: Dado un numero, devuelve si este es impar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;odd&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;False&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;id: Dado un valor, devuelve ese mismo valor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hola!&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hola!&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;($): Dada una funcion y un valor, devuelve el valor que es la aplicacion de la funcion al valor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;even&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;True&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Sirve mucho para deshacernos de paréntesis. por ejemplo, para las composiciones:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token hvariable&quot;&gt;comprarAgua&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token hvariable&quot;&gt;ganarLoteria&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;billetera&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;-- es equivalente hacer&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;comprarAgua&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token hvariable&quot;&gt;ganarLoteria&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;billetera&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Esto ocurre gracias a la precedencia del $.&lt;/p&gt;
+&lt;h2 id=&quot;links-útiles&quot;&gt;&lt;a href=&quot;#links-%C3%BAtiles&quot; aria-label=&quot;links útiles permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Links Útiles&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://wiki.uqbar.org/wiki/articles/concepto-de-funcion.html&quot;&gt;Concepto de función&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wiki.uqbar.org/wiki/articles/composicion.html&quot;&gt;Composición&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Primera clase]]></title><description><![CDATA[Links útiles Grupo de Google:   pdep-lunes-cursada@googlegroups.com Suscribirse  obligatoriamente  enviando mail a  pdep-lunes-cursada…]]></description><link>https://pdep-lunes.github.io/bitacora/funcional/clase-01/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/funcional/clase-01/</guid><pubDate>Mon, 18 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;links-útiles&quot;&gt;&lt;a href=&quot;#links-%C3%BAtiles&quot; aria-label=&quot;links útiles permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Links útiles&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Grupo de Google:&lt;/strong&gt; &lt;a href=&quot;mailto:pdep-lunes-cursada@googlegroups.com&quot;&gt;pdep-lunes-cursada@googlegroups.com&lt;/a&gt;&lt;br&gt;
 Suscribirse &lt;strong&gt;obligatoriamente&lt;/strong&gt; enviando mail a &lt;a href=&quot;mailto:pdep-lunes-cursada+subscribe@googlegroups.com&quot;&gt;pdep-lunes-cursada+subscribe@googlegroups.com&lt;/a&gt;&lt;br&gt;
