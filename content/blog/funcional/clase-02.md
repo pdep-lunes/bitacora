@@ -69,7 +69,7 @@ Pues podemos utilizar la **Composicion** de funciones:
 => 1070
 ```
 
-Lo que está ocurriendo acá es lo mismo que con la composición de funciones matemáticas ( FoG(x) ). Primero se aplica la función de la derecha al valor, y luego, la de la izquierda, con el valor que nos da la funcion de la derecha aplicada.
+Lo que está ocurriendo acá es lo mismo que con la composición de funciones matemáticas ( FoG(x) ). Primero se aplica el valor a la función de la derecha, y luego se aplica la de la izquierda con el valor que nos devolvió la función anterior.
 
 Recordemos que, como en matemática, el valor que retorne la función de la derecha, tiene que ser **un valor que la función de la izquierda pueda operar**.
 
