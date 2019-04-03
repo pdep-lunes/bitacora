@@ -2,7 +2,7 @@
 title: Tercera clase
 date: '2019-04-01'
 description: 'Listas, Typeclasses y Aplicacion Parcial'
-tags: [funcional, composicion, tipado, listas, typeclasses, aplicacion parcial]
+tags: [funcional, composicion, tipado, listas, typeclasses, aplicacion-parcial]
 ---
 
 ## Qué vimos hoy?
@@ -13,15 +13,15 @@ tags: [funcional, composicion, tipado, listas, typeclasses, aplicacion parcial]
  
 ## Listas
 
-Una lista en haskell es una estructura de datos homogenea que nos va a ser muy util para almacenar elementos del mismo tipo. Es decir nosotros podemos crear una lista de Int, una lista de Char, una lista de Float, etc, pero nunca una lista donde hayan elementos de diferente tipo.
+Una lista en haskell es una estructura de datos homogenea que nos va a ser muy útil para almacenar elementos del mismo tipo. Es decir nosotros podemos crear una lista de `Int`, una lista de `Char`, una lista de `Float`, etc, pero nunca una lista donde hayan elementos de diferente tipo.
 
 ```
-[1,2,3] => Bien
-['h','o','l','a'] => Impecable
-[1,"gus", True] => Explota todo
+[1,2,3] => Bien ✔️
+['h','o','l','a'] => Impecable 👌
+[1,"gus", True] => Explota todo 💥
 ```
 
-Al incorporar el concepto de listas nos dimos cuenta que en realidad el tipo de dato String no es mas que una equivalencia a una lista de caracteres [Char].
+Al incorporar el concepto de listas nos dimos cuenta que en realidad el tipo de dato String no es mas que una equivalencia a una lista de caracteres `[Char]`.
 
 ```
 > "Messi" == ['M', 'e', 's', 's', 'i']
@@ -37,13 +37,13 @@ Vimos algunas operaciones simples, sin efecto, sobre listas
 > head [1,2,3]
 => 1
 
-> take 3 "pdpep"
-=> "pdp"
+> take 3 "pdep"
+=> "pde"
 ```
 
-##Typeclasses
+## Typeclasses
 
-Una typeclass es una nueva forma de agrupar diferentes tipos de datos. En base a que vamos a agrupar? En base a operaciones basicas, es decir todos los tipos de datos que formen parte de una typeclass van a tener que si o si responder ante ciertas opreaciones, definiendo asi un conjunto de elementos que va a comportarse de una manera.
+Una typeclass es una nueva forma de agrupar diferentes tipos de datos. En base a que vamos a agrupar? En base a operaciones basicas, es decir todos los tipos de datos que formen parte de una typeclass van a tener que si o si responder ante ciertas operaciones, definiendo asi un conjunto de elementos que va a comportarse de una manera.
 
 Haskell cuenta con muchas typeclasses, pero en particular nos interesan las siguientes:
 - `Num`
@@ -57,11 +57,11 @@ Todos los tipos de dato numericos, ellos van a soportar opreaciones como la suma
 
 **Ord**
 
-Agrupa tanto a Num como a todos ordenables, es decir tipos de dato que soporten operaciones como `(>) (>=) (<) (<=)`
+Agrupa tanto a `Num` como a todos ordenables, es decir tipos de dato que soporten operaciones como `(>) (>=) (<) (<=)`
 
 **Eq**
 
-Esta typeclass engloba a Ord y a los elementos que son equiparables, en otras palabras, agrupa a los tipos de dato que soportan comparaciones por igualdad `(==) o (/=)`
+Esta typeclass engloba a `Ord` y a los elementos que son equiparables, en otras palabras, agrupa a los tipos de dato que soportan comparaciones por igualdad `(==) o (/=)`
 
 **Show**
 
@@ -85,7 +85,7 @@ Pertenecen a la typeclass Show aquellos tipos de datos que pueden ser mostrados,
 
 Estuvimos hablando sobre typeclasses que engloban a otras, lo cual nos trae como consecuencia el siguiente diagrama
 
-![alt text](./../../assets/Tipos%20de%20Haskell.jpg "Logo Title Text 1")
+![diagrama de typeclasses](./../../assets/Tipos%20de%20Haskell.jpg "Typeclasses Haskell")
 
 
 **Tipando con typeclasses**
@@ -104,19 +104,19 @@ sum :: (Num a) => [a] -> Int
 
 Es decir, vamos a tomar una lista de elementos que pertenezcan a la typeclass **Num** y vamos a retornar un valor entero.
 
-Otra funcion de listas muy util que vimos es la funcion de pretenecia, `elem`, la cual no inidca si un elemento pretenence a una lista o no. 
+Otra función de listas muy útil que vimos es la funcion de pretenecia, `elem`, la cual nos inidca si un elemento pretenence a una lista o no.
 
 ```
 elem :: (Eq a) => a -> [a] -> Bool
 ```
 
-Otro tipado interesante es el de la funcion max
+Otro tipado interesante es el de la funcion `max`
 
 ```
 max :: (Ord a) => a -> a -> a
 ```
 
-Esta funcion nos indica cual de los dos elementos ingresados es mayor, pero tiene una restriccion, ambos elementos tienen que ser ordenables, es decir tienen que pertencer a la typeclass Ord ya que la operacion (>) va a tener que aceptar a ambos elementos.
+Esta funcion nos indica cual de los dos elementos ingresados es mayor, pero tiene una restricción, ambos elementos tienen que ser ordenables, es decir tienen que pertencer a la typeclass `Ord` ya que la operacion `(>)` va a tener que aceptar a ambos elementos.
 
 Otra firma un poco mas compleja podria ser la siguiente
 
@@ -127,7 +127,7 @@ foo :: (Num a, Eq b) => a -> b -> Bool
 En esta firma vemos que podemos hacer diferentes restricciones de typeclass: **a** es **Num** mientras que **b** es un **Eq**.
 
 
-##Aplicacion Parcial  
+## Aplicacion Parcial  
 
 Recordemos que teniamos las siguientes `notasDeGus = [4,4,4,6,8]`
 
@@ -143,7 +143,7 @@ Pero luego introdujimos el concepto de aplicacion parcial
  alterarNota notas = ((*2).head) notas
 ```
 
-Decimos que una funcion esta parcialmente aplicada cuando estamos proveyendo menos parámetros que los que esta requiere.
+Decimos que una función esta parcialmente aplicada cuando estamos proveyendo menos parámetros que los que esta requiere.
  
 En este caso la funcion `(*)` esta siendo parcialmente aplicada ya que le estamos pasando solo un parametro: el resultado de aplicar la funcion `head` a `notas`
 
