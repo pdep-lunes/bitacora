@@ -86,6 +86,7 @@ Pertenecen a la typeclass Show aquellos tipos de datos que pueden ser mostrados,
 Estuvimos hablando sobre typeclasses que engloban a otras, lo cual nos trae como consecuencia el siguiente diagrama
 
 ![diagrama de typeclasses](./../../assets/Tipos%20de%20Haskell.jpg "Typeclasses Haskell")
+_* Tener en cuenta que este diagrama no es del todo correcto ni completo, sino que esta simplificado para lo que vamos a ver durante la cursada de pdep_
 
 
 **Tipando con typeclasses**
@@ -116,7 +117,7 @@ Otro tipado interesante es el de la funcion `max`
 max :: (Ord a) => a -> a -> a
 ```
 
-Esta funcion nos indica cual de los dos elementos ingresados es mayor, pero tiene una restricción, ambos elementos tienen que ser ordenables, es decir tienen que pertencer a la typeclass `Ord` ya que la operacion `(>)` va a tener que aceptar a ambos elementos.
+Esta función nos indica cual de los dos elementos ingresados es mayor, pero tiene una restricción, ambos elementos tienen que ser ordenables, es decir tienen que pertencer a la typeclass `Ord` ya que la operacion `(>)` va a tener que aceptar a ambos elementos.
 
 Otra firma un poco mas compleja podria ser la siguiente
 
@@ -145,7 +146,7 @@ Pero luego introdujimos el concepto de aplicacion parcial
 
 Decimos que una función esta parcialmente aplicada cuando estamos proveyendo menos parámetros que los que esta requiere.
  
-En este caso la funcion `(*)` esta siendo parcialmente aplicada ya que le estamos pasando solo un parametro: el resultado de aplicar la funcion `head` a `notas`
+En este caso la función `(*)` esta siendo parcialmente aplicada ya que le estamos pasando solo el numero dos y espera otro parámetro que será el resultado de aplicar la función `head` a `notas`.
 
 El resultado de aplicar parcialmente una función es otra función que espera menos parámetros que la original.
 
@@ -163,7 +164,9 @@ Cuando hablamos de currificación nos referimos a que todas las funciones recibe
 max :: (Ord a) => a -> a -> a <— Forma tradicional
 
 max :: (Ord a) => a -> (a -> a) <— Forma currificada
-``` 
+```
+
+_* el hecho de que exista la forma currificada no implica que sea lo que vamos a querer escribir siempre... la mayoría de las veces tipamos las funciones de forma tradicional, y así tienen que estar en los parciales/tps/ejercicios_
 
 ## Links Útiles
 
