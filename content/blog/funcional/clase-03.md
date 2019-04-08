@@ -2,7 +2,7 @@
 title: Tercera clase
 date: '2019-04-01'
 description: 'Listas, Typeclasses y Aplicacion Parcial'
-tags: [funcional, composicion, tipado, listas, typeclasses, aplicacion-parcial]
+tags: [funcional, tipado, listas, aplicacion-parcial]
 ---
 
 ## Qué vimos hoy?
@@ -10,7 +10,7 @@ tags: [funcional, composicion, tipado, listas, typeclasses, aplicacion-parcial]
 1. Listas
 2. Typeclasses
 3. Aplicaccion parcial
- 
+
 ## Listas
 
 Una lista en haskell es una estructura de datos homogenea que nos va a ser muy útil para almacenar elementos del mismo tipo. Es decir nosotros podemos crear una lista de `Int`, una lista de `Char`, una lista de `Float`, etc, pero nunca una lista donde hayan elementos de diferente tipo.
@@ -46,6 +46,7 @@ Vimos algunas operaciones simples, sin efecto, sobre listas
 Una typeclass es una nueva forma de agrupar diferentes tipos de datos. En base a que vamos a agrupar? En base a operaciones basicas, es decir todos los tipos de datos que formen parte de una typeclass van a tener que si o si responder ante ciertas operaciones, definiendo asi un conjunto de elementos que va a comportarse de una manera.
 
 Haskell cuenta con muchas typeclasses, pero en particular nos interesan las siguientes:
+
 - `Num`
 - `Ord`
 - `Eq`
@@ -85,16 +86,15 @@ Pertenecen a la typeclass Show aquellos tipos de datos que pueden ser mostrados,
 
 Estuvimos hablando sobre typeclasses que engloban a otras, lo cual nos trae como consecuencia el siguiente diagrama
 
-![diagrama de typeclasses](./haskell-type-classes.jpg "Typeclasses Haskell")
-_* Tener en cuenta que este diagrama no es del todo correcto ni completo, sino que esta simplificado para lo que vamos a ver durante la cursada de pdep_
-
+![diagrama de typeclasses](./haskell-type-classes.jpg 'Typeclasses Haskell')
+_\* Tener en cuenta que este diagrama no es del todo correcto ni completo, sino que esta simplificado para lo que vamos a ver durante la cursada de pdep_
 
 **Tipando con typeclasses**
 
 Ahora que tenemos el concepto de typeclass vamos a poder tipar funciones de una forma mas precisa.
 
 ```
- (Typeclass1, Typeclass2...) => Variable de tipo1 -> Variable de tipo2... 
+ (Typeclass1, Typeclass2...) => Variable de tipo1 -> Variable de tipo2...
 ```
 
 Por ejemplo vamos a tipamos la funcion `sum`, la cual toma una lista y devuelve la suma de los elemento dentro de la lista
@@ -127,8 +127,7 @@ foo :: (Num a, Eq b) => a -> b -> Bool
 
 En esta firma vemos que podemos hacer diferentes restricciones de typeclass: **a** es **Num** mientras que **b** es un **Eq**.
 
-
-## Aplicacion Parcial  
+## Aplicacion Parcial
 
 Recordemos que teniamos las siguientes `notasDeGus = [4,4,4,6,8]`
 
@@ -145,7 +144,7 @@ Pero luego introdujimos el concepto de aplicacion parcial
 ```
 
 Decimos que una función esta parcialmente aplicada cuando estamos proveyendo menos parámetros que los que esta requiere.
- 
+
 En este caso la función `(*)` esta siendo parcialmente aplicada ya que le estamos pasando solo el numero dos y espera otro parámetro que será el resultado de aplicar la función `head` a `notas`.
 
 El resultado de aplicar parcialmente una función es otra función que espera menos parámetros que la original.
@@ -154,7 +153,7 @@ Otra funcion donde utlizamos aplicacion parcial fue en `promedioDeGus`
 
 ```
 promedioDeGus notas = ((/length notas).sum) notas
-``` 
+```
 
 **Currificacion**
 
@@ -166,7 +165,7 @@ max :: (Ord a) => a -> a -> a <— Forma tradicional
 max :: (Ord a) => a -> (a -> a) <— Forma currificada
 ```
 
-_* el hecho de que exista la forma currificada no implica que sea lo que vamos a querer escribir siempre... la mayoría de las veces tipamos las funciones de forma tradicional, y así tienen que estar en los parciales/tps/ejercicios_
+_\* el hecho de que exista la forma currificada no implica que sea lo que vamos a querer escribir siempre... la mayoría de las veces tipamos las funciones de forma tradicional, y así tienen que estar en los parciales/tps/ejercicios_
 
 ## Links Útiles
 
