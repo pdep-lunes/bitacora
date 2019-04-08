@@ -7,21 +7,21 @@ tags: [funcional, composicion, tipado, precedencia-de-operadores, inmutabilidad]
 
 ## Tarea para la clase que viene
 
-- **Hacer parejas para los trabajos practicos que ya se vienen!**
+- **¡Hacer parejas para los trabajos practicos que ya se vienen!**🙆‍♀️🙆‍♂️
 
-- **Hacer las lecciones 1 a 4 (inclusive) del capítulo 1 de [mumuki](https://mumuki.io/pdep-utn)**
+- **Hacer las lecciones 1 a 4 (inclusive) del capítulo 1 de [Mumuki](https://mumuki.io/pdep-utn)**
 
-## Qué empezamos viendo hoy?
+## ¿Qué empezamos viendo hoy?
 
 Repasamos lo que vimos la clase pasada (los conceptos de **declaratividad** y **expresividad**, **abstraccion**, **delegacion**), y arrancamos con el paradigma **Funcional** y Haskell.
 
-## Y qué es el paradigma funcional?
+## ¿Y qué es el paradigma funcional?
 
-En el paradigma funcional veremos y trabajaremos, justamente, con el concepto de **_funciones_**. Y como las funciones de análisis matemático, las funciones tienen dos propiedades importantes: **existencia** y **unicidad**. Estas propiedades también se respetan en Haskell.
+En el paradigma funcional veremos y trabajaremos, justamente, con el concepto de **_funciones_** 😅. Y como las funciones de análisis matemático, las funciones tienen dos propiedades importantes: **existencia** y **unicidad**. Estas propiedades también se respetan en Haskell. 😮
 
 ## Valores y Funciones
 
-En Haskell, nosotros podemos definir valores, como tambien funciones:
+En Haskell, podemos definir valores, como también funciones:
 
 ```haskell
 billetera = 100
@@ -32,16 +32,16 @@ comprarAgua unaBilletera = unaBilletera - 30
 
 Las funciones van a ser nuestra herramienta para poder operar sobre los valores. Si yo en la consola de Haskell escribo:
 
-```
+```haskell
 > comprarAgua billetera
 => 70
 ```
 
-Y algo muy importante: **En Haskell no hay efecto**. Esto quiere decir que, los valores igualados no van a mutar luego de ser operados por las funciones (Este concepto se llama **_inmutabilidad_**).
+Y algo muy importante: **en Haskell no hay efecto**. Esto quiere decir que, los valores igualados no van a mutar luego de ser operados por las funciones (Este concepto se llama **_inmutabilidad_**).
 
 Por ejemplo, si aplicamos `comprarAgua` a `billetera`, podemos ver que `billetera` no cambia su valor:
 
-```
+```haskell
 > billetera
 => 100
 > comprarAgua billetera
@@ -60,16 +60,16 @@ Supongamos que, como vimos en clase, tenemos esta otra funcion:
 ganarLoteria unaBilletera = unaBilletera + 1000
 ```
 
-Ahora, quiero que en la billetera se vea que haya ganado la loteria y que me compré un agua. Como se hace?
+Ahora, quiero que en la billetera se vea que haya ganado la loteria y que me compré un agua. ¿Cómo se hace?
 
-Pues podemos utilizar la **Composicion** de funciones:
+Pues podemos utilizar la **composicion** de funciones:
 
 ```
 > (comprarAgua.ganarLoteria) billetera
 => 1070
 ```
 
-Lo que está ocurriendo acá es lo mismo que con la composición de funciones matemáticas ( FoG(x) ). Primero se aplica la función de la derecha con el valor, y luego se aplica la de la izquierda con el valor que nos devolvió la función anterior.
+Lo que está ocurriendo acá es lo mismo que con la composición de funciones matemáticas ( _FoG(x)_ ). Primero se aplica la función de la derecha con el valor, y luego se aplica la de la izquierda con el valor que nos devolvió la función anterior.
 
 Recordemos que, como en matemática, el valor que retorne la función de la derecha, tiene que ser **un valor que la función de la izquierda pueda operar**.
 
