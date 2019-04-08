@@ -85,7 +85,7 @@ Pertenecen a la typeclass Show aquellos tipos de datos que pueden ser mostrados,
 
 Estuvimos hablando sobre typeclasses que engloban a otras, lo cual nos trae como consecuencia el siguiente diagrama
 
-![diagrama de typeclasses](./../../assets/Tipos%20de%20Haskell.jpg "Typeclasses Haskell")
+![diagrama de typeclasses](./haskell-type-classes.jpg "Typeclasses Haskell")
 _* Tener en cuenta que este diagrama no es del todo correcto ni completo, sino que esta simplificado para lo que vamos a ver durante la cursada de pdep_
 
 
