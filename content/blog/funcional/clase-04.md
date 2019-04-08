@@ -9,7 +9,7 @@ tags: [funcional, orden-superior, guardas]
 
 - Hacer lecciones 5 y 6 de [Mumuki](https://mumuki.io/pdep-utn).
 
-## Qué vimos hoy?
+## ¿Qué vimos hoy?
 
 1. Orden superior
 2. Guardas
@@ -33,7 +33,7 @@ filter :: (a -> Bool) -> [a] -> [a]
 [2, 4, 6]
 ```
 
-Es muy importante tener en cuenta que map y filter **no** modifican la lista que les pasamos como argumento sino que **crean** una nueva. Esto es porque no hay _estado_ o _efecto de lado_.
+Es muy importante tener en cuenta que `map` y `filter` **no** modifican la lista que les pasamos como argumento sino que **crean** una nueva. Esto es porque no hay _estado_ o _efecto de lado_.
 
 Otras funciones interesantes de orden superior que vimos son:
 
@@ -53,9 +53,9 @@ False
 
 También recordemos que ya habíamos usado antes, sin darnos cuenta, funciones de orden superior como `.` y `$`.
 
-Entonces, ¿a qué conclusión llegamos? 🤔 Que las funciones también son _ciudadanos de primer orden_ porque se pueden pasar por parámetro. 🎉
+Entonces, ¿a qué conclusión llegamos? 🤔 A que las funciones también son _ciudadanos de primer orden_ porque se pueden pasar por parámetro. 🎉
 
-Como sabemos que al principio marea saber qué hace filter y map 😖, te dejamos una bella foto de recordatorio: 🎉
+Como sabemos que al principio marea saber qué hace `filter` y `map` 😖, te dejamos una bella foto de recordatorio: 🎉
 
 ![diagrama_filter_map](./filter_map.jpg 'Diagrama de filter y map')
 
@@ -71,14 +71,14 @@ notasAprobadas notas = filter (>6) notas
 notasAprobadas = filter (>6)
 ```
 
-- Dadas las notas de un curso que no tiene el mejor comportamiento 😈, bajarle todas las notas a la mitad:
+- Dadas las notas de un curso que no tiene el mejor comportamiento 😈, vamos a bajarle todas las notas a la mitad:
 
 ```
 cursoDelDemonio :: [Float] -> [Float]
 cursoDelDemonio = map (/2)
 ```
 
-- Dada una lista de notas, decir si un curso es de 10 💯, lo que pasa cuando todos las notas son un 10:
+- Dada una lista de notas, decir si un curso es de 10 💯, esto pasa cuando todos las notas son un 10:
 
 ```
 cursoDe10 :: [Int] -> Bool
@@ -141,9 +141,9 @@ esMayor edad = edad <= 18
 esBisiesto anio = esMultiploDe anio 400 || esMultiploDe anio 4 && not (esMultiploDe anio 100)
 ```
 
-### Ejercicios en clase:
+#### Ejercicios en clase:
 
-- Dada la nota de un examen queremos evaluarla. Si la misma es menor a 6, "Desaprueba"; si es mayor o igual a 6, "Aprueba"; en cualquier otro caso, "Promociona":
+- Dada la nota de un examen queremos evaluarla. Si la misma es menor a 6, "Desaprueba"; si es menor a 8, "Aprueba"; en cualquier otro caso, "Promociona":
 
 ```
 evaluarExamen :: Int -> String
