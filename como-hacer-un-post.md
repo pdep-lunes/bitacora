@@ -36,3 +36,7 @@
     La idea es hacer un PR con los cambios que probablemente sean solo el markdown del post o algun cambio en tags.
 
     Pedir alguna review para validar que esta todo ok (recontra opcional).
+
+## 📷 ¿Cómo agregar imagenes a un post?
+
+Cuando probamos de subir imagenes las subimos a la carpeta `/content/assets` y funciona cuando miramos los .md desde el repo de github pero se rompe cuando se sube a gh-pages, con lo cual la froma correcta sería tener las imagenes dentro de la carpeta `/content/blog` y referise desde cualquier .md haciendo `![texto alternativo](./nombre.jpg "Titulo")`.
