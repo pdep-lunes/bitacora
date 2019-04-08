@@ -59,7 +59,7 @@ Como sabemos que al principio marea saber qué hace filter y map 😖, te dejamo
 
 ![diagrama_filter_map](./filter_map.jpg "Diagrama de filter y map")
 
-### Ejercicios en clase: 
+#### Ejercicios en clase: 
 
 * Dadas las notas de un curso, queremos saber cuáles son las aprobadas (más de 6): 
 
