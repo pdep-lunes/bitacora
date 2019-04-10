@@ -31,15 +31,15 @@ Para aprobar:
 
 ## ¿Qué hacer antes de empezar?
 
-- Crearse una cuenta en [Github](https://github.com). Vamos a estar usándolo durante todo este año para las entregas de TPs. (Creen su nombre de usuario a conciencia ya que muy probablemente lo sigan utilizando tanto en su vida académica como laboral :p).
+- Crearse una cuenta en [Github](https://github.com). Vamos a estar usándolo durante todo este año para las entregas de TPs. (Creen su nombre de usuario a conciencia ya que muy probablemente lo sigan utilizando tanto en su vida académica como laboral 😜).
 - Crearse una cuenta en Mumuki con el link de invitación que mandamos en la lista de mails.
 
 ## ¿Qué vimos hoy?
 
 En esta materia vamos a ver 3 paradigmas y vamos a usar un lenguaje distinto para cada uno.
-- ***Funcional:*** Vamos a usar Haskell
-- ***Lógico:*** Vamos a usar Prolog
-- ***Orientado a Objetos:*** Vamos a usar Wollok
+- ***Funcional:*** Vamos a usar Haskell.
+- ***Lógico:*** Vamos a usar Prolog.
+- ***Orientado a Objetos:*** Vamos a usar Wollok.
 
 Vimos también los conceptos de:
  - **Declaratividad:**
@@ -66,4 +66,4 @@ Es ``triple`` y ``esMayor`` son dos funciones, y al igual que las funciones que 
   - [Sublime Text](https://www.sublimetext.com/3)
   - [Visual Studio Code](https://code.visualstudio.com/)
   - [Atom](https://atom.io/)
-  - Notepad ++
+  - [Notepad ++](https://notepad-plus-plus.org/download/v7.6.6.html)
