@@ -25,10 +25,10 @@ Quisimos hacer una función que nos diga el gusto de helado 🍦 de cada persona
 gustoDeHelado :: String -> String
 
 gustoDeHelado nombre
-  nombre == "Gastón" = "Crema americana"
-  nombre == "Marcelo" = "Menta granizada"
-  nombre == "Rocio" = "Chocolate blanco"
-  otherwise = "Kinotos al whiskey"
+  | nombre == "Gastón" = "Crema americana"
+  | nombre == "Marcelo" = "Menta granizada"
+  | nombre == "Rocio" = "Chocolate blanco"
+  | otherwise = "Kinotos al whiskey"
 ```
 
 Ufff todo eso y solo fueron 3 nombres 😓 ¿¡Qué pasaría si fueran más!? Tendríamos que seguir comparando por igual al parámetro con los nombres que vayamos agregando por cada guarda 😱. ¿No habrá otra solución donde no repitamos tanto lo que hacemos? La respuesta es sí y se llama **pattern matching** 😎. No Peter Machine. 😝
