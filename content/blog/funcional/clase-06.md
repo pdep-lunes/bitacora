@@ -20,7 +20,7 @@ Expresiones lambdas
 Ya vimos que en Haskell podríamos modelar una biblioteca 📚 con las listas, por ejemplo:
 
 ```haskell
-biblioteca = [“Carrie”, “Fundación”, “El visitante”, “Harry Potter y príncipe mestizo”]
+biblioteca = ["Carrie", "Fundación", "El visitante", "Harry Potter y príncipe mestizo"]
 ```
 
 Y también podemos modelar una lista del 1 al 5:
@@ -44,7 +44,7 @@ paresAlCien = [2,4..100]
 Y no solo sirve para números 🔢, sino también para letras 🔡:
 
 ```haskell
-abecedario = [‘a’..’z’]
+abecedario = ['a'..'z']
 ```
 
 Y así como podemos definir listas con límites o con rangos, también podemos tener… 🥁 ¡**listas infinitas**!
@@ -60,8 +60,8 @@ infinita = [1..]
 Sabemos aplicar la función ´head´ a una lista:
 
 ```haskell
-head [“hola”, “como”, “estás?”]
-> “hola”
+head ["hola", "como", "estás?"]
+> "hola"
 ```
 
 Pero, ¿qué pasará con una lista infinita? 😮
@@ -97,7 +97,7 @@ Ahora, hay funciones con las cuales necesitamos evaluar primero los parámetros,
 > 25
 ```
 
-A evaluar primero los parámetros para luego pasarle el valor final a las funciones así pueden realizarse, lo llamamos **call-by-value**. Y es la estrategia en la que se basa la eager evaluation.
+Al evaluar primero los parámetros para luego pasarle el valor final a las funciones así pueden realizarse, lo llamamos **call-by-value**. Y es la estrategia en la que se basa la eager evaluation.
 
 ```haskell
 head [1..]
