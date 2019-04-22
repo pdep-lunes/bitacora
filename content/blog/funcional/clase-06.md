@@ -134,10 +134,15 @@ head (filter (<0) [1..])
 
 ## Expresiones lambdas:
 
-Imaginemos que queremos hacer una función que nos diga si un lugar es muy frecuentado. Esto se cumple si tiene un nombre que empieza con ‘a’ y termina con ‘z’.
+Imaginemos que queremos hacer una función que nos diga si un lugar (Del cual conocemos su nombre y su año de fundación) es muy frecuentado. Esto se cumple si tiene un nombre que empieza con ‘a’ y termina con ‘z’.
 Podríamos hacer algo así:
 
 ```haskell
+data Lugar = {
+    nombre :: String,
+    añoDeCreacion :: Int
+}
+
 empiezaConA :: String -> Bool
 empiezaConA = (==’a’).head
 
