@@ -11,16 +11,21 @@ Leer este [apunte](https://docs.google.com/document/d/1jSrU7lVMan4nbHBETGqvO5Vpq
 
 ## ¿Qué vimos hoy?
 
-Listas infinitas
-Lazy evaluation lazy vs eager
-Expresiones lambdas
+- Listas infinitas
+- Lazy evaluation lazy vs eager
+- Expresiones lambdas
 
 ## Listas infinitas
 
 Ya vimos que en Haskell podríamos modelar una biblioteca 📚 con las listas, por ejemplo:
 
 ```haskell
-biblioteca = ["Carrie", "Fundación", "El visitante", "Harry Potter y príncipe mestizo"]
+biblioteca = [
+  "Carrie",
+  "Fundación",
+  "El visitante",
+  "Harry Potter y príncipe mestizo"
+  ]
 ```
 
 Y también podemos modelar una lista del 1 al 5:
@@ -71,35 +76,36 @@ head [1..]
 > 1
 ```
 
-Por si quedan dudas de qué es lo que acaba de pasar, sí, Haskell no esperó a que terminara la lista sino que tomó directamente lo que necesitaba. Eso es porque su forma de trabajo es la **evaluación perezosa** o **lazy evaluation**. A comparación de otros lenguajes que ya conocés donde la **evaluación es ansiosa** o **eager evaluation** y, por ejemplo, esperarían a que la lista termine de cargar (infinitamente nunca 😬).
+Por si quedan dudas de qué es lo que acaba de pasar, sí, Haskell no esperó a que terminara la lista sino que tomó directamente lo que necesitaba. Eso es porque su forma de evaluar expresiones es **perezosa**, del inglés **lazy evaluation**. A comparación de otros lenguajes que ya conocés donde la evaluación es **ansiosa**, del inglés **eager evaluation** y, por ejemplo, esperarían terminar de evaluar la lista antes de obtener el primer element (al ser una lista infinita esa tarea no terminaría nunca 😬).
 Sipi, Haskell es lo más. 😍
 
 Ahora, ¿cómo funciona lazy evaluation?
 Este tipo de evaluación se basa en una _estrategia_ que se llama **call-by-name**...¿quejesto? 😅
-Simplemente es operar primero las funciones de por fuera, antes que las funciones de sus parámetros. Es decir, las funciones se aplican antes de que se evalúen los parámetros. 😎
+La idea es evaluar primero las expresiones que están "más afuera" y luego continuar evaluando "hacia dentro". Es decir, las funciones se aplican antes de que se evalúen los parámetros. 😎
 Si volvemos al ejemplo anterior:
 
-```haskell
+```haskell{2}
 head [1..]
 -- aplicará primero head, antes que evaluar la lista infinita
 > 1
 ```
 
-Ahora, hay funciones con las cuales necesitamos evaluar primero los parámetros, antes que la función en sí:
+Ahora, hay funciones con las cuales se evaluan primero los parámetros, antes que la función en sí:
 
-```haskell
+```haskell{4,5}
 (*) (2+3) 5
 (2+3) * 5
 
--- (*) necesita que sus parámetros sean números para poder evaluar, entonces se evalúa primero (2+3).
+-- (*) necesita que sus parámetros sean números para poder evaluar,
+-- entonces se evalúa primero (2+3).
 
 5 * 5
 > 25
 ```
 
-Al evaluar primero los parámetros para luego pasarle el valor final a las funciones así pueden realizarse, lo llamamos **call-by-value**. Y es la estrategia en la que se basa la eager evaluation.
+A la estrategia de evaluar primero las expresiones "de adentro" para luego pasar el resultado/valor a las funciones "de afuera" la llamamos **call-by-value**. Esta es la estrategia en la que se basa la evaluación ansiosa o **eager evaluation**.
 
-```haskell
+```haskell{8}
 head [1..]
 -- espera a que termine la lista infinita (nunca 😝)
 head [1,2..]
@@ -134,20 +140,20 @@ head (filter (<0) [1..])
 
 ## Expresiones lambdas:
 
-Imaginemos que queremos hacer una función que nos diga si un lugar (Del cual conocemos su nombre y su año de fundación) es muy frecuentado. Esto se cumple si tiene un nombre que empieza con ‘a’ y termina con ‘z’.
+Imaginemos que queremos hacer una función que nos diga si un lugar (del cual conocemos su nombre y su año de creación) es muy frecuentado. Esto se cumple si tiene un nombre que empieza con 'a' y termina con 'z'.
 Podríamos hacer algo así:
 
 ```haskell
 data Lugar = {
-    nombre :: String,
-    añoDeCreacion :: Int
+  nombre :: String,
+  añoDeCreacion :: Int
 }
 
 empiezaConA :: String -> Bool
-empiezaConA = (==’a’).head
+empiezaConA = (=='a').head
 
 terminaConZ :: String -> Bool
-terminaConZ = (==’z’).last
+terminaConZ = (=='z').last
 
 empiezaConAYTerminaConZ :: String -> Bool
 empiezaConAYTerminaConZ nombre = empiezaConA nombre && terminaConZ nombre
@@ -167,15 +173,17 @@ Haskell nos permite crear funciones que, como programadores y programadoras, sab
 ¿Y cómo son las expresiones lambda?
 Volviendo al ejemplo:
 
-```haskell
+```haskell{7,8,9,10}
 empiezaConA :: String -> Bool
-empiezaConA = (==’a’).head
+empiezaConA = (=='a').head
 
 terminaConZ :: String -> Bool
-terminaConZ = (==’z’).last
+terminaConZ = (=='z').last
 
 esMuyFrencuentado :: Lugar -> Bool
-esMuyFrencuentado = (\unNombre -> empiezaConA unNombre && terminaConZ unNombre).nombre
+esMuyFrencuentado = (\unNombre ->
+  empiezaConA unNombre &&
+  terminaConZ unNombre).nombre
 ```
 
 Algo a tener muy en cuenta es que las expresiones lambda **solo se pueden usar una vez** en nuestro código. ¿Es un capricho? No. Usarla más de una vez implica que esa función es algo que debemos abstraer y ponerle nombre.
@@ -184,7 +192,7 @@ Y sí, como cualquier función podemos componerla, pasarla como parámetro o apl
 
 ## Links útiles:
 
-[Listas infinitas](http://wiki.uqbar.org/wiki/articles/estrategias-de-evaluacion.html#tocAnchor-1-7-4)
-[Lazy evaluation](http://wiki.uqbar.org/wiki/articles/estrategias-de-evaluacion.html#tocAnchor-1-7)
-[Estrategias de evaluación](http://wiki.uqbar.org/wiki/articles/estrategias-de-evaluacion.html)
-[Expresiones lambdas](http://wiki.uqbar.org/wiki/articles/expresiones-lambda.html)
+- [Listas infinitas](http://wiki.uqbar.org/wiki/articles/estrategias-de-evaluacion.html#tocAnchor-1-7-4)
+- [Lazy evaluation](http://wiki.uqbar.org/wiki/articles/estrategias-de-evaluacion.html#tocAnchor-1-7)
+- [Estrategias de evaluación](http://wiki.uqbar.org/wiki/articles/estrategias-de-evaluacion.html)
+- [Expresiones lambdas](http://wiki.uqbar.org/wiki/articles/expresiones-lambda.html)
