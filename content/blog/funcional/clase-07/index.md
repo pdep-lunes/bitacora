@@ -23,8 +23,8 @@ La **recursividad** es cuando a una función la definimos en términos de sí mi
 
 ¿Te acordás alguna función recursiva? Si rebobinás ⏪ hasta AM1 seguro te acuerdes de:
 
-Factorial ❗
-Fibonacci 🐌
+- Factorial ❗
+- Fibonacci 🐌
 
 ¿Y cómo las codificamos en Haskell?
 
@@ -40,8 +40,8 @@ fibonacci n = fibonacci (n-1) + fibonacci (n-2)
 ```
 
 En las dos soluciones podemos observar que hay **como mínimo**: 👀
-Un **caso recursivo**, en el cual la función se llama a sí misma.
-Un **caso base**, el cual permite cortar la recursividad.
+- Un **caso recursivo**, en el cual la función se llama a sí misma.
+- Un **caso base**, el cual permite cortar la recursividad.
 
 Ahora que sabemos recursividad veamos cómo podemos definir algunas funciones que ya conocemos de listas:
 
@@ -63,10 +63,10 @@ Ahora que sabemos recursividad veamos cómo podemos definir algunas funciones qu
 Como podrás ver estamos repitiendo lógica y, [¿qué pasa cuando repetimos lógica?](https://www.youtube.com/watch?v=8ktYyme_sUw)
 
 En todas estas funciones:
-En el caso base nuestra función recibe la lista vacía (`[ ]`) y devuelve un _valor inicial_.
-En el caso recursivo siempre tenemos a una operación que recibe:
-La cabeza de la lista.
-La llamada recursiva de la función que estamos definiendo con la cola como parámetro.
+- En el caso base nuestra función recibe la lista vacía (`[ ]`) y devuelve un _valor inicial_.
+- En el caso recursivo siempre tenemos a una operación que recibe:
+- La cabeza de la lista.
+- La llamada recursiva de la función que estamos definiendo con la cola como parámetro.
 
 ¿Y cómo quitamos toda esta lógica repetida? 😱 ¡Parametrizando!
 
@@ -102,10 +102,10 @@ Te invitamos a que pruebes en tu consola cómo funciona la familia foldl. 😄
 
 ## Simulacro de parcial
 
-En lo que quedo de la clase estuvimos haciendo este [parcial](./parcial-funcional-tierra-de-barbaros.pdf) y como no llegamos a hacer una puesta en común les dejamos [esta posible solución](./solucionParcialBarbaros.hs)
+En lo que quedo de la clase estuvimos haciendo este [parcial](./parcial-funcional-tierra-de-barbaros.pdf) y como no llegamos a hacer una puesta en común les dejamos [esta posible solución.](./solucionParcialBarbaros.hs)
 
 ## Links útiles:
 
-[Recursividad](http://wiki.uqbar.org/wiki/articles/recursividad-en-haskell.html)
-[Foldl](http://wiki.uqbar.org/wiki/articles/fold.html)
-[Video de foldl del gran profesor Alf](https://www.youtube.com/watch?v=veiQkxz59NE)
+- [Recursividad](http://wiki.uqbar.org/wiki/articles/recursividad-en-haskell.html)
+- [Foldl](http://wiki.uqbar.org/wiki/articles/fold.html)
+- [Video de foldl del gran profesor Alf](https://www.youtube.com/watch?v=veiQkxz59NE)
