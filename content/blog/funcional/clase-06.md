@@ -144,7 +144,7 @@ Imaginemos que queremos hacer una función que nos diga si un lugar (del cual co
 Podríamos hacer algo así:
 
 ```haskell
-data Lugar = {
+data Lugar = Lugar {
   nombre :: String,
   añoDeCreacion :: Int
 }
