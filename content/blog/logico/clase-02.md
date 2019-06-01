@@ -1,7 +1,7 @@
 ---
 title: Novena clase
 date: '2019-05-27'
-description: 'Negación, unifiicación vs asignación, inversibilidad, forall'
+description: 'Negación, unificación vs asignación, inversibilidad, forall'
 tags: [logico, negacion, unificacion, inversibilidad, forall]
 ---
 
