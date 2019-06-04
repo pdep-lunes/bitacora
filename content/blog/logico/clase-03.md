@@ -6,7 +6,7 @@ tags: [logico, functores, pattern-matching, polimorfismo, findall, is, listas]
 ---
 
 ## Tarea para la clase que viene
-- Seguir haciendo el TP grupal.
+- Terminar el TP grupal.
 - Hacer hasta la lección 11 (inclusive) de [Mumuki](https://mumuki.io/pdep-utn/chapters/307-programacion-logica)
 
 ## Functores
