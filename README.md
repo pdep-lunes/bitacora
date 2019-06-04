@@ -1,4 +1,4 @@
-# pdep-lunes bitacora
+# pdep-lunes bitacora [![Build Status](https://travis-ci.com/pdep-lunes/bitacora.svg?branch=master)](https://travis-ci.com/pdep-lunes/bitacora)
 
 ## 🚀 Comienzo rápido
 
