@@ -182,5 +182,5 @@ mereceUnNobel(Autor) :-
 - [Wiki functores](http://wiki.uqbar.org/wiki/articles/paradigma-logico---functores.html)
 - [Wiki polimorfismo](http://wiki.uqbar.org/wiki/articles/polimorfismo-en-el-paradigma-logico.html)
 - [Wiki aritmética/is](http://wiki.uqbar.org/wiki/articles/aritmetica-en-prolog.html)
-- [Wiki findall/listas](https://github.com/wolox-training/mm-rails/pull/21)
+- [Wiki findall/listas](http://wiki.uqbar.org/wiki/articles/paradigma-logico---listas.html)
 - [Código de la clase de hoy](https://gist.github.com/mnmallea/c2378a0afe713b483c3f233ca12d2f5e)
