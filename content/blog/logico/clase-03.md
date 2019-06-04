@@ -9,7 +9,7 @@ tags: [logico, functores, pattern-matching, polimorfismo, findall, is, listas]
 - Terminar el TP grupal.
 - Hacer hasta la lección 11 (inclusive) de [Mumuki](https://mumuki.io/pdep-utn/chapters/307-programacion-logica)
 
-## Functores
+## Functores, pattern matching y polimorfismo
 Hasta ahora, en lógico siempre hicimos consultas en las cuales nuestros individuos eran simples.
 Pero además de los individuos simples, también existen los **individuos complejos**. 🧐
 Los *functores* son individuos complejos y tienen:
@@ -170,7 +170,8 @@ promedioDePuntajes(Promedio):-
   Promedio is Total / CantidadPuntajes.
 ```
 
-- Queremos saber si un escritor merece un nobel, esto sucede sólo si todo lo que escribió es bueno. 
+- Queremos saber si un escritor merece un nobel, esto sucede sólo si todo lo que escribió es bueno.
+
 ```prolog
 mereceUnNobel(Autor) :-
   esAutor(Autor),
