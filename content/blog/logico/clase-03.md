@@ -1,7 +1,7 @@
 ---
 title: Décima clase
 date: '2019-06-03'
-description: 'Functores, is, pattern matching y polimorfismo. Findall, listas e is'
+description: 'Functores, is, pattern matching y polimorfismo. Findall y listas.'
 tags: [logico, functores, pattern-matching, polimorfismo, findall, is, listas]
 ---
 
