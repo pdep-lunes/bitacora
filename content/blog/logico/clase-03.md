@@ -83,7 +83,7 @@ Todo esto gracias a que tenemos *Pattern Matching*. 🎉
 En segundo lugar, podemos ver como al predicado `tipoCopado` no le importa para nada que *forma* puede llegar a tener el functor del tipo de libro.  
 Al hecho de tratar variables indistintamente de su forma lo llamamos **polimorfismo** 💗 y va a ser un concepto muy importante y útil desde ahora hasta siempre. 😱
 
-## Findall
+## Findall y listas
 Ahora queremos saber el puntaje de un autor, este se calcula como `3 * cantidad de libros buenos que escribió`.
 
 Recordemos, que en nuestra base de conocimientos, contamos con un predicado `escribio/2` que relaciona a un autor con el libro que escribió.
