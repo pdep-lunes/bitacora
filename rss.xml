@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bitácora 📚]]></title><description><![CDATA[Bitácora con resumenes clase a clase]]></description><link>https://pdep-lunes.github.io/bitacora</link><generator>RSS for Node</generator><lastBuildDate>Thu, 13 Jun 2019 00:34:42 GMT</lastBuildDate><item><title><![CDATA[Décima clase]]></title><description><![CDATA[Tarea para la clase que viene Terminar el TP grupal. Hacer hasta la lección 11 (inclusive) de  Mumuki Functores, pattern matching y…]]></description><link>https://pdep-lunes.github.io/bitacora/logico/clase-03/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/logico/clase-03/</guid><pubDate>Mon, 03 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-para-la-clase-que-viene&quot;&gt;&lt;a href=&quot;#tarea-para-la-clase-que-viene&quot; aria-label=&quot;tarea para la clase que viene permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea para la clase que viene&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bitácora 📚]]></title><description><![CDATA[Bitácora con resumenes clase a clase]]></description><link>https://pdep-lunes.github.io/bitacora</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Aug 2019 20:27:33 GMT</lastBuildDate><item><title><![CDATA[Primera Clase - Objetos]]></title><description><![CDATA[Tarea para la clase que viene: Instalar  Wollok Terminar guías 1 y 2 de  Mumuki Introducción a objetos Así como en funcional teníamos   y en…]]></description><link>https://pdep-lunes.github.io/bitacora/objetos/clase-01/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/objetos/clase-01/</guid><pubDate>Mon, 05 Aug 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-para-la-clase-que-viene&quot;&gt;&lt;a href=&quot;#tarea-para-la-clase-que-viene&quot; aria-label=&quot;tarea para la clase que viene permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea para la clase que viene:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Instalar &lt;a href=&quot;https://www.wollok.org/en/download/&quot;&gt;Wollok&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Terminar guías 1 y 2 de &lt;a href=&quot;https://mumuki.io/pdep-utn/lessons/76-programacion-con-objetos-objetos-y-mensajes&quot;&gt;Mumuki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;introducción-a-objetos&quot;&gt;&lt;a href=&quot;#introducci%C3%B3n-a-objetos&quot; aria-label=&quot;introducción a objetos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Introducción a objetos&lt;/h2&gt;
+&lt;p&gt;Así como en funcional teníamos &lt;code class=&quot;language-text&quot;&gt;funciones&lt;/code&gt; y en lógico teníamos &lt;code class=&quot;language-text&quot;&gt;reglas lógicas&lt;/code&gt;, como sugiere el nombre, en esta parte de la materia vamos a estar trabajando con &lt;code class=&quot;language-text&quot;&gt;objetos&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Tenemos a &lt;code class=&quot;language-text&quot;&gt;poroto&lt;/code&gt;, el perro de una familia (vamos a escribir los objetos con camelCase).&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/bitacora/static/40057c99c3690bf6cd64ff5380178666/3c7c4/poroto.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 72px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 70.83333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAACEklEQVQoz42S62/SUBTA+VP95nf9YlxidAuPqXEGodBWaKFlAiUxGyIQGGxCSHmN1+a6ljIYD2VAW7ZBIl25tkAyExO2k19u7j05v3Nyb64OqDGfa4BHoxVroQOPiPn/mYWvyTd856cJ5lFPAyHrdkJlueERkodJdW1j3kXSw9kJzoLxCHU/uZ8qtYOfASgLv2I3Ynp6nRH6idkkMx4mxavkqJ+o5Mk/E3rQi8kTGszovNFUzpbkO1mTr9LVwaFvCoqY800iicbjcCQK+al34QgUiUBU4D1B6qu1wBfvdrMZBuA8vWXA7E5pLC3kVGV0FLi9KyLoq2gcDoWtwe/mveCnZjP2df/DfsiSPHLmCp5dysRy3wDgM3qTC8FESVxN7gYco07cC70WW/FBPVI/DlxfHky6SbZADRvRTm1vyEeYnG/aO5QHP9Ibmy4UX8nDzEnp+cuLXfuly9502Zo41CbgBmblnZY2CavHltt2gUMdEqk7LC3cGnvyjMAJQRQ0eZCu9BM+ALi5UgGgtgZFqQLA0Ma3OIyJY3EpV7shFwCV2S0tT7NrUAuAUsxsGv65c6r8+8CrvsRcUdufrkFRTgBgaeM2DjtXk4UiU97YYnAbg1gY1LqGM9TKOaDo0xdu3C0Igm750XqnvMNkhvU7iOHjA+h3HGabn/JLkrSSZ7J8xp3njgv5UvFBsvkcy7KyLP8Fe3uvdInKz0oAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;poroto&quot;
+        title=&quot;Diagrama poroto&quot;
+        src=&quot;/bitacora/static/40057c99c3690bf6cd64ff5380178666/3c7c4/poroto.png&quot;
+        srcset=&quot;/bitacora/static/40057c99c3690bf6cd64ff5380178666/3c7c4/poroto.png 72w&quot;
+        sizes=&quot;(max-width: 72px) 100vw, 72px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Por lo pronto tenemos la siguiente información acerca de Poroto: tiene 4 años y 100 de energía (porque todos los perros necesitan energía para hacer cosas, claro). Entonces, vamos a decir que poroto tiene como &lt;strong&gt;atributos&lt;/strong&gt; edad y energia.
+Así lo escribimos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;object poroto &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; energia &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; edad &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Y qué podemos hacer con poroto? Por ahora no mucho. Estaría bueno que sepa hacer más cosas, como jugar. Y cómo hacemos que poroto juegue? Se lo tenemos que decir (poroto, jugá!); y la forma que tenemos para decirle a un objeto que haga algo es enviarle un &lt;strong&gt;mensaje&lt;/strong&gt;, y esto se hace así:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;poroto&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;jugar&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Los mensajes siempre son enviados a un objeto y son la manera de comunicarnos con los mismos.&lt;/p&gt;
+&lt;p&gt;¿Qué pasa si corremos el código anterior?&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// ERROR: poroto does not understand jugar() (line: 4)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Falla… claro, le dijimos a poroto que juegue, pero nunca le “enseñamos” cómo hacerlo. De alguna forma le tenemos que decir qué es lo que queremos que haga cuando le digamos que juegue, y esto lo hacemos con lo que llamamos un &lt;strong&gt;método&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Un &lt;strong&gt;método&lt;/strong&gt; es lo que un objeto hace cuando le enviamos un mensaje particular.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Enseñémosle entonces a poroto a jugar. Vamos a querer que cuando poroto juegue, su energía baje 20 unidades.&lt;/p&gt;
+&lt;p&gt;Esto en código se escribe así:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;object poroto &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; energia &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; edad &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+
+&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;  method &lt;span class=&quot;token function&quot;&gt;jugar&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    energia &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; energia &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// ó energia -= 20&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;¡Bien! Ahora &lt;code class=&quot;language-text&quot;&gt;poroto&lt;/code&gt; ya sabe que hacer cuando le digamos “jugar”.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Queremos ver si su energía cambió, por lo que deberíamos preguntarle a poroto cuál es su energía. Para esto vamos a tener que declarar un &lt;strong&gt;&lt;em&gt;getter&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;method &lt;span class=&quot;token function&quot;&gt;energia&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; energia
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Si quisiéramos cambiarla, haríamos un &lt;strong&gt;&lt;em&gt;setter&lt;/em&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;method &lt;span class=&quot;token function&quot;&gt;energia&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;unaEnergia&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  energia &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; unaEnergia
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Este tipo de métodos en los que accedemos al valor de un atributo o lo modificamos se llaman &lt;strong&gt;&lt;em&gt;accessors&lt;/em&gt;&lt;/strong&gt;. No es necesario que todos los atributos tengan los suyos, sólo aquellos que los necesitan.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;Ahora, vamos a crear otro objeto: vamos a crear al dueño de poroto, Billy. De Billy conocemos su edad, su comida favorita, su energía y su mascota.
+Sabemos que Billy puede jugar con poroto, entonces podemos hacer un método que sea &lt;code class=&quot;language-text&quot;&gt;jugarConMascota&lt;/code&gt;, el cual haga que billy pierda 50 de energía (se cansa más rápido que su perro) y al mismo tiempo que poroto juegue.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;object billy &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; edad &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;12&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; comidaFavorita &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;asado&quot;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; energia &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; mascota &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; poroto
+
+&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;  method &lt;span class=&quot;token function&quot;&gt;jugarConMascota&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    energia &lt;span class=&quot;token operator&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    mascota&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;jugar&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+  method &lt;span class=&quot;token function&quot;&gt;mascota&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; mascota&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;billy&lt;/code&gt; le está mandando un mensaje a su &lt;code class=&quot;language-text&quot;&gt;mascota&lt;/code&gt;, que en este caso es poroto. Billy le dijo a su mascota jugá y poroto jugó.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;Ahora agregamos a Mandy que tiene como mascota a su perra Sally que empieza con la misma energía y edad que poroto y pierde la misma energía al jugar. Hacemos que mandy juegue con su mascota dejando a Sally con el mismo estado que poroto.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;object mandy &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; edad &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;
+   &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; comidaFavorita &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;milanesa&quot;&lt;/span&gt;
+   &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; energia &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;
+   &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; mascota &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; sally
+
+  method &lt;span class=&quot;token function&quot;&gt;jugarConMascota&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    energia &lt;span class=&quot;token operator&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;
+    mascota&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;jugar&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  method &lt;span class=&quot;token function&quot;&gt;mascota&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; mascota&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+object sally &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; energia &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; edad &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+
+  method &lt;span class=&quot;token function&quot;&gt;jugar&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    energia &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; energia &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;¿Qué pasa si comparamos a Sally y Poroto? ¿Son Iguales?&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;billy&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;mascota&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; mandy&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;mascota&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Esto pasa porque los objetos tienen &lt;strong&gt;identidad&lt;/strong&gt;, saben diferenciarse unos de otros, por lo que un objeto no es igual a otro aunque sus atributos tengan los mismos valores.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Décima clase]]></title><description><![CDATA[Tarea para la clase que viene Terminar el TP grupal. Hacer hasta la lección 11 (inclusive) de  Mumuki Functores, pattern matching y…]]></description><link>https://pdep-lunes.github.io/bitacora/logico/clase-03/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/logico/clase-03/</guid><pubDate>Mon, 03 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-para-la-clase-que-viene&quot;&gt;&lt;a href=&quot;#tarea-para-la-clase-que-viene&quot; aria-label=&quot;tarea para la clase que viene permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea para la clase que viene&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Terminar el TP grupal.&lt;/li&gt;
 &lt;li&gt;Hacer hasta la lección 11 (inclusive) de &lt;a href=&quot;https://mumuki.io/pdep-utn/chapters/307-programacion-logica&quot;&gt;Mumuki&lt;/a&gt;&lt;/li&gt;
