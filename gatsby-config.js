@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: '/bitacora',
   siteMetadata: {
-    title: `Bitácora 📚`,
+    title: `Bitácora`,
     author: `pdep`,
     description: `Bitácora con resumenes clase a clase`,
     siteUrl: `https://pdep-lunes.github.io/bitacora`,
@@ -59,7 +59,7 @@ module.exports = {
         background_color: `#90a4ae`,
         theme_color: `#90a4ae`,
         display: `standalone`,
-        icon: `content/assets/profile-pic.png`,
+        icon: `content/assets/favicon.png`,
       },
     },
     {
