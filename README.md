@@ -24,6 +24,10 @@
 
     Hay pasos bien detallados [acá](./como-hacer-un-post.md)
 
+## ¿Cómo agregar emojis?
+
+[Acá](https://github.com/matchilling/gatsby-remark-emojis/blob/master/emoji.md) están todos los emojis disponibles. Se escriben entre `:`. Por ejemplo: `:coffee:`.
+
 ## 🧐 Que tiene este proyecto?
 
 Una mirada rápida y a alto nivel de los archivos y directorios que vas a ver en este proyecto.
@@ -62,11 +66,3 @@ Una mirada rápida y a alto nivel de los archivos y directorios que vas a ver en
 10. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
 11. **`README.md`**: A text file containing useful reference information about your project.
-
-## 💫 Deploy
-
-Deploy to gh-pages using the `deploy` script in **package.json**
-
-```sh
-npm run deploy
-```

@@ -5358,6 +5358,11 @@ gatsby-remark-copy-linked-files@^2.0.10:
     probe-image-size "^4.0.0"
     unist-util-visit "^1.3.0"
 
+gatsby-remark-emojis@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-emojis/-/gatsby-remark-emojis-0.3.2.tgz#5d8edb4e303dc9e05ee554d080dc486be6d3c810"
+  integrity sha512-IrRHau6xJeDAj766WuHv8LCBcKKaHMyhbYFlbIu2O1veOmTZ5mb/GnGz2raUr6MiAwRXXbUE0XQqWFMSZ1xr8w==
+
 gatsby-remark-external-links@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/gatsby-remark-external-links/-/gatsby-remark-external-links-0.0.4.tgz#85b98c1e9dacfaa58085319648c904ff3cab42f0"
