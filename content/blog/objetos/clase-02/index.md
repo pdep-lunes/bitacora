@@ -1,8 +1,8 @@
 ---
 title: Segunda Clase - Objetos
 date: '2019-08-12'
-description: Polimorfismo, responsabilidad y encapsulamiento. Testing.
-tags: [objetos, polimorfismo, responsabilidad, encapsulamiento, testing]
+description: Polimorfismo, responsabilidad y encapsulamiento.
+tags: [objetos, polimorfismo, responsabilidad, encapsulamiento]
 ---
 
 ## Tarea :coffee:
@@ -45,23 +45,8 @@ Repasemos las partes necesarias para que haya polimorfismo.
 - Al menos 2 objetos que son utilizados polimórficamente por un tercero. Y además esos objetos entienden los mismos mensajes, es decir, comparten la misma interfaz.
 - Tiene que tener sentido desde el punto de vista del dominio.
 
-> Para que 2 o más objetos puedan ser utilizados polimórficamente por otro, estos deben entender los mismos mensajes :speech_balloon:. Es decir, tienen que tener la misma **interfaz**.
-
-## Testing
-
-Hasta ahora en Wollok para probar nuestro programa estábamos usando la REPL :computer:. Pero esto no está tan bueno :confused: porque estamos probando siempre _a mano_ nuestro código y cada vez que realizamos un cambio a nuestro código deberíamos volver a probar que lo que modificamos siga funcionando como esperábamos. Entonces, nuestro código se volvería poco mantenible y nos provocaría problemas en el futuro :collision:.
-
-Para evitar esto vamos a buscar automatizar nuestros tests. Hay diferentes herramientas para realizar esto y dependen del lenguaje que estemos utilizando. Por ejemplo: en _Haskell_ podemos usar _HSpec_.  
-En Wollok contamos contamos con la posibilidad de hacer tests automatizados de manera nativa.
-
-Cada test que hagamos va a probar una cierta funcionalidad. Esto es importante porque cada uno de nuestros casos de prueba va a ser **unitario**.  
-Además la ejecución de cada test debe ser **independiente** de las otras.
-
-> Que las pruebas sean automatizadas nos permite que sean fácilmente repetibles. Entonces podemos asegurarnos de que luego de realizar un cambio nuestro código sigue andando como esperábamos. :cool:
-
-En cada un caso de prueba partimos a partir de un estado que conocemos. Luego, realizamos la operación que queremos probar. Y finalmente realizamos una _aserción_ de cómo debería quedar cierto estado luego de realizar la prueba. O bien de qué debería devolvernos.
+> Para que 2 o más objetos puedan ser utilizados polimórficamente por otro, estos deben entender los mismos mensajes :speech_balloon:.
 
 ## Links útiles :earth_americas:
 
 - **Wiki:** [polimorfismo](http://wiki.uqbar.org/wiki/articles/polimorfismo-en-el-paradigma-de-objetos.html), [encapsulamiento](http://wiki.uqbar.org/wiki/articles/encapsulamiento.html), [responsabilidades y delegación](http://wiki.uqbar.org/wiki/articles/modelando-objetos---responsabilidades-y-delegacion.html).
-- **Apuntes de testing en Wollok:** [Introducción al Testeo Unitario Automatizado](https://docs.google.com/document/d/1Q_v48gZfRmVfLMvC0PBpmtZyMoALbh11AwmEllP__eY/edit), [Testeo unitario automatizado avanzado](https://docs.google.com/document/d/1caDE_mlP1QMfzyVpyvh-tKshjAeYLXBkXDYrTX5zFUI/edit#?usp=drive_web).
