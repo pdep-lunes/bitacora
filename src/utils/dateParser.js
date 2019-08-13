@@ -14,6 +14,7 @@ const months = [
 ]
 
 export const dateParser = dateString => {
+  if (dateString === null) return ''
   const [day, month, year] = dateString.split('-')
   return `${day} de ${months[month - 1]}, ${year}`
 }
