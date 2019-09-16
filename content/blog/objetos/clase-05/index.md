@@ -20,3 +20,13 @@ Puede perfectamente instanciarse un objeto a partir de una clase y no preservarl
 Cuando nosotros le enviamos un mensaje a un objeto, ahora se fija si está declarado en la clase a la cual pertenece.
 
 ## Diagrama de clases 
+
+Para hacer un diagrama de clases, representamos a las entidades (well-known objects y las clases) como recuadros con 3 secciones:
+  - Una cabecera con el nombre (y una aclaración del estilo << O >> si es un objeto y no una clase)
+  - Un segundo recuadro con las variables más importantes
+  - Un último recuadro con los métodos más importantes
+
+Y para asociar estas entidades vimos la flecha de "tiene"
+
+
+![Flecha Tiene](./uml-tiene.png 'Flecha Tiene')
