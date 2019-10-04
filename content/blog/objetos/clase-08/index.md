@@ -5,6 +5,8 @@ description: Clase de excepciones.
 tags: [objetos, excepciones]
 ---
 
+Hicimos [este](https://docs.google.com/document/d/1YPZMyKI4fFij22QM8QfbDU8pfV78bP7vesl2__HIj64/edit?usp=sharing) ejercicio.
+
 # Introducción
 
 Cuando ejecutamos un programa, pueden ocurrir problemas que hacen que éste no se comporte de la manera la cual nosotros esperábamos. En otras palabras, pueden ocurrir **errores.** ¿Qué deberíamos hacer ante un error?
