@@ -2,7 +2,7 @@
 title: Primera clase
 date: "2020-04-06"
 description: "Primera clase de PdeP"
-tags: [funcional. composición, inmutabilidad, precedencia-de-operadores]
+tags: [funcional, composición, inmutabilidad, precedencia-de-operadores]
 ---
 
 ## Tarea para la clase que viene:
@@ -47,8 +47,8 @@ Estos dos conceptos son complementarios y vamos a buscar que nuestras soluciones
 
 ¡Veamos unos ejemplos!
 
-```
--- Solución A
+```c
+// Solución A
 ​
 int d(int c[]) {
   int a = 0;
@@ -60,7 +60,7 @@ int d(int c[]) {
   return a;
 }
 ​
--- Solución B
+// Solución B
 ​
 int cantidadDeNumerosPares(int* unosNumeros) {
   int cantidadDePares = 0;
@@ -72,7 +72,7 @@ int cantidadDeNumerosPares(int* unosNumeros) {
   return cantidadDePares;
 }
 ​
--- Solución C
+// Solución C
 ​
 int cantidadDeNumerosPares(int* unosNumeros) {
   int cantidadDePares = 0;
@@ -99,7 +99,7 @@ Es el paradigma con el vamos a arrancar. Y trata sobre… ¡adivinaste! Funcione
 ⚠️ Antes de seguir, vamos a dejar algo en claro: **nunca pero nunca vamos a usar un `if`para devolver un `true` o un `false`.** Es una muy mala práctica de programación y quien la haga en un parcial tendrá un 2 🦆. 
 ❌ El código que **no** hay que hacer sería:
 
-```
+```js
 esMayorDeEdad(unaEdad) {
 	if (unaEdad >= 18) {
 		return true
@@ -111,7 +111,7 @@ esMayorDeEdad(unaEdad) {
 
 ✔️ Lo correcto sería:
 
-```
+```js
 esMayorDeEdad(unaEdad) {
 	return unaEdad >= 18
 }
