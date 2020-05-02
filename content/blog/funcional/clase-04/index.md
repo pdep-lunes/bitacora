@@ -122,7 +122,7 @@ Enfoquémonos en `cantidadDePaginas` 🔍. Es una función que dada una tupla, n
 
 En este punto de la clase surgió la duda de si `Int` es lo mismo que `Integral`. Si no lo recordás, dijimos que no son lo mismo. `Int` es un tipo de dato mientras que `Integral` es una restricción de tipo, también llamada clase de tipo o **type class**. Este es un diagrama en donde lo escrito en negro ⚫ son clases de tipo y lo escrito en rojo 🔴 son tipos de dato:
 
-![diagrama_tipo_clases](./type_classes.jpg "Diagrama de tipos de clases")
+![diagrama_tipo_clases](https://raw.githubusercontent.com/pdep-lunes/bitacora/2019-completo/content/blog/funcional/haskell-type-classes.jpg 'Diagrama de tipos de clases')
 
 Ahora toca el turno de definir `esLecturaObligatoria`. De vuelta vamos a descomponerla en funciones para que sea más fácil construirla. 💡 Un consejo que solemos dar definir la función de tal forma que cuando la leamos, quede igual que el enunciado. Y la única forma de hacer esto posible es delegando:
 
