@@ -142,37 +142,37 @@ completar
 También podríamos abstraer el agregado de páginas:
 
 ```haskell
-completar
+completar https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b
 ```
 
 
 Vamos a modelar a las personas. Las personas tienen un nombre y un conjunto de libros que le gustan:
 
 ```haskell
-completar
+completar https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b
 ```
 
 Ahora queremos saber si a una persona le gusta un libro. Definimos la función `leGusta`.
 
 ```haskell
-completar
+completar https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b
 ```
 
 Vamos a hacer un cambio al modelado. En vez de tener los libros que le gustan a la persona, definamos un criterio por el cual a una persona le gusta un libro:
 
 ```haskell
-completar
+completar https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b
 ```
 
 Que nos pasa con la función `leGustaSegún`? No tiene demasiada lógica, y además es dificil encontrar un nombre expresivo para esta función auxiliar. Para eso, dentro de haskell contamos con las expresiones Lambda: funciones que no necesitamos nombrar y que usamos para este tipo de casos particulares. Reescribamos la función `leGusta` utilizando lambda: 
 
 ```haskell
-completar
+completar https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b
 ```
 
 ## Links Útiles
 
-- [Solución del ejercicio de hoy](completar)
+- [Solución del ejercicio de hoy](https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b)
 - [Video de la clase](completar)
  
 ## Tarea para la clase que viene:
