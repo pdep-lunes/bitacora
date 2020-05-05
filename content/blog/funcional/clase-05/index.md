@@ -123,52 +123,84 @@ agregarPaginas unLibro paginasAAgregar = unLibro { cantidadDePaginas = cantidadD
 
 Es importante destacar que para devolver la nueva cantidad de paginas debemos sumar la cantidad de paginas original. Para eso, utilizamos el accessor `cantidadDePaginas` y es importante pasarle por parámetro `unLibro` para que pueda darnos el valor. `cantidadDePaginas` sigue siendo una función que necesita su parámetro.
 
+Para que quede aclaro, hagamos otro ejemplo. Modelemos `sacarSecuela`, que agrega un "2" al final del título y cuyas páginas siempre serán 400.
+
 ```haskell
-completar
+sacarSecuela :: Libro -> Libro
+sacarSecuela unLibro = { cantidadDePaginas = 400, titulo = ((++ " 2").titulo) unLibro }
 ```
 
-modelamos sacar secuela, que da la versión 2 de un libro:
+Ahora, tenemos una repetición de lógica en ambas funciones. En ambas estamos cambiando las páginas de alguna forma. ¿Podemos abstraer esa lógica? Claro que si! Modelemos la función `cambiarCantidadDePaginas`:
 
 ```haskell
-completar
+cambiarCantidadDePaginas :: (Int -> Int) -> Libro -> Libro
+cambiarCantidadDePaginas unaFuncion unLibro = unLibro { cantidadDePaginas = unaFuncion (cantidadDePaginas unLibro) }
 ```
 
-Ahora, tenemos una repetición de lógica en ambas funciones. En ambas estamos cambiando el título de alguna forma. Podemos abstraer esa lógica? Claro que si! Modelemos la función cambiarTitulo:
+Ahora la cantidad de páginas se cambia según una función recibida por parámetro (concepto de *órden superior*). Pero... en `sacarSecuela` no usabamos una función, asignabamos 400, ¿Cómo hacemos para utilizar la función? Podemos utilizar `const`, la cual recibe dos parámetros y siempre se queda con el primero.
+
+Ya que estamos, podemos abstraer el cambio de título de forma similar al cambio de cantidad de páginas:
 
 ```haskell
-completar
+cambiarTitulo :: (String -> String) -> Libro -> Libro
+cambiarTitulo unaFuncion unLibro = unLibro { titulo = unaFuncion (titulo unLibro) }
 ```
 
-También podríamos abstraer el agregado de páginas:
+Nuestras funciones quedarían:
 
 ```haskell
-completar https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b
+agregarPaginas' :: Libro -> Int -> Libro
+agregarPaginas' algunLibro paginasAAgregar = cambiarCantidadDePaginas (+ paginasAAgregar) algunLibro
+
+sacarSecuela :: Libro -> Libro
+sacarSecuela unLibro = (cambiarCantidadDePaginas (const 400) . cambiarTitulo (++ " 2")) unLibro
 ```
 
-
-Vamos a modelar a las personas. Las personas tienen un nombre y un conjunto de libros que le gustan:
+Pasemos ahora a modelar a las personas. Las personas tienen un nombre y un conjunto de libros que le gustan:
 
 ```haskell
-completar https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b
+type Persona = (String, [Libro])
+
+gustos :: Persona -> [Libro]
+gustos unaPersona = snd unaPersona
 ```
 
 Ahora queremos saber si a una persona le gusta un libro. Definimos la función `leGusta`.
 
 ```haskell
-completar https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b
+leGusta :: Libro -> Persona -> Bool
+leGusta unLibro unaPersona = any (== unLibro) (gustos unaPersona)
 ```
 
-Vamos a hacer un cambio al modelado. En vez de tener los libros que le gustan a la persona, definamos un criterio por el cual a una persona le gusta un libro:
+De esta forma asumimos que a una persona siempre le gustan algunos libros. Ahora hagamos un cambio al modelado. En vez de tener los libros que le gustan a la persona, definamos un criterio por el cual a una persona le gusta un libro:
 
 ```haskell
-completar https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b
+type Persona = (String, [Libro -> Bool])
+
+julian :: Persona
+julian = ("Julian", [esLibroLigero, esLibroFantasioso, esDe "Stephen King"])
+```
+
+Y ahora nuestra función leGusta quedaría:
+
+```haskell
+leGusta :: Libro -> Persona -> Bool
+leGusta unLibro unaPersona = any (leGustaSegun unLibro) (gustos unaPersona)
+
+leGustaSegun ::  Libro -> (Libro -> Bool) ->         Bool
+leGustaSegun    unLibro       unGusto     =     unGusto unLibro
 ```
 
 Que nos pasa con la función `leGustaSegún`? No tiene demasiada lógica, y además es dificil encontrar un nombre expresivo para esta función auxiliar. Para eso, dentro de haskell contamos con las expresiones Lambda: funciones que no necesitamos nombrar y que usamos para este tipo de casos particulares. Reescribamos la función `leGusta` utilizando lambda: 
 
+
 ```haskell
-completar https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b
+leGusta :: Libro -> Persona -> Bool
+leGusta unLibro unaPersona = any (\unGusto -> unGusto unLibro) (gustos unaPersona)
 ```
+
+La lambda está definida entre paréntesis. En este caso recibe un solo parámetro, pero podría recibir varios. La `->` indica dónde terminan los parámetros y empieza la función. Las expresiones lambda o funciones anónimas nos sirven para este tipo de casos específicos.
+
 
 ## Links Útiles
 
@@ -178,5 +210,5 @@ completar https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b
 ## Tarea para la clase que viene:
 
 - Leer apunto de [git](completar)
-- Realizar el [TP](https://docs.google.com/document/d/1--4XJTZqk49fEXxwGJjoQwoc_MfNAymheY-BJ2IRS40/) y entregarlo por github
-- (Opcional) Hacer las guías de Mumuki de Expresiones Lambda y Terminal de Git.
+- Realizar el [TP](https://docs.google.com/document/d/1EAN_RC2zngF1jiy4MGCuLvYQvr1euHj1Xx4ORiDh-nE/) y entregarlo por github
+- (Opcional) Hacer las guías de Mumuki de [Lambda](https://mumuki.io/pdep-utn/lessons/743-programacion-funcional-expresiones-lambda), [Data](https://mumuki.io/pdep-utn/lessons/745-programacion-funcional-modelado) y [uso de consola y git](https://mumuki.io/pdep-utn/chapters/438-control-de-versiones).
