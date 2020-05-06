@@ -5,36 +5,35 @@ description: 'Quinta clase de PdeP'
 tags: [funcional, data, expresiones-lambda]
 ---
 
+## Tarea para la clase que viene:
+
+- Realizar el [TP Monopoly](https://docs.google.com/document/d/1EAN_RC2zngF1jiy4MGCuLvYQvr1euHj1Xx4ORiDh-nE/) y **entregarlo por GitHub**.
+- De forma opcional pero *muy recomendable* se puede hacer la guía de [uso de consola y Git de Mumuki](https://mumuki.io/pdep-utn/chapters/438-control-de-versiones).
+- También de forma opcional se pueden hacer las guías de Mumuki de [Expresiones Lambda](https://mumuki.io/pdep-utn/lessons/743-programacion-funcional-expresiones-lambda) y [Data](https://mumuki.io/pdep-utn/lessons/745-programacion-funcional-modelado).
+
 ## ¿Qué vimos hoy?
 
-Volvimos al TT de la clase pasada [TP "Hora de lectura"](https://docs.google.com/document/d/11uYGXvG-TnNhveawDjKD1iSWKW9Qy8PVqlvtHhV58F8/edit) para hacer nuevos ejercicios dentro del mismo dominio.
+Volvimos al TP de la clase pasada [TP "Hora de lectura"](https://docs.google.com/document/d/11uYGXvG-TnNhveawDjKD1iSWKW9Qy8PVqlvtHhV58F8/edit) para seguir trabajando con él y agregando nuevos ejercicios. 🙌 
 
-Arrancamos con **guardas**, mostrando cuando **NO** queríamos usar guardas y ahora vamos a ver cuando sí.
+Queremos saber de qué género es un libro. Eso va a depender de:
 
-Vamos a modelar el género de un libro:
+- Si tiene menos de 50 páginas, es un cómic. 💬
+- Si el autor es Stephen King, es de terror. 🤡
+- Si el autor es japonés, es un manga. 🗾
+- En cualquier otro caso, no sabemos el género. 🤷
 
-- Si tiene menos de 50 páginas, es un cómic.
-- Si el autor es Stephen King, es de terror.
-- Si el autor es japonés, es un manga.
-- En cualquier otro caso, no sabemos el género.
+Aprendimos cómo ver si un libro tiene cierta de cantidad de páginas o si es de un autor en especial pero… ¿cómo averiguamos la nacionalidad de un autor? 😅 ¿Deberíamos agregar la nacionalidad del autor en cada libro? ¡Momento ✋! Sólo interesa saber quiénes son de Japón y, como en nuestra solución, el único autor japonés es *"Hajime Isayama"*, no tendría sentido agregar más información a cada libro. La forma más fácil de resolverlo es con una función:
 
-Deberíamos agregar la nacionalidad al conjunto de autores? Lo único que necesitamos para este caso es saber si es japones.
+```haskell
+esJapones :: Autor -> Bool
+esJapones "Hajime Isayama" = True
+esJapones _ = False
+```
 
-Cómo modelamos la función genero? Arranquemos con el tipo:
+¡Ya tenemos lo necesario para definir la función `genero`! 
 
 ```haskell
 genero :: Libro -> String
-```
-
-¿Por qué no se puede resolver por pattern matching?
-Se pregunta si Pattern matching solo se usa para booleanos, y se muestra por ejemplo en los accessors que no. Con pattern matching podemos devolver cualquier tipo de dato!
-
-Usamos pattern matching cuando tenemos algo que encaja con un patrón, por ejemplo una tupla de 3 elementos, una lista vacía, etc.
-Usamos guardas cuando queremos evaluar conjuntos de dominios (en matemática, esto es muy similar a las funciones partidas).
-
-Volvamos al ejercicio:
-
-```haskell
 genero unLibro
   | ((>50).cantidadDePaginas) unLibro = "Comic"
   | esDe "Stephen King" unLibro = "Terror"
@@ -42,102 +41,96 @@ genero unLibro
   | otherwise = "No clasificado"
 ```
 
-Construimos la función auxiliar `esJapones`:
+Recordá no olvidarte el `otherwise` cuando utilices guardas ya que es donde entra todo lo que no abarcan las guardas de encima de él. Y, ¿por qué pasa eso? 🤔 Resulta que `otherwise` es un sinónimo de `True`, por lo que siempre se va a poder entrar por esa condición cuando no se no cumplan ninguna de las demás. Utilizamos `otherwise` porque es más expresivo.
 
-```haskell
-esJapones :: Libro -> Bool
-esJapones "Hajime Isayama" = True
-esJapones _ = False
-```
+La clase anterior contamos en qué situaciones **no** usar las guardas ❌. Pero el caso de arriba es cuando sí queremos usarlas ✔️. Entonces, ¿cuándo usar guardas y cuando pattern matching? 😩
+Usamos pattern matching cuando tenemos algo que encaja con un patrón, por ejemplo una tupla de 3 elementos, una lista vacía, etc. 🧩
+Usamos guardas cuando queremos evaluar conjuntos de dominios (en matemática, esto es muy similar a las funciones partidas). 🔀
 
-Por qué en el conjunto `otherwise` entra todo el resto del dominio abarcado? Resulta que `otherwise` es nada más que un sinónimo de `True`! Utilizamos `otherwise` para ser más expresivos.
-
-Ahora volvamos a los tipos de datos. ¿Qué pasa si uso género y le paso otra tupla? Vamos a probar con una tupla Persona, por ejemplo ("Gustavo", "Trucco", 28):
+¡Excelente! Ya tenemos funcionando la función `genero` 🎉. ¿Qué pasa si le mandamos como argumento una tupla que representa a una persona? No debería funcionar porque explicitamos en su tipo que recibía un `Libro`... Veamos qué pasa con la tupla que representa a nuestro querido profe Gus: 👀
 
 ```haskell
 genero ("Gustavo", "Trucco", 28)
 > "Comic"
 ```
 
-Al usar una tupla del tipo `(String, String, Int)`, si bien no es un libro, podemos utilizar la función `género` ya que este tipo coincide con el tipo de libro. Recordemos que al usar `type alias` estamos siendo más expresivos pero no estamos haciendo una validación para ese tipo de dato. Para resolver este problema, introducimos el concepto de `data`.
+¿¡Entonces el profe es un cómic!? 😱 Ya quisiera, pero no lo es. Lo que pasó es que si bien dijimos que `genero` funciona sólo con `Libro`s, un `Libro` es una tupla de tipo `(String, String, Int)`, ¡el mismo tipo que la tupla que representa a una persona! 😅
+Recordá que al usar el type alias, **no estamos creando un nuevo tipo de dato**, sino que le estamos dando un nombre a una estructura que tiene sentido para nuestra solución y así ganar expresividad.
+
+Entonces, ¿cómo lo solucionamos? 🤨 Creando nuestro propio tipo de dato con **Data**:
 
 ```haskell
 data Libro = UnLibro String Autor Int
 ```
 
-`UnLibro` es una función que llamamos `constructor`. ¿Cuál es el tipo de `UnLibro`?
+En donde `UnLibro` es una función que llamamos **constructor** y su tipo es `UnLibro :: String -> Autor -> Int -> Libro`. Es decir, es una función que recibe los parámetros necesarios para crear un libro. 
 
-```haskell
-UnLibro :: String -> Autor -> Int -> Libro
-```
-
-Podemos ver que la función recibe los parámetros que necesitamos para crear al libro. Vamos a modelar "El visitante":
+Modelemos a "El visitante":
 
 ```haskell
 UnLibro "El visitante" "Stephen King" 592
 ```
 
-Si probamos esto en la consola de Haskell, no vamos a poder ver el libro ya que nuestro data no es mostrable. ¿Qué significa esto? Haskell no sabe cómo mostrar nuestro tipo de dato. Esto lo podemos resolver utilizando `deriving Show` al final de la declaración del data:
+Si quisiéramos probarlo en la consola, nos tiraría un error porque el data que construimos no es "mostrable" 😩. Es decir, Haskell no sabe cómo mostrar nuestro tipo de dato, pero lo solucionamos escribiendo `deriving Show` al final de la declaración del data: 
 
 ```haskell
 data Libro = UnLibro String Autor Int deriving Show
 ```
 
-Hasta acá, `data` parece ser más complejo que usar tuplas. ¿Qué ventajas nos está dando? Como dijimos antes, con los `type alias` no estábamos creando un tipo de dato. Utilizando `data` podemos validar estrictamente los tipos de las funciones que modelamos. Antes pudimos usar la función `genero` para humanos y no queríamos poder hacer eso. Ahora con `data` podemos hacer que la función `genero` solamente pueda recibir libros.
-
-Además, podemos utilizar `record syntax` con data y tenemos los accessors!
+Y entonces, ¿qué ventajas tenemos al usar data? Porque pareciera ser lo mismo que usar tuplas con el type alias 🙄. La diferencia está en que, con el data, estamos creando nuestro propio tipo de dato y, gracias a eso, vamos a poder restringir a las funciones a que sólo funcionen con el tipo de dato que le decimos. Ahora, `genero` sólo va a recibir `Libro`s, de otra forma, romperá. 💥
+Otra ventaja es que podemos utilizar data con **record syntax** y, de esta forma, nos genera automáticamente los accessors:
 
 ```haskell
 data Libro = UnLibro { titulo :: String, autor :: Autor, cantidadDePaginas :: Int } deriving Show
 ```
 
-Acá podemos ver que los accessors son nada más y nada menos que funciones! Miremos por ejemplo el tipo de titulo:
+En este caso tanto `libro` como `autor` y `cantidadDePaginas ` son funciones (accessors) que van a acceder a cada elemento del data 🙌. ¿Cómo nos damos cuenta? Porque estamos explicitando el tipo de cada una al momento de crear el tipo de dato.
 
-```haskell
-titulo :: Libro -> String
-```
+En conclusión, ambas sintaxis para definir datas son equivalentes, solo que record syntax nos regala las funciones para acceder a las propiedades. 🎁
 
-Ambas sintaxis para definir datas son equivalentes, solo que la record syntax nos regala las funciones para acceder a las propiedades.
-
-Por otro lado, si queremos comparar una instancia de data con otra, tenemos que decirle a haskell que queremos que sean comparables. Cómo hacemos eso? Utilizando `Eq`:
+Por otro lado, si queremos comparar una instancia de data con otra, tenemos que decirle a Haskell que queremos que sean comparables. ¿Cómo hacemos eso? Agregando `Eq`:
 
 ```haskell
 data Libro = UnLibro { titulo :: String, autor :: Autor, cantidadDePaginas :: Int } deriving (Show, Eq)
 ```
 
-Ahora vamos a modelar la función `agregarPaginas`. Esta función va a modificar al libro original? ¡No! Los data, al igual que todo en funcional, siguen siendo inmutables. Por ende, la función nos devolverá una copia del libro con la cantidad de páginas aumentada.
+Ahora vamos a modelar la función `agregarPaginas`. ¿Esta función va a modificar al libro original? ¡No! Los data, al igual que todo en funcional, siguen siendo inmutables. Por ende, la función nos devolverá una copia del libro con la cantidad de páginas aumentada.
 
 ```haskell
 agregarPaginas :: Libro -> Int -> Libro
 agregarPaginas (UnLibro unTitulo unAutor unaCantidadDePaginas) paginasAAgregar = UnLibro unTitulo unAutor (unaCantidadDePaginas + paginasAAgregar)
 ```
 
-Podemos hacer lo mismo con la record syntax:
+Podemos hacer lo mismo con record syntax:
 
 ```haskell
 agregarPaginas :: Libro -> Int -> Libro
 agregarPaginas unLibro paginasAAgregar = unLibro { cantidadDePaginas = cantidadDePaginas unLibro +  paginasAAgregar}
 ```
 
-Es importante destacar que para devolver la nueva cantidad de paginas debemos sumar la cantidad de paginas original. Para eso, utilizamos el accessor `cantidadDePaginas` y es importante pasarle por parámetro `unLibro` para que pueda darnos el valor. `cantidadDePaginas` sigue siendo una función que necesita su parámetro.
+Es importante destacar que para devolver la nueva cantidad de páginas debemos sumar la cantidad de páginas original. Para eso, utilizamos el accessor `cantidadDePaginas` y es importante pasarle por parámetro `unLibro` para que pueda darnos el valor. No olvidar que `cantidadDePaginas` sigue siendo una función que necesita su parámetro.
 
-Para que quede aclaro, hagamos otro ejemplo. Modelemos `sacarSecuela`, que agrega un "2" al final del título y cuyas páginas siempre serán 400.
+¿Quedan dudas? 😕 ¡Veamos otro ejemplo! Definamos `sacarSecuela`, que agrega un "2" al final del título y cuyas páginas siempre serán 400:
 
 ```haskell
 sacarSecuela :: Libro -> Libro
 sacarSecuela unLibro = { cantidadDePaginas = 400, titulo = ((++ " 2").titulo) unLibro }
 ```
 
-Ahora, tenemos una repetición de lógica en ambas funciones. En ambas estamos cambiando las páginas de alguna forma. ¿Podemos abstraer esa lógica? Claro que sí! Modelemos la función `cambiarCantidadDePaginas`:
+Lo sentís, ¿no? ¡El olor a repetición de lógica! 🤢 En ambas estamos cambiando las páginas de alguna forma. Así que vamos a abstraer esa lógica en la función `cambiarCantidadDePaginas`:
 
 ```haskell
 cambiarCantidadDePaginas :: (Int -> Int) -> Libro -> Libro
 cambiarCantidadDePaginas unaFuncion unLibro = unLibro { cantidadDePaginas = unaFuncion (cantidadDePaginas unLibro) }
 ```
 
-Ahora la cantidad de páginas se cambia según una función recibida por parámetro (concepto de _órden superior_). Pero... en `sacarSecuela` no usabamos una función, asignabamos 400, ¿Cómo hacemos para utilizar la función? Podemos utilizar `const`, la cual recibe dos parámetros y siempre se queda con el primero.
+Ahora la cantidad de páginas se cambia según el criterio (una función) que reciba por parámetro (concepto de **órden superior**). Pero... en `sacarSecuela` no usábamos una función, asignábamos 400 y ¡listo! 😨 ¿Cómo hacemos para utilizar esta nueva función? Con `const`, la cual recibe dos parámetros y siempre se queda con el primero:
 
-Ya que estamos, podemos abstraer el cambio de título de forma similar al cambio de cantidad de páginas:
+```haskell
+sacarSecuela unLibro = (cambiarCantidadDePaginas (const 400) . cambiarTitulo (++ " 2")) unLibro
+```
+
+Y ya que estamos... podemos abstraer el cambio de título de forma similar al cambio de cantidad de páginas: 🌚
 
 ```haskell
 cambiarTitulo :: (String -> String) -> Libro -> Libro
@@ -154,7 +147,7 @@ sacarSecuela :: Libro -> Libro
 sacarSecuela unLibro = (cambiarCantidadDePaginas (const 400) . cambiarTitulo (++ " 2")) unLibro
 ```
 
-Pasemos ahora a modelar a las personas. Las personas tienen un nombre y un conjunto de libros que le gustan:
+Pasemos ahora a modelar a las personas 👩👨. Las cuales tienen un nombre y un conjunto de libros que le gustan:
 
 ```haskell
 type Persona = (String, [Libro])
@@ -163,7 +156,7 @@ gustos :: Persona -> [Libro]
 gustos unaPersona = snd unaPersona
 ```
 
-Ahora queremos saber si a una persona le gusta un libro. Definimos la función `leGusta`.
+Para saber si a una persona le gusta un libro, definimos la función `leGusta`.
 
 ```haskell
 leGusta :: Libro -> Persona -> Bool
@@ -189,7 +182,7 @@ leGustaSegun ::  Libro -> (Libro -> Bool) ->         Bool
 leGustaSegun    unLibro       unGusto     =     unGusto unLibro
 ```
 
-Que nos pasa con la función `leGustaSegún`? No tiene demasiada lógica, y además es dificil encontrar un nombre expresivo para esta función auxiliar. Para eso, dentro de haskell contamos con las expresiones Lambda: funciones que no necesitamos nombrar y que usamos para este tipo de casos particulares. Reescribamos la función `leGusta` utilizando lambda:
+¿Que pasa con la función `leGustaSegun`? No tiene demasiada lógica, y además es difícil encontrar un nombre expresivo para esta función auxiliar. Para eso, dentro de Haskell contamos con las **expresiones lambda** o **funciones anónimas**: funciones sin nombre que usamos para este tipo de casos particulares. Reescribamos la función `leGusta` utilizando lambda:
 
 ```haskell
 leGusta :: Libro -> Persona -> Bool
@@ -201,11 +194,6 @@ La lambda está definida entre paréntesis. En este caso recibe un solo parámet
 ## Links Útiles
 
 - [Solución del ejercicio de hoy](https://gist.github.com/julian-berbel/902aa2942c210c2dbeef3adcf9ec147b)
-  <!-- - [Video de la clase](completar) -->
-
-## Tarea para la clase que viene:
-
-<!-- - Leer apunte de [git](completar) -->
-
-- Realizar el [TP](https://docs.google.com/document/d/1EAN_RC2zngF1jiy4MGCuLvYQvr1euHj1Xx4ORiDh-nE/) y entregarlo por github
-- (Opcional) Hacer las guías de Mumuki de [Lambda](https://mumuki.io/pdep-utn/lessons/743-programacion-funcional-expresiones-lambda), [Data](https://mumuki.io/pdep-utn/lessons/745-programacion-funcional-modelado) y [uso de consola y git](https://mumuki.io/pdep-utn/chapters/438-control-de-versiones).
+- [Guía rápida de Git](https://docs.google.com/document/d/147cqUY86wWVoJ86Ce0NoX1R78CwoCOGZtF7RugUvzFg/edit#heading=h.pfzudah6sze2)
+- [Resolución de conflictos en Git y VSCode](https://www.youtube.com/watch?v=Z1PBoZoQ_pQ)
+- [Video de la clase](https://drive.google.com/open?id=1rWu_COUxQ2puK1ReqZkclHZ8fWW3x-c6)
