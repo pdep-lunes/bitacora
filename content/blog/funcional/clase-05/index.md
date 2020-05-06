@@ -1,14 +1,15 @@
 ---
+title: Quinta clase
 date: '2020-05-04'
-description: ‘Quinta clase de PdeP'
+description: 'Quinta clase de PdeP'
 tags: [funcional, data, expresiones-lambda]
 ---
 
 ## ¿Qué vimos hoy?
 
-Volvemos a ver el tp de la clase pasada [TP "Hora de lectura"](https://docs.google.com/document/d/11uYGXvG-TnNhveawDjKD1iSWKW9Qy8PVqlvtHhV58F8/edit). Vamos a hacer algunos ejercicios nuevos dentro del mismo dominio.
+Volvimos al TT de la clase pasada [TP "Hora de lectura"](https://docs.google.com/document/d/11uYGXvG-TnNhveawDjKD1iSWKW9Qy8PVqlvtHhV58F8/edit) para hacer nuevos ejercicios dentro del mismo dominio.
 
-Arrancamos con guardas. Habíamos mostrado cuando **NO** queríamos usar guardas y ahora vamos a ver cuando sí.
+Arrancamos con **guardas**, mostrando cuando **NO** queríamos usar guardas y ahora vamos a ver cuando sí.
 
 Vamos a modelar el género de un libro:
 
