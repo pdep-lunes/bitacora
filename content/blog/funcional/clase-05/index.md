@@ -36,27 +36,27 @@ Volvamos al ejercicio:
 
 ```haskell
 genero unLibro
-  | ((>50).cantidadDePaginas) unLibro = “Comic”
-  | esDe “Stephen King” unLibro = “Terror”
-  | (esJapones.autor) unLibro = “Manga”
-  | otherwise = “No clasificado”
+  | ((>50).cantidadDePaginas) unLibro = "Comic"
+  | esDe "Stephen King" unLibro = "Terror"
+  | (esJapones.autor) unLibro = "Manga"
+  | otherwise = "No clasificado"
 ```
 
 Construimos la función auxiliar `esJapones`:
 
 ```haskell
 esJapones :: Libro -> Bool
-esJapones “Hajime Isayama” = True
+esJapones "Hajime Isayama" = True
 esJapones _ = False
 ```
 
 Por qué en el conjunto `otherwise` entra todo el resto del dominio abarcado? Resulta que `otherwise` es nada más que un sinónimo de `True`! Utilizamos `otherwise` para ser más expresivos.
 
-Ahora volvamos a los tipos de datos. ¿Qué pasa si uso género y le paso otra tupla? Vamos a probar con una tupla Persona, por ejemplo (“Gustavo”, “Trucco”, 28):
+Ahora volvamos a los tipos de datos. ¿Qué pasa si uso género y le paso otra tupla? Vamos a probar con una tupla Persona, por ejemplo ("Gustavo", "Trucco", 28):
 
 ```haskell
-genero (“Gustavo”, “Trucco”, 28)
-> “Comic”
+genero ("Gustavo", "Trucco", 28)
+> "Comic"
 ```
 
 Al usar una tupla del tipo `(String, String, Int)`, si bien no es un libro, podemos utilizar la función `género` ya que este tipo coincide con el tipo de libro. Recordemos que al usar `type alias` estamos siendo más expresivos pero no estamos haciendo una validación para ese tipo de dato. Para resolver este problema, introducimos el concepto de `data`.
@@ -71,10 +71,10 @@ data Libro = UnLibro String Autor Int
 UnLibro :: String -> Autor -> Int -> Libro
 ```
 
-Podemos ver que la función recibe los parámetros que necesitamos para crear al libro. Vamos a modelar “El visitante”:
+Podemos ver que la función recibe los parámetros que necesitamos para crear al libro. Vamos a modelar "El visitante":
 
 ```haskell
-UnLibro “El visitante” “Stephen King” 592
+UnLibro "El visitante" "Stephen King" 592
 ```
 
 Si probamos esto en la consola de Haskell, no vamos a poder ver el libro ya que nuestro data no es mostrable. ¿Qué significa esto? Haskell no sabe cómo mostrar nuestro tipo de dato. Esto lo podemos resolver utilizando `deriving Show` al final de la declaración del data:
