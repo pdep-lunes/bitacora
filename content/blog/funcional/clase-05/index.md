@@ -205,7 +205,6 @@ La lambda está definida entre paréntesis. En este caso recibe un solo parámet
 
 ## Tarea para la clase que viene:
 
-<!-- - Leer apunte de [git](completar) -->
-
+- Leer apunte de [git](https://docs.google.com/document/d/147cqUY86wWVoJ86Ce0NoX1R78CwoCOGZtF7RugUvzFg/edit?usp=sharing)
 - Realizar el [TP](https://docs.google.com/document/d/1EAN_RC2zngF1jiy4MGCuLvYQvr1euHj1Xx4ORiDh-nE/) y entregarlo por github
 - (Opcional) Hacer las guías de Mumuki de [Lambda](https://mumuki.io/pdep-utn/lessons/743-programacion-funcional-expresiones-lambda), [Data](https://mumuki.io/pdep-utn/lessons/745-programacion-funcional-modelado) y [uso de consola y git](https://mumuki.io/pdep-utn/chapters/438-control-de-versiones).
