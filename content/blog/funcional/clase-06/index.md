@@ -29,8 +29,8 @@ sumaDe3 numero1 numero2 numero3 = numero1 + numero2 + numero3
 ¡Hay otra forma de escribir esto! Teniendo en cuenta que sumaDe3 es una función, ¡lo podemos realizar con una lambda!:
 
 ```haskell
-sumaDe3’ :: (Int -> Int -> Int -> Int)
-sumaDe3’ = (\numero1 numero2 numero3 -> numero1 + numero2 + numero3)
+sumaDe3' :: (Int -> Int -> Int -> Int)
+sumaDe3' = (\numero1 numero2 numero3 -> numero1 + numero2 + numero3)
 ```
 
 A diferencia de sumaDe3, se utiliza una lambda para realizar su definición. Por eso (de forma didáctica), su tipo es la función (Int -> Int -> Int -> Int).
@@ -53,22 +53,22 @@ Ahora, si vemos el tipo de `sumaDe3`, ¿Refleja bien lo que está ocurriendo?
 Veamos si hacemos, utilizando lambdas, algo que refleje mejor esto:
 
 ```haskell
-sumaDe3’’ :: (Int -> (Int -> Int -> Int))
-sumaDe3’’ = (\numero1 -> (\numero2 numero3 -> numero1 + numero2 + numero3))
+sumaDe3'' :: (Int -> (Int -> Int -> Int))
+sumaDe3'' = (\numero1 -> (\numero2 numero3 -> numero1 + numero2 + numero3))
 ```
 
-¡Por esto es que ocurre la aplicación parcial! Cuando llamamos a `sumaDe3’’ 5`, nos va a devolver la segunda función lambda que creamos.
+¡Por esto es que ocurre la aplicación parcial! Cuando llamamos a `sumaDe3'' 5`, nos va a devolver la segunda función lambda que creamos.
 
 ¡Pero sabemos que `sumaDe3 5 5` también nos devuelve una función!
 
 Si queremos hacer una función que replique todos los casos, tendriamos que hacer algo asi:
 
 ```haskell
-sumaDe3’’’ :: (Int -> (Int -> (Int -> Int)))
-sumaDe3’’’ = (\numero1 -> (\numero2 -> (\numero3 -> numero1 + numero2 + numero3)))
+sumaDe3''' :: (Int -> (Int -> (Int -> Int)))
+sumaDe3''' = (\numero1 -> (\numero2 -> (\numero3 -> numero1 + numero2 + numero3)))
 ```
 
-¿Esto quiere decir que ahora todas las funciones las tenemos que hacer así? ¿Y tiparlas así? ¡No! A lo que llegamos, es que _Haskell hace esto sin que nos demos cuenta_: Lo que hace haskell es “partir” nuestra función en diferentes funciones de 1 parámetro, es decir, _currifica_ nuestras funciones.
+¿Esto quiere decir que ahora todas las funciones las tenemos que hacer así? ¿Y tiparlas así? ¡No! A lo que llegamos, es que _Haskell hace esto sin que nos demos cuenta_: Lo que hace haskell es "partir" nuestra función en diferentes funciones de 1 parámetro, es decir, _currifica_ nuestras funciones.
 
 Ahora, entendiendo esto, llegamos a por qué existe aplicación parcial: Si le pasamos un parámetro a `sumaDe3`, nos va a devolver la _siguiente_ función, que toma dos parámetros y nos devuelve un entero.
 
@@ -100,8 +100,8 @@ aumentarDinero :: Dinero -> Jugador -> Jugador
 cambiarTactica :: Tactica -> Jugador -> Jugador
 
 pasarPorElBanco :: Jugador -> Jugador
-                                --  (Jugador -> Jugador) . (Jugador -> Jugador)
-pasarPorElBanco = cambiarTactica “Comprador Compulsivo” . aumentarDinero 40
+                               --  (Jugador -> Jugador) . (Jugador -> Jugador)
+pasarPorElBanco = cambiarTactica "Comprador Compulsivo" . aumentarDinero 40
 ```
 
 En este caso `pasarPorElBanco` recibe implícitamente a un `jugador::Jugador`. Esto es porque a la derecha del igual tenemos una función `Jugador -> Jugador`, a la que le queremos poner un nombre, porque para nosotros esa función significa `pasarPorElBanco`.
@@ -229,6 +229,9 @@ La idea ahora **no** es que dejen de usar `sum`, `length`, `any` y `all` para ha
 
 ---
 
-#### Recomendaciones
+## Links Útiles
+
+<!-- - [Video de la clase](...)
+-  -->
 
 - Leer el documento sobre las funciones de la familia fold que está [acá](https://docs.google.com/document/d/1jSrU7lVMan4nbHBETGqvO5VpqJI0KXVWtH7fqnVASPU/)
