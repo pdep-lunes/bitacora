@@ -165,7 +165,7 @@ any predicado (x:xs) = predicado x || any predicado xs
 
 all :: (a -> Bool) -> [a] -> Bool
 all _ []             = True
-all predicado (x:xs) = predicado x || all predicado xs
+all predicado (x:xs) = predicado x && all predicado xs
 ```
 
 Para solucionar este problema de repetición de lógica, surgen las funciones de la familia `fold`
