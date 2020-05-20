@@ -6,9 +6,9 @@ tags: [funcional, listas-infinitas, lazy-evaluation, simulacro]
 ---
 
 ## ¿Qué vimos hoy?
-Listas infinitas
-Lazy evaluation
-Hicimos el simulacro [Tierra de bárbaros](https://docs.google.com/document/d/1ZJLz84JEPoEWZ9aVCJRWoHomfscUc04yECqSMOvdVZU/edit?usp=sharing)
+- Listas infinitas
+- Lazy evaluation
+- Hicimos el simulacro [Tierra de bárbaros](https://docs.google.com/document/d/1ZJLz84JEPoEWZ9aVCJRWoHomfscUc04yECqSMOvdVZU/edit?usp=sharing)
 
 ## Listas infinitas
 
@@ -157,11 +157,11 @@ snd ([1, "Hola"], 2)
 -- Rompe porque las listas deben ser homogéneas.
 ```
 
-Parcial de práctica: [Tierra de bárbaros](https://docs.google.com/document/d/1ZJLz84JEPoEWZ9aVCJRWoHomfscUc04yECqSMOvdVZU/edit?usp=sharing.
+Parcial de práctica: [Tierra de bárbaros](https://docs.google.com/document/d/1ZJLz84JEPoEWZ9aVCJRWoHomfscUc04yECqSMOvdVZU/edit?usp=sharing).
 
 ## Links útiles: 
-[Video de la clase](https://drive.google.com/file/d/13sgW6Sf4mgkmz6tf99xaYfZUzOUbfIVO/view)
-[Listas infinitas](http://wiki.uqbar.org/wiki/articles/estrategias-de-evaluacion.html#tocAnchor-1-7-4)
-[Lazy evaluation](http://wiki.uqbar.org/wiki/articles/estrategias-de-evaluacion.html#tocAnchor-1-7)
-[Estrategias de evaluación](http://wiki.uqbar.org/wiki/articles/estrategias-de-evaluacion.html)
+- [Video de la clase](https://drive.google.com/file/d/13sgW6Sf4mgkmz6tf99xaYfZUzOUbfIVO/view)
+- [Listas infinitas](http://wiki.uqbar.org/wiki/articles/estrategias-de-evaluacion.html#tocAnchor-1-7-4)
+- [Lazy evaluation](http://wiki.uqbar.org/wiki/articles/estrategias-de-evaluacion.html#tocAnchor-1-7)
+- [Estrategias de evaluación](http://wiki.uqbar.org/wiki/articles/estrategias-de-evaluacion.html)
 
