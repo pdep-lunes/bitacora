@@ -234,4 +234,5 @@ La idea ahora **no** es que dejen de usar `sum`, `length`, `any` y `all` para ha
 <!-- - [Video de la clase](...)
 -  -->
 
+- [Video de la clase](https://drive.google.com/open?id=1mbSZHPZphl0T0jfB6hU21YjhySdoyx3p)
 - Leer el documento sobre las funciones de la familia fold que está [acá](https://docs.google.com/document/d/1jSrU7lVMan4nbHBETGqvO5VpqJI0KXVWtH7fqnVASPU/)
