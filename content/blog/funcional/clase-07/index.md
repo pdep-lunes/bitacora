@@ -157,7 +157,7 @@ snd ([1, "Hola"], 2)
 -- Rompe porque las listas deben ser homogéneas.
 ```
 
-Parcial de práctica: [Tierra de bárbaros](https://docs.google.com/document/d/1ZJLz84JEPoEWZ9aVCJRWoHomfscUc04yECqSMOvdVZU/edit?usp=sharing).
+Parcial de práctica: [Tierra de bárbaros](https://docs.google.com/document/d/1ZJLz84JEPoEWZ9aVCJRWoHomfscUc04yECqSMOvdVZU/edit?usp=sharing) y una [posible solución](https://drive.google.com/file/d/16t_sRI36Pdt91OAGP1sEqq_ftaqDEJX2/view?usp=sharing).
 
 ## Links útiles: 
 - [Video de la clase](https://drive.google.com/file/d/13sgW6Sf4mgkmz6tf99xaYfZUzOUbfIVO/view)
