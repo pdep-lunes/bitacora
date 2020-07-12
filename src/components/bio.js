@@ -51,7 +51,7 @@ function Bio({ style }) {
                 Y saber mas sobre nosotros
                 {` `}
                 <a
-                  href="http://www.pdep.com.ar/Cursos/cursadas-anteriores/2019/2019-man-lunes"
+                  href="http://www.pdep.com.ar/Cursos/cursadas-anteriores/2020/2020-man-lunes"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
