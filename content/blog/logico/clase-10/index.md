@@ -6,7 +6,7 @@ tags: [listas, findall]
 ---
 
 ## Tarea: 
-- Entregar la [segunda parte del TP grupal](https://docs.google.com/document/d/1bblUbyuVNoGQKDRVq0usSkHEIts7WXNrkTMQlnkJC9w/edit) para el lunes que viene (20/07).
+- Entregar la [segunda parte del TP grupal](https://docs.google.com/document/d/1nGpaTRQlGVXMOqAmUyXeHePva_ilNVlUs_zbc08k1Lg/edit) para el lunes que viene (20/07).
 
 ## ¿Qué vimos hoy?
 - Listas
