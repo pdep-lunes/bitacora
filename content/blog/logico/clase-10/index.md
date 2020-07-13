@@ -6,7 +6,7 @@ tags: [listas, findAll]
 ---
 
 ## Tarea: 
-- Entregar la [primera parte del TP grupal](https://docs.google.com/document/d/1bblUbyuVNoGQKDRVq0usSkHEIts7WXNrkTMQlnkJC9w/edit) para el lunes que viene (13/7).
+- Entregar la [primera parte del TP grupal](https://docs.google.com/document/d/1nGpaTRQlGVXMOqAmUyXeHePva_ilNVlUs_zbc08k1Lg/edit) para el lunes que viene (20/7).
 
 ## ¿Qué vimos hoy?
 - Listas
@@ -29,25 +29,25 @@ Por ende, podemos arrancar escribiendo un predicado que nos diga las obras que e
 ```
 escribioBestSeller(Autor, Obra):-
     escribio(Autor, Obra),
-    esBestSeller(Obra).).
+    esBestSeller(Obra).
 ```
 
 Y en nuestra consola podemos hacer consultas como esta:
 
 ```
-escribioLibroBestSeller(A, O).
-A = elsaBornemann,
-O = socorro ;
-A = neilGaiman,
-O = sandman ;
-A = alanMoore,
-O = watchmen ;
-A = brianAzarello,
-O = cienBalas ;
-A = frankMiller,
-O = elCaballeroOscuroRegresa ;
-A = frankMiller,
-O = batmanAnioUno ;
+escribioLibroBestSeller(Autor, Obra).
+Autor = elsaBornemann,
+Obra = socorro ;
+Autor = neilGaiman,
+Obra = sandman ;
+Autor = alanMoore,
+Obra = watchmen ;
+Autor = brianAzarello,
+Obra = cienBalas ;
+Autor = frankMiller,
+Obra = elCaballeroOscuroRegresa ;
+Autor = frankMiller,
+Obra = batmanAnioUno ;
 ...
 ```
 Si bien, como `escribioBestSeller` es inversible, podemos consultar por los valores que puede tomar la variable Obra. ¿Pero cómo podríamos trabajar con todas las obras best seller que escribió un autor al mismo tiempo? Bueno, ¡podríamos agruparlo en una lista!
