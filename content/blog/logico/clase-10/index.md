@@ -2,17 +2,17 @@
 title: Décima clase
 date: '2020-07-13'
 description: Décima clase de PdeP'
-tags: [listas, findAll]
+tags: [listas, findall]
 ---
 
 ## Tarea: 
-- Entregar la [primera parte del TP grupal](https://docs.google.com/document/d/1nGpaTRQlGVXMOqAmUyXeHePva_ilNVlUs_zbc08k1Lg/edit) para el lunes que viene (20/7).
+- Entregar la [segunda parte del TP grupal](https://docs.google.com/document/d/1bblUbyuVNoGQKDRVq0usSkHEIts7WXNrkTMQlnkJC9w/edit) para el lunes que viene (20/07).
 
 ## ¿Qué vimos hoy?
 - Listas
-- FindAll
+- findall
 
-## FindAll y listas
+## findall y listas
 
 Ahora queremos saber el puntaje de un autor, este se calcula como `3 * cantidad de obras best seller que escribió.`
 
@@ -29,32 +29,32 @@ Por ende, podemos arrancar escribiendo un predicado que nos diga las obras que e
 ```
 escribioBestSeller(Autor, Obra):-
     escribio(Autor, Obra),
-    esBestSeller(Obra).
+    esBestSeller(Obra).).
 ```
 
 Y en nuestra consola podemos hacer consultas como esta:
 
 ```
-escribioLibroBestSeller(Autor, Obra).
-Autor = elsaBornemann,
+escribioLibroBestSeller(Artista, Obra).
+Artista = elsaBornemann,
 Obra = socorro ;
-Autor = neilGaiman,
+Artista = neilGaiman,
 Obra = sandman ;
-Autor = alanMoore,
+Artista = alanMoore,
 Obra = watchmen ;
-Autor = brianAzarello,
+Artista = brianAzarello,
 Obra = cienBalas ;
-Autor = frankMiller,
+Artista = frankMiller,
 Obra = elCaballeroOscuroRegresa ;
-Autor = frankMiller,
+Artista = frankMiller,
 Obra = batmanAnioUno ;
 ...
 ```
 Si bien, como `escribioBestSeller` es inversible, podemos consultar por los valores que puede tomar la variable Obra. ¿Pero cómo podríamos trabajar con todas las obras best seller que escribió un autor al mismo tiempo? Bueno, ¡podríamos agruparlo en una lista!
 
-Para lograr esto contamos con un predicado llamado `findall/3`. Este se escribe de la forma findall(Formato, Consulta, Lista) y es inversible para su último argumento. Al igual que forall, findall es un predicado de orden superior, ya que su segundo parámetro es una consulta. La idea del findall es generar los individuos que cumplan con la consulta y agruparlos en una lista.  
+Para lograr esto contamos con un predicado llamado `findall/3`. Este se escribe de la forma `findall(Formato, Consulta, Lista)` y es inversible para su último argumento. Al igual que forall, findall es un predicado de orden superior, ya que su segundo parámetro es una consulta. La idea del findall es generar los individuos que cumplan con la consulta y agruparlos en una lista.  
 
-Entonces, ahora podríamos escribir un predicado `ObrasBestSellerQueEscribio/2` que relacione a un autor con todos las obras que escribió y que además son best sellers.
+Entonces, ahora podríamos escribir un predicado `obrasBestSellerQueEscribio/2` que relacione a un autor con todos las obras que escribió y que además son best sellers.
 
 ```
 obrasBestSellerQueEscribio(Autor, Obras):-
@@ -65,12 +65,12 @@ obrasBestSellerQueEscribio(Autor, Obras):-
 Y podemos consultar:
 
 ```
-?- obrasBestSellerQueEscribio(A, Obras).
-A = elsaBornemann,
+?- obrasBestSellerQueEscribio(Artista, Obras).
+Artista = elsaBornemann,
 Obras = [socorro] ;
-A = neilGaiman,
+Artista = neilGaiman,
 Obras = [sandman, americanGods, buenosPresagios] ;
-A = alanMoore,
+Artista = alanMoore,
 ...
 ```
 
@@ -103,10 +103,10 @@ Obras = [socorro, sandman, watchmen, cienBalas, elCaballeroOscuroRegresa, batman
 
 ¿Qué es lo que estamos haciendo mal? Al no ligar la variable autor a cada uno de los individuos, la pregunta que estamos haciendo en este caso es: ¿Cuáles son obras best seller? cuando lo que realmente se quiere lograr es ¿Cuáles son obra best seller de cada Autor?
 
-En el segundo parámetro del findall, podemos llegar a necesitar consultas más complejas. Por ejemplo, además de best sellers queremos que también le gusten a gus:
+En el segundo parámetro del findall, podemos llegar a necesitar consultas más complejas. Por ejemplo, además de best sellers queremos que también le gusten a gus, por lo que vamos a hacer obrasBestSellerQueEscribioQueLeGustanAGus 🥵:
 
 ```
-obrasBestSellerQueEscribio(Autor, Obras):-
+obrasBestSellerQueEscribioQueLeGustanAGus(Autor, Obras):-
     escribio(Autor, _),
     findall(Obra, (escribioBestSeller(Autor, Obra), leGustaA(gus, Obra)), Obras).
 ```
@@ -114,7 +114,7 @@ obrasBestSellerQueEscribio(Autor, Obras):-
 Es importante ver que muy probablemente si tenemos consultas compuestas en un findall, nos convendría delegar en una consulta que las abarque a ambas:
 
 ```
-obrasBestSellerQueEscribio(Autor, Obras):-
+obrasBestSellerQueEscribioQueLeGustanAGus(Autor, Obras):-
     escribio(Autor, _),
     findall(Obra, esBestSellerDelGustoDeGus(Autor, Obra), Obras).
 
@@ -127,29 +127,27 @@ Además de poder generar conjuntos, también podemos utilizar listas con individ
 
 ```
 %fantastica(ElementosMágicos)
-escribio(jkRowling, harryPotter).
-copiasVendidas(harryPotter, 500000000).
-esDeTipo(harryPotter, fantastica([varita, serpiente, dragon])).
+copiasVendidas(sandman, 500000000).
+esDeTipo(sandman, fantastica([yelmo, bolsaDeArena, rubi])).
 ```
 
-Vamos a agregar un nuevo tipo copado para las obras fantásticas: aquellas obras que tengan un dragón. ¿Cómo podemos saber si una lista incluye un elemento? Tan simple como usar el predicado `member/2`:
+Vamos a agregar un nuevo tipo copado para las obras fantásticas: aquellas obras que tengan un rubi. ¿Cómo podemos saber si una lista incluye un elemento? Tan simple como usar el predicado `member/2`:
 
 ```
 esTipoCopado(fantastica(ElementosFantasticos)):-
-  member(dragon, ElementosFantasticos).
+  member(rubi, ElementosFantasticos).
 ```
 
 Es importante tener cuidado con el uso de member. Un clásico error del paradigma lógico es utilizar un member con un conjunto armado con un findall. Cuando queremos utilizar un findall para tener un conjunto, nunca deberíamos querer saber si un elemento está dentro de ese conjunto ya que contábamos con la condición para saberlo previamente. Sigamos el siguiente ejemplo: quiero saber si una obra es best seller del gusto de gus:
 
 ```
-obrasBestSellerQueEscribio(Autor, Obras):-
+obrasBestSellerQueEscribioQueLeGustanAGus(Autor, Obras):-
     escribio(Autor, _),
-    findall(Obra, esBestSeller(Autor, Obra), Obras).
+    findall(Obra, (esBestSeller(Autor, Obra), leGustaA(gus, Obra)), Obras).
 
 esBestSellerDelGustoDeGus(Obra):-
-  obrasBestSellerQueEscribio(_, Obras),
-  member(Obra, Obras),
-  leGustaA(gus, Obra).
+  obrasBestSellerQueEscribioQueLeGustanAGus(_, Obras),
+  member(Obra, Obras).
 ```
 
 Este modelo es incorrecto conceptualmente: estamos armando una lista para preguntar si un elemento está en la misma cuando podíamos resolver directamente con una consulta:
@@ -163,7 +161,7 @@ esBestSellerDelGustoDeGus(Obra):-
 No necesitábamos una lista para poder cumplir el requerimiento. En este caso, nuestra solución es mucho más declarativa. 
 
 
-Para terminar de aclarar los conceptos, vamos a realizar otro ejercicio. Queremos saber cuántas copias vendió un autor en toda su vida. Para ello, podemos empezar armando un predicado que relacione un autor con cada cantidad de copias vendida por obra:
+Para terminar de aclarar los conceptos, vamos a realizar otro ejercicio. Queremos saber el promedio de copias que vendió un autor en toda su vida. Para ello, podemos empezar armando un predicado que relacione un autor con cada cantidad de copias vendida por obra:
 
 ```
 vendio(Autor, Copias):-
@@ -171,17 +169,19 @@ vendio(Autor, Copias):-
     copiasVendidas(Autor, Copias).
 ```
 
-Con esta información podemos armar el conjunto de copias vendidas de cada autor. ¿Y cómo sumamos la lista? ¡Fácil! Prolog nos da `sum_list`:
+Con esta información podemos armar el conjunto de copias vendidas de cada autor. ¿Y cómo sumamos la lista para obtener el promedio? ¡Fácil! Prolog nos da `sum_list`:
 
 ```
-totalCopiasVendidas(Autor, TotalCopias):-
+promedioCopiasVendidas(Autor, Promedio):-
     escribio(Autor, _),
     findall(Copias, vendio(Autor, Copias), ListaCopias),
-    sum_list(ListaCopias, TotalCopias).
+    sum_list(ListaCopias, TotalCopias)
+    length(ListaCopias, Cantidad)
+    Promedio is TotalCopias/Cantidad.
 ```
 
 ## Links útiles:
 
 - [Código de la clase](https://completar.com.ar)
-- [Video de la clase de hoy](https://drive.google.com/file/d/1FLtumH4JNb34qIfYd0aPZyA8QHN5EnEM/view?usp=sharing)
+- [Video de la clase de hoy]()
 - [Listas y findall](http://wiki.uqbar.org/wiki/articles/paradigma-logico---listas.html)
