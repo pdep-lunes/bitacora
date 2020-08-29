@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bitácora]]></title><description><![CDATA[Bitácora con resumenes clase a clase]]></description><link>https://pdep-lunes.github.io/bitacora</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 14 Jul 2020 19:59:30 GMT</lastBuildDate><item><title><![CDATA[Décima clase]]></title><description><![CDATA[Tarea: Entregar la segunda parte del TP grupal para el lunes que viene (20/07). ¿Qué vimos hoy? Listas findall findall y listas Ahora…]]></description><link>https://pdep-lunes.github.io/bitacora/logico/clase-10/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/logico/clase-10/</guid><pubDate>Mon, 13 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea&quot;&gt;&lt;a href=&quot;#tarea&quot; aria-label=&quot;tarea permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea:&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bitácora]]></title><description><![CDATA[Bitácora con resumenes clase a clase]]></description><link>https://pdep-lunes.github.io/bitacora</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 Aug 2020 23:26:16 GMT</lastBuildDate><item><title><![CDATA[Onceava clase]]></title><description><![CDATA[¿Qué vimos hoy? Así como en funcional teníamos funciones y en lógico teníamos reglas lógicas, como sugiere el nombre, en esta parte de la…]]></description><link>https://pdep-lunes.github.io/bitacora/objetos/clase-11/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/objetos/clase-11/</guid><pubDate>Mon, 10 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;¿qué-vimos-hoy&quot;&gt;&lt;a href=&quot;#%C2%BFqu%C3%A9-vimos-hoy&quot; aria-label=&quot;¿qué vimos hoy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;¿Qué vimos hoy?&lt;/h2&gt;
+&lt;p&gt;Así como en funcional teníamos funciones y en lógico teníamos reglas lógicas, como sugiere el nombre, en esta parte de la materia vamos a estar trabajando con objetos. Empecemos creando un objeto simple:&lt;/p&gt;
+&lt;p&gt;Tenemos a Poroto, el perro de una familia 🐕. Por lo pronto tenemos la siguiente información acerca de Poroto: tiene 4 años y 100 de energía (porque todos los perros necesitan energía para hacer cosas, claro). Entonces, vamos a decir que poroto tiene como &lt;strong&gt;atributos&lt;/strong&gt; edad y energía. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;object poroto {
+  var energia = 100
+  var edad = 4
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;¿Y qué podemos hacer con poroto? Por ahora no mucho 😅. Estaría bueno que sepa hacer más cosas, como jugar. ¿Y cómo hacemos que poroto juegue? 🤔 Se lo tenemos que decir (poroto, jugá! 🗣️) y la forma que tenemos para decirle a un objeto que haga algo es &lt;strong&gt;enviándole un mensaje&lt;/strong&gt;, y esto se hace así:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;poroto.jugar()&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Los mensajes siempre son enviados a un objeto y son la manera de comunicarnos con los mismos.&lt;/p&gt;
+&lt;p&gt;Si corremos el código anterior, ¿qué pasa?&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;ERROR: poroto does not understand jugar() (line: 4)&lt;/code&gt; 💥&lt;/p&gt;
+&lt;p&gt;Claro, le dijimos a poroto que juegue, pero nunca le “enseñamos” cómo hacerlo 👨‍🏫👩‍🏫. De alguna forma le tenemos que decir qué es lo que queremos que haga cuando le digamos que juegue, y esto lo hacemos con lo que llamamos un &lt;strong&gt;método&lt;/strong&gt;. Repasando: un método es lo que un objeto hace cuando le enviamos un mensaje particular. Enseñémosle entonces a poroto a jugar. Vamos a querer que cuando poroto juegue, su energía baje 20 unidades. Esto en el código se escribe así: 👨‍💻👩‍💻&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;object poroto {
+  var energia = 100
+  var edad = 4
+
+  method jugar() {
+    energia = energia - 20 // o energia -= 20
+  }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Buenísimo, ahora que poroto sabe jugar, enviemosle el mensaje de nuevo.&lt;/p&gt;
+&lt;p&gt;Ahora queremos ver si su energía cambió, por lo que deberíamos preguntarle a poroto cuál es su energía. Para esto vamos a tener que declarar un &lt;em&gt;getter&lt;/em&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;method energia() {
+  return energia
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Si quisiéramos cambiarla, haríamos un &lt;em&gt;setter&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;method energia(unaEnergia) {
+  energia = unaEnergia
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Este tipo de métodos en los que accedemos al valor de un atributo o lo modificamos se llaman &lt;em&gt;accessors&lt;/em&gt;. No es necesario que todos los atributos tengan los suyos, sólo aquellos que los necesitan.&lt;/p&gt;
+&lt;p&gt;Ahora, vamos a crear otro objeto: vamos a crear al dueño de poroto, Billy. De Billy conocemos su edad, su comida favorita, su energía y su mascota.
+Sabemos que Billy puede jugar con poroto, entonces podemos hacer un método que sea &lt;code class=&quot;language-text&quot;&gt;jugarConMascota&lt;/code&gt;, el cual haga que Billy pierda 50 de energía (se cansa más rápido que su perro) y también hace que poroto juegue.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;object billy {
+  var edad = 12
+  const comidaFavorita = &amp;quot;asado&amp;quot;
+  var energia = 200
+  var mascota = poroto
+
+  method jugarConMascota() {
+    energia -= 50
+    mascota.jugar()
+  }
+
+  method mascota() {
+    return mascota;
+  }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como vemos acá, Billy le está mandando un mensaje a su mascota, que en este caso es poroto. Billy le dijo a su mascota jugá y Poroto jugó.
+Ahora agregamos a Mandy que tiene como mascota a su perra Sally que empieza con la misma energía y edad que poroto y pierde la misma energía al jugar. Hacemos que mandy juegue con su mascota dejando a Sally con el mismo estado que Poroto.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;object mandy {
+   var edad = 15
+   const comidaFavorita = &amp;quot;milanesa&amp;quot;
+   var energia = 200
+   var mascota = sally
+
+  method jugarConMascota() {
+    energia -= 30
+    mascota.jugar()
+  }
+ 
+  method mascota() {
+    return mascota;
+  }
+}
+
+object sally {
+  var energia = 100
+  var edad = 4
+
+  method jugar() {
+    energia = energia - 20
+  }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;links-útiles&quot;&gt;&lt;a href=&quot;#links-%C3%BAtiles&quot; aria-label=&quot;links útiles permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Links útiles:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/pdep-lunes/clase1-objetos-2020&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Código de la clase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1n86oHvWveNmiK6j91OkqOLm7d8m2MMt5/view&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Video de la clase&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Décima clase]]></title><description><![CDATA[Tarea: Entregar la segunda parte del TP grupal para el lunes que viene (20/07). ¿Qué vimos hoy? Listas findall findall y listas Ahora…]]></description><link>https://pdep-lunes.github.io/bitacora/logico/clase-10/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/logico/clase-10/</guid><pubDate>Mon, 13 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea&quot;&gt;&lt;a href=&quot;#tarea&quot; aria-label=&quot;tarea permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Entregar la &lt;a href=&quot;https://docs.google.com/document/d/1nGpaTRQlGVXMOqAmUyXeHePva_ilNVlUs_zbc08k1Lg/edit&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;segunda parte del TP grupal&lt;/a&gt; para el lunes que viene (20/07).&lt;/li&gt;
 &lt;/ul&gt;
