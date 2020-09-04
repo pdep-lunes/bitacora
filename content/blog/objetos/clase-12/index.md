@@ -198,5 +198,5 @@ object rutatlantica {
 ## Links útiles:
 
 - [Código de la clase]()
-- [Video de la clase]()
-- [Pdep cargas]()
+- [Video de la clase](https://drive.google.com/file/d/1gFTPSS11aW4aT1XUbvFZbK9DPq1Zmv_X/view?usp=sharing)
+- [Pdep cargas](https://docs.google.com/document/d/1TIcIGa_rabX2MK9lR-AIDlhsCQ56a6HmakGah_zyl6g/edit#)
