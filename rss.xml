@@ -1,4 +1,143 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bitácora]]></title><description><![CDATA[Bitácora con resumenes clase a clase]]></description><link>https://pdep-lunes.github.io/bitacora</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 Aug 2020 23:26:16 GMT</lastBuildDate><item><title><![CDATA[Onceava clase]]></title><description><![CDATA[¿Qué vimos hoy? Así como en funcional teníamos funciones y en lógico teníamos reglas lógicas, como sugiere el nombre, en esta parte de la…]]></description><link>https://pdep-lunes.github.io/bitacora/objetos/clase-11/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/objetos/clase-11/</guid><pubDate>Mon, 10 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;¿qué-vimos-hoy&quot;&gt;&lt;a href=&quot;#%C2%BFqu%C3%A9-vimos-hoy&quot; aria-label=&quot;¿qué vimos hoy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;¿Qué vimos hoy?&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bitácora]]></title><description><![CDATA[Bitácora con resumenes clase a clase]]></description><link>https://pdep-lunes.github.io/bitacora</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 04 Sep 2020 20:05:13 GMT</lastBuildDate><item><title><![CDATA[Doceava clase]]></title><description><![CDATA[¿Qué vimos hoy? Identidad vs Igualdad : decimos que dos objetos son idénticos si son el mismo objeto. Dentro del ambiente podemos tener dos…]]></description><link>https://pdep-lunes.github.io/bitacora/objetos/clase-12/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/objetos/clase-12/</guid><pubDate>Mon, 31 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;¿qué-vimos-hoy&quot;&gt;&lt;a href=&quot;#%C2%BFqu%C3%A9-vimos-hoy&quot; aria-label=&quot;¿qué vimos hoy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;¿Qué vimos hoy?&lt;/h2&gt;
+&lt;p&gt;Identidad vs Igualdad&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Identidad&lt;/code&gt;: decimos que dos objetos son idénticos si son el mismo objeto. Dentro del ambiente podemos tener dos referencias diferentes al mismo objeto. En Wollok el operador usado para comparar dos objetos por identidad es ===.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Igualdad&lt;/code&gt;: (o equivalencia) por defecto dos objetos son iguales si son idénticos, o sea si son el mismo objeto. Al mismo tiempo dos objetos que no son idénticos pueden ser iguales. La igualdad == puede ser redefinida para que funcione acorde a nuestro dominio.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;object lanzamientoWindows98 {
+	const property dia = 25
+	const property mes = 6
+	const property anio = 1998
+	
+	override method ==(otroDia) {
+		return dia  == otroDia.dia()
+			&amp;amp;&amp;amp; mes  == otroDia.mes()
+			&amp;amp;&amp;amp; anio == otroDia.anio()
+	}
+}
+
+object fechaDeNacimiento {
+	const property dia = 25
+	const property mes = 6
+	const property anio = 1998
+	
+	override method ==(otroDia) {
+		return dia  == otroDia.dia()
+			&amp;amp;&amp;amp; mes  == otroDia.mes()
+			&amp;amp;&amp;amp; anio == otroDia.anio()
+	}	
+}
+
+// Sin redefinir el ==
+&amp;gt; lanzamientoWindows98 == fechaDeNacimiento // =&amp;gt; false
+&amp;gt; lanzamientoWindows98 === fechaDeNacimiento // =&amp;gt; false
+
+// Redefiniendo el ==
+&amp;gt; lanzamientoWindows98 == fechaDeNacimiento // =&amp;gt; true
+&amp;gt; lanzamientoWindows98 === fechaDeNacimiento // =&amp;gt; false, siguen sin ser el mismo objeto&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Para probar esto vamos a retomar el ejercicio anterior donde teníamos mascotas y personas que eran dueñas de mascotas. Vamos a introducir un par de cambios, vamos a hacer que los dueños puedan cambiar de mascota y que nos digan si pueden o no jugar con sus mascotas. Una persona puede jugar con su mascota siempre y cuando su energía esté por arriba de 100 y la mascota tenga más de 80 de energía.&lt;/p&gt;
+&lt;p&gt;Si billy pasa a tener a sally como mascota vemos que en el diagrama tanto él como mandy “apuntan”/”conocen” a la misma mascota. Como ambos tienen a la misma mascota (el mismo objeto) lo que haga uno con esa mascota afecta a lo que pueda hacer el otro.&lt;/p&gt;
+&lt;p&gt;Si billy juega dos veces con sally ahora mandy no puede jugar.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;billy.mascota(sally)
+billy.jugarConMascota()
+billy.jugarConMascota()
+mandy.puedeJugar() // =&amp;gt; false&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Realizamos el ejercicio &lt;code class=&quot;language-text&quot;&gt;PDEPCargas&lt;/code&gt; y vimos los siguientes conceptos:&lt;/p&gt;
+&lt;p&gt;Self&lt;/p&gt;
+&lt;p&gt;Empezando a realizar el objeto &lt;code class=&quot;language-text&quot;&gt;camionDeGanado&lt;/code&gt;, podríamos pensar esto como primera opción:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;object camionGanado {
+  var kilometraje = 700000
+  var cantidadVacas = 10
+
+  method pesoCarga() = cantidadVacas * 600
+
+  method velocidadMaxima() = 80 - (cantidadVacas * 600) / 1000
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Esto nos presenta un problema: Tenemos una repetición de lógica entre &lt;code class=&quot;language-text&quot;&gt;velocidadMaxima&lt;/code&gt; y &lt;code class=&quot;language-text&quot;&gt;pesoCarga&lt;/code&gt;. ¿Cómo podríamos llamar a ese mensaje?&lt;/p&gt;
+&lt;p&gt;una opción podría ser &lt;code class=&quot;language-text&quot;&gt;camionGanado.pesoCarga()&lt;/code&gt;, pero vemos que wollok nos indica un warning:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Don’t use the name within the object. Use ‘self’ instead.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Self es una manera con la cual el objeto se conoce a sí mismo. Con self, puedo enviar mensajes que entienda el propio objeto, para poder abstraer lógica repetida en otros métodos del mismo objeto. self es una referencia al mismo objeto.&lt;/p&gt;
+&lt;p&gt;Esto, con self, se puede resolver de la siguiente manera:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;object camionGanado {
+  var kilometraje = 700000
+  var cantidadVacas = 10
+
+  method pesoCarga() = cantidadVacas * 600
+
+  method velocidadMaxima() = 80 - self.pesoCarga() / 1000
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Hacemos el resto de los camiones, haciendo los métodos con las firmas necesarias (por ejemplo, &lt;code class=&quot;language-text&quot;&gt;recorrerRuta&lt;/code&gt; podría tener diferentes firmas y no estar en el &lt;code class=&quot;language-text&quot;&gt;scannion5000&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Puesto rutatlántica&lt;/p&gt;
+&lt;p&gt;Arrancando el puesto, podríamos hacer un primer approach:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;object rutatlantica {
+  method pasar(unCamion) {
+    pdepCargas.cobrar(7000 + 100 * unCamion.pesoCarga() / 1000)
+    if (unCamion == camionGanado) {
+       unCamion.kilometraje(unCamion.kilometraje() + 400)
+    } else if (unCamion == camionCerealero) {
+       unCamion.nivelDeDeterioro(unCamion.nivelDeDeterioro() + 0.max(unCamion.velocidadMaxima().min(75) - 45))
+    }
+  }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Hay un poco de ruido en esta solución: ¿Es necesario que comparemos camión por camión para saber qué lógica implementar? ¿Está bien que esta lógica la implemente el puesto? ¿Está bien que el puesto modifique el estado de los camiones?&lt;/p&gt;
+&lt;p&gt;La respuesta, según el concepto &lt;code class=&quot;language-text&quot;&gt;encapsulamiento&lt;/code&gt;, es no.&lt;/p&gt;
+&lt;p&gt;El &lt;code class=&quot;language-text&quot;&gt;encapsulamiento&lt;/code&gt; es la manera con la cual un objeto sólo usa lo que necesita de otro objeto para poder interactuar con éste. Es decir, utiliza la &lt;code class=&quot;language-text&quot;&gt;interfaz&lt;/code&gt; (mensajes que entiende) del objeto para interactuar con él. Cada objeto es responsable de su propio estado, y no el de otros.&lt;/p&gt;
+&lt;p&gt;La &lt;code class=&quot;language-text&quot;&gt;responsabilidad&lt;/code&gt;, a nivel objetos, son las cosas que el objeto es responsable de hacer. Por ejemplo, el puesto rutatlantica en este caso NO es responsable de cambiar el kilometraje de los camiones, pero SI es responsable de cobrarle a pdepCargas una cantidad que debe calcular.&lt;/p&gt;
+&lt;p&gt;Podríamos hacer un segundo approach:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;object rutatlantica {
+  method pasar(unCamion) {
+    pdepCargas.cobrar(7000 + 100 * unCamion.pesoCarga() / 1000)
+    unCamion.recorrerRuta(400, unCamion.velocidadMaxima().min(75))
+  }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ahora vemos que le vamos a querer decir a un camión que recorra una ruta. ¿Esto funciona para todos los camiones que hicimos? ¿Qué pasa con la firma del método en los diferentes camiones? ¿Y si no definimos el método?&lt;/p&gt;
+&lt;p&gt;¿Queremos que el método funcione para todos los camiones? Sí, ya que a todo camión que pase por el puesto se le debe mandar un mensaje para que recorra 400 kms y a 75 km/h como máximo.&lt;/p&gt;
+&lt;p&gt;De esto surge el &lt;code class=&quot;language-text&quot;&gt;polimorfismo&lt;/code&gt;: Queremos que &lt;code class=&quot;language-text&quot;&gt;recorrerRuta(kilometraje, velocidad)&lt;/code&gt; lo entiendan todos los camiones, para que rutatlántica los pueda usar indistintamente. Es decir, el &lt;code class=&quot;language-text&quot;&gt;polimorfismo&lt;/code&gt; en objetos es la capacidad de que un objeto pueda utilizar indistintamente a otros objetos, siendo que potencialmente estos otros sean distintos. Con esto en mente, deberíamos cambiar el método &lt;code class=&quot;language-text&quot;&gt;recorrerRuta&lt;/code&gt; en todos los camiones:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;object camionGanado {
+	method recorrerRuta(extension, velocidad){
+		kilometraje = kilometraje + extension
+	}
+}
+object scanion5000 {
+	method recorrerRuta(extension, velocidad){
+		// no hace nada
+	}
+}
+
+object camionCerealero {
+
+	method recorrerRuta(extension, velocidad){
+		nivelDeterioro += 0.max(velocidad - 45)
+	}
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Veamos bien qué es lo que está haciendo el método pasar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Se encarga de realizar el cobro a pdepCargas&lt;/li&gt;
+&lt;li&gt;Realiza el cálculo para saber cuánto hay que cobrarle&lt;/li&gt;
+&lt;li&gt;Le dice a un camión que recorra una ruta&lt;/li&gt;
+&lt;li&gt;Calcula la velocidad a la cual el camión debe de recorrer la ruta&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dentro de estas cuatro cosas que está haciendo el método &lt;code class=&quot;language-text&quot;&gt;pasar()&lt;/code&gt;, ¿Es &lt;code class=&quot;language-text&quot;&gt;responsable&lt;/code&gt; el método de hacerlo todo? ¿A qué nos referimos por &lt;code class=&quot;language-text&quot;&gt;responsable&lt;/code&gt;?&lt;/p&gt;
+&lt;p&gt;Nos referimos por &lt;code class=&quot;language-text&quot;&gt;responsabilidad&lt;/code&gt;, en métodos, a eso que el método debe de hacer. Es decir, por ejemplo, que nuestro método &lt;code class=&quot;language-text&quot;&gt;pasar()&lt;/code&gt; tiene responsabilidad “de más”: Cuando pasa un camión sólo le queremos cobrar a pdepCargas una cantidad y decirle al camión que recorra la ruta. El resto de la lógica podríamos abstraerla, para poder tener un código más legible y con métodos con sus respectivas “responsabilidades”.&lt;/p&gt;
+&lt;p&gt;Esto se vería de la siguiente manera:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;object rutatlantica {
+	method pasar(unCamion) {
+	  pdepCargas.cobrar(self.costo(unCamion))
+	  unCamion.recorrerRuta(400, self.velocidadQuePasa(unCamion))
+	}
+
+	method velocidadQuePasa(unCamion) {
+	  return unCamion.velocidadMaxima().min(75)
+	}
+
+	method costo(unCamion) {
+	  return 7000 + 100 * unCamion.pesoCarga() / 1000
+	}
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;links-útiles&quot;&gt;&lt;a href=&quot;#links-%C3%BAtiles&quot; aria-label=&quot;links útiles permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Links útiles:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Código de la clase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Video de la clase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Pdep cargas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Onceava clase]]></title><description><![CDATA[¿Qué vimos hoy? Así como en funcional teníamos funciones y en lógico teníamos reglas lógicas, como sugiere el nombre, en esta parte de la…]]></description><link>https://pdep-lunes.github.io/bitacora/objetos/clase-11/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/objetos/clase-11/</guid><pubDate>Mon, 10 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;¿qué-vimos-hoy&quot;&gt;&lt;a href=&quot;#%C2%BFqu%C3%A9-vimos-hoy&quot; aria-label=&quot;¿qué vimos hoy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;¿Qué vimos hoy?&lt;/h2&gt;
 &lt;p&gt;Así como en funcional teníamos funciones y en lógico teníamos reglas lógicas, como sugiere el nombre, en esta parte de la materia vamos a estar trabajando con objetos. Empecemos creando un objeto simple:&lt;/p&gt;
 &lt;p&gt;Tenemos a Poroto, el perro de una familia 🐕. Por lo pronto tenemos la siguiente información acerca de Poroto: tiene 4 años y 100 de energía (porque todos los perros necesitan energía para hacer cosas, claro). Entonces, vamos a decir que poroto tiene como &lt;strong&gt;atributos&lt;/strong&gt; edad y energía. &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;object poroto {
