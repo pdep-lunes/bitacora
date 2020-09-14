@@ -1,6 +1,6 @@
 ---
 title: Catorceava clase
-date: '2020-09-07'
+date: '2020-09-14'
 description: Catorceava clase de PdeP
 tags: [objetos, colecciones, testing]
 ---
