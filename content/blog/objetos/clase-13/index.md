@@ -1,7 +1,7 @@
 ---
-title: Terceava clase
+title: Treceava clase
 date: '2020-09-07'
-description: Terceava clase de PdeP
+description: Treceava clase de PdeP
 tags: [objetos, colecciones, testing]
 ---
 
