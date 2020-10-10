@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bitácora]]></title><description><![CDATA[Bitácora con resumenes clase a clase]]></description><link>https://pdep-lunes.github.io/bitacora</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 10 Oct 2020 05:36:23 GMT</lastBuildDate><item><title><![CDATA[Dieciseisava clase]]></title><description><![CDATA[Tarea para la clase que viene: Entrega 2 del TP cuatrimestral de objetos. Herencia Anteriormente vimos que cuando dos objetos repiten lógica…]]></description><link>https://pdep-lunes.github.io/bitacora/objetos/clase-16/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/objetos/clase-16/</guid><pubDate>Mon, 05 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-para-la-clase-que-viene&quot;&gt;&lt;a href=&quot;#tarea-para-la-clase-que-viene&quot; aria-label=&quot;tarea para la clase que viene permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea para la clase que viene:&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bitácora]]></title><description><![CDATA[Bitácora con resumenes clase a clase]]></description><link>https://pdep-lunes.github.io/bitacora</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 10 Oct 2020 19:17:22 GMT</lastBuildDate><item><title><![CDATA[Dieciseisava clase]]></title><description><![CDATA[Tarea para la clase que viene: Entrega 2 del TP cuatrimestral de objetos. Herencia Anteriormente vimos que cuando dos objetos repiten lógica…]]></description><link>https://pdep-lunes.github.io/bitacora/objetos/clase-16/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/objetos/clase-16/</guid><pubDate>Mon, 05 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-para-la-clase-que-viene&quot;&gt;&lt;a href=&quot;#tarea-para-la-clase-que-viene&quot; aria-label=&quot;tarea para la clase que viene permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea para la clase que viene:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Entrega 2 del TP cuatrimestral de objetos.&lt;/li&gt;
 &lt;/ul&gt;
@@ -18,10 +18,10 @@ Pero al llegar su dueño o dueña a casa actúan distinto. Los gatos 🐈 actúa
 
 	method emitirSonido() {
 		return &amp;quot;miau&amp;quot;
-}
+	}
 
-method recibirDueño() {
-}
+	method recibirDueño() {
+	}
 }
 
 class Perro {
@@ -33,11 +33,11 @@ class Perro {
 
 	method emitirSonido() {
 		return &amp;quot;guau&amp;quot;
-}
+	}
 
-method recibirDueño() {
-	energia += 100
-}
+	method recibirDueño() {
+		energia += 100
+	}
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;¿Esa lógica repetida no les hizo doler los ojos? 😵&lt;/p&gt;
 &lt;p&gt;Una solución sería crear una clase Animal (no es una frase onda “CREA UNA CLASE ANIMAL!!! MÁQUINA!!! 💪”) que contenga la lógica repetida:&lt;/p&gt;
@@ -51,21 +51,22 @@ method recibirDueño() {
 
 	method emitirSonido() {
 		return sonido
-}
+	}
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Lo único que faltaría es establecer una relación entre esta nueva clase y las originales definiendo &lt;strong&gt;herencia&lt;/strong&gt; de la siguiente manera: 👇&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class Perro inherits Animal {
 	var sonido = &amp;quot;guau&amp;quot;
 	
 	method recibirDueño() {
-	energia += 100
-}
+		energia += 100
+	}
 }
 
 class Gato inherits Animal {
 	var sonido = &amp;quot;miau&amp;quot;
 	
-	method recibirDueño() { }
+	method recibirDueño() { 
+	}
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Listo, ¡problema solucionado! 🙌 Ahora vamos a decir que &lt;code class=&quot;language-text&quot;&gt;Animal&lt;/code&gt; es la &lt;strong&gt;superclase&lt;/strong&gt; de &lt;code class=&quot;language-text&quot;&gt;Perro&lt;/code&gt; y &lt;code class=&quot;language-text&quot;&gt;Gato&lt;/code&gt; o, de otra manera, que &lt;code class=&quot;language-text&quot;&gt;Perro&lt;/code&gt; y &lt;code class=&quot;language-text&quot;&gt;Gato&lt;/code&gt; son &lt;strong&gt;subclases&lt;/strong&gt; de &lt;code class=&quot;language-text&quot;&gt;Animal&lt;/code&gt;. Hay que tener en cuenta que cada clase solo puede heredar de una y solo una clase.&lt;/p&gt;
 &lt;h2 id=&quot;super&quot;&gt;&lt;a href=&quot;#super&quot; aria-label=&quot;super permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Super&lt;/h2&gt;
@@ -75,9 +76,9 @@ class Gato inherits Animal {
 	var huevosPuestos = 0
 
 	override method jugar(unTiempo) {
-	super(unTiempo)
-	huevosPuestos ++
-}
+		super(unTiempo)
+		huevosPuestos ++
+	}
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&quot;redefinición&quot;&gt;&lt;a href=&quot;#redefinici%C3%B3n&quot; aria-label=&quot;redefinición permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Redefinición&lt;/h2&gt;
 &lt;p&gt;Acá vemos que la &lt;code class=&quot;language-text&quot;&gt;Gallina&lt;/code&gt; no tiene el método &lt;code class=&quot;language-text&quot;&gt;recibirDueño&lt;/code&gt;, ¿debería? 🤔&lt;/p&gt;
@@ -94,28 +95,29 @@ class Gato inherits Animal {
 	var sonido = &amp;quot;guau&amp;quot;
 	
 	override method recibirDueño() {
-	energia += 100
-}
+		energia += 100
+	}
 }
 
 class Gato inherits Animal {
 	var sonido = &amp;quot;miau&amp;quot;
 	
-	override method recibirDueño() { }
+	override method recibirDueño() { 
+	}
 }
 
 class Gallina inherits Animal {
 	var sonido = &amp;quot;A River lo sigo a donde va&amp;quot;
-var huevosPuestos = 0
+	var huevosPuestos = 0
 
 	override method jugar(unTiempo) {
-	super(unTiempo)
-	huevosPuestos ++
-}
+		super(unTiempo)
+		huevosPuestos ++
+	}
 
 	override method recibirDueño() { 
-	huevosPuestos = 0 /* el dueño llega y le roba los huevos*/
-}
+		huevosPuestos = 0 /* el dueño llega y le roba los huevos*/
+	}
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&quot;method-lookup&quot;&gt;&lt;a href=&quot;#method-lookup&quot; aria-label=&quot;method lookup permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Method lookup&lt;/h2&gt;
 &lt;p&gt;Hasta ahora vimos que cuando le enviamos un mensaje a un &lt;strong&gt;well known object&lt;/strong&gt; busca el método en la definición de ese objeto 🔎. Si se lo enviamos a una &lt;strong&gt;instancia&lt;/strong&gt;, lo busca en la clase a la que pertenece. Esto sigue siendo correcto, pero también aprendimos que si el método no está definido en la clase de la cual el objeto es instancia buscará en la superclase, y en caso que no esté seguirá buscando “para arriba” en la jerarquía de clases 🕵️‍♀️🕵️‍♂️. En caso que la superclase más super de todas, es decir, la clase &lt;code class=&quot;language-text&quot;&gt;Object&lt;/code&gt; no defina ese método obtendremos el famoso error &lt;code class=&quot;language-text&quot;&gt;wollok.lang.MessageNotUnderstoodException&lt;/code&gt;.&lt;/p&gt;
