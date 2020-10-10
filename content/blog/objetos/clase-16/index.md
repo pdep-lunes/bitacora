@@ -32,10 +32,10 @@ class Gato {
 
 	method emitirSonido() {
 		return "miau"
-}
+	}
 
-method recibirDueño() {
-}
+	method recibirDueño() {
+	}
 }
 
 class Perro {
@@ -47,11 +47,11 @@ class Perro {
 
 	method emitirSonido() {
 		return "guau"
-}
+	}
 
-method recibirDueño() {
-	energia += 100
-}
+	method recibirDueño() {
+		energia += 100
+	}
 }
 ```
 
@@ -70,7 +70,7 @@ class Animal {
 
 	method emitirSonido() {
 		return sonido
-}
+	}
 }
 ```
 
@@ -81,14 +81,15 @@ class Perro inherits Animal {
 	var sonido = "guau"
 	
 	method recibirDueño() {
-	energia += 100
-}
+		energia += 100
+	}
 }
 
 class Gato inherits Animal {
 	var sonido = "miau"
 	
-	method recibirDueño() { }
+	method recibirDueño() { 
+	}
 }
 ```
 
@@ -104,9 +105,9 @@ class Gallina inherits Animal {
 	var huevosPuestos = 0
 
 	override method jugar(unTiempo) {
-	super(unTiempo)
-	huevosPuestos ++
-}
+		super(unTiempo)
+		huevosPuestos ++
+	}
 }
 ```
 
@@ -135,28 +136,29 @@ class Perro inherits Animal {
 	var sonido = "guau"
 	
 	override method recibirDueño() {
-	energia += 100
-}
+		energia += 100
+	}
 }
 
 class Gato inherits Animal {
 	var sonido = "miau"
 	
-	override method recibirDueño() { }
+	override method recibirDueño() { 
+	}
 }
 
 class Gallina inherits Animal {
 	var sonido = "A River lo sigo a donde va"
-var huevosPuestos = 0
+	var huevosPuestos = 0
 
 	override method jugar(unTiempo) {
-	super(unTiempo)
-	huevosPuestos ++
-}
+		super(unTiempo)
+		huevosPuestos ++
+	}
 
 	override method recibirDueño() { 
-	huevosPuestos = 0 /* el dueño llega y le roba los huevos*/
-}
+		huevosPuestos = 0 /* el dueño llega y le roba los huevos*/
+	}
 }
 ```
 
