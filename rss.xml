@@ -1,4 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bitácora]]></title><description><![CDATA[Bitácora con resumenes clase a clase]]></description><link>https://pdep-lunes.github.io/bitacora</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 28 Sep 2020 16:18:36 GMT</lastBuildDate><item><title><![CDATA[Quinceava clase]]></title><description><![CDATA[Tarea para la clase que viene: Corregir la entrega 1 del TP cuatrimestral de objetos. Corregir la tarea Batalla de estrellas. Clases ¿Cómo…]]></description><link>https://pdep-lunes.github.io/bitacora/objetos/clase-15/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/objetos/clase-15/</guid><pubDate>Mon, 28 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-para-la-clase-que-viene&quot;&gt;&lt;a href=&quot;#tarea-para-la-clase-que-viene&quot; aria-label=&quot;tarea para la clase que viene permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea para la clase que viene:&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bitácora]]></title><description><![CDATA[Bitácora con resumenes clase a clase]]></description><link>https://pdep-lunes.github.io/bitacora</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 10 Oct 2020 05:36:23 GMT</lastBuildDate><item><title><![CDATA[Dieciseisava clase]]></title><description><![CDATA[Tarea para la clase que viene: Entrega 2 del TP cuatrimestral de objetos. Herencia Anteriormente vimos que cuando dos objetos repiten lógica…]]></description><link>https://pdep-lunes.github.io/bitacora/objetos/clase-16/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/objetos/clase-16/</guid><pubDate>Mon, 05 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-para-la-clase-que-viene&quot;&gt;&lt;a href=&quot;#tarea-para-la-clase-que-viene&quot; aria-label=&quot;tarea para la clase que viene permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea para la clase que viene:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Entrega 2 del TP cuatrimestral de objetos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;herencia&quot;&gt;&lt;a href=&quot;#herencia&quot; aria-label=&quot;herencia permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Herencia&lt;/h2&gt;
+&lt;p&gt;Anteriormente vimos que cuando dos objetos repiten lógica, crear una clase puede que sea nuestra solución. Pero, ¿qué hacemos cuando dos clases repiten lógica? Esto es un trabajo para… ¡la superclase! 🦸‍♀️🦸‍♂️&lt;/p&gt;
+&lt;p&gt;Al tener lógica repetida entre clases podemos crear una nueva clase con esa lógica, dejando en cada una de las clases iniciales sólo lo particular de cada una. &lt;/p&gt;
+&lt;p&gt;Por ejemplo:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Los perros y los gatos al jugar pierden unidades de energía según el tiempo que reciben por parámetro. Al pedirles que emitan un sonido los perros hacen guau (sí, todo muy original) y los gatos… ¡MUUU! 😲 (no, mentira, hacen miau pero casi se la creen 😂).
+Pero al llegar su dueño o dueña a casa actúan distinto. Los gatos 🐈 actúan con indiferencia, es decir, no hacen nada. Los perros 🐕 en cambio aumentan en 100 su energía.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Un código posible podría ser:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class Gato {
+	var energia
+	
+	method jugar(unTiempo) {
+		energia -= unTiempo
+	}
+
+	method emitirSonido() {
+		return &amp;quot;miau&amp;quot;
+}
+
+method recibirDueño() {
+}
+}
+
+class Perro {
+	var energia
+	
+	method jugar(unTiempo) {
+		energia -= unTiempo
+	}
+
+	method emitirSonido() {
+		return &amp;quot;guau&amp;quot;
+}
+
+method recibirDueño() {
+	energia += 100
+}
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;¿Esa lógica repetida no les hizo doler los ojos? 😵&lt;/p&gt;
+&lt;p&gt;Una solución sería crear una clase Animal (no es una frase onda “CREA UNA CLASE ANIMAL!!! MÁQUINA!!! 💪”) que contenga la lógica repetida:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class Animal {
+	var energia
+	var sonido
+	
+	method jugar(unTiempo) {
+		energia -= unTiempo
+	}
+
+	method emitirSonido() {
+		return sonido
+}
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Lo único que faltaría es establecer una relación entre esta nueva clase y las originales definiendo &lt;strong&gt;herencia&lt;/strong&gt; de la siguiente manera: 👇&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class Perro inherits Animal {
+	var sonido = &amp;quot;guau&amp;quot;
+	
+	method recibirDueño() {
+	energia += 100
+}
+}
+
+class Gato inherits Animal {
+	var sonido = &amp;quot;miau&amp;quot;
+	
+	method recibirDueño() { }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Listo, ¡problema solucionado! 🙌 Ahora vamos a decir que &lt;code class=&quot;language-text&quot;&gt;Animal&lt;/code&gt; es la &lt;strong&gt;superclase&lt;/strong&gt; de &lt;code class=&quot;language-text&quot;&gt;Perro&lt;/code&gt; y &lt;code class=&quot;language-text&quot;&gt;Gato&lt;/code&gt; o, de otra manera, que &lt;code class=&quot;language-text&quot;&gt;Perro&lt;/code&gt; y &lt;code class=&quot;language-text&quot;&gt;Gato&lt;/code&gt; son &lt;strong&gt;subclases&lt;/strong&gt; de &lt;code class=&quot;language-text&quot;&gt;Animal&lt;/code&gt;. Hay que tener en cuenta que cada clase solo puede heredar de una y solo una clase.&lt;/p&gt;
+&lt;h2 id=&quot;super&quot;&gt;&lt;a href=&quot;#super&quot; aria-label=&quot;super permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Super&lt;/h2&gt;
+&lt;p&gt;Siguiendo con nuestro ejemplo, imaginémonos que aparece la clase &lt;code class=&quot;language-text&quot;&gt;Gallina&lt;/code&gt; 🐔, cada &lt;code class=&quot;language-text&quot;&gt;Gallina&lt;/code&gt; emite el sonido “A River lo sigo a donde va” y cuando juegan también pierde energia, peeero también ponen un huevo 🐣. Entonces tendríamos que redefinir el método &lt;code class=&quot;language-text&quot;&gt;jugar&lt;/code&gt;, pero teniendo en cuenta que una parte de la lógica ya está definida en la superclase &lt;code class=&quot;language-text&quot;&gt;Animal&lt;/code&gt;. Para hacer esto vamos a combinar &lt;code class=&quot;language-text&quot;&gt;override&lt;/code&gt; (para redefinir un método de la superclase) con &lt;code class=&quot;language-text&quot;&gt;super&lt;/code&gt; (para ver que hace la superclase):&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class Gallina inherits Animal {
+	var sonido = &amp;quot;A River lo sigo a donde va&amp;quot;
+	var huevosPuestos = 0
+
+	override method jugar(unTiempo) {
+	super(unTiempo)
+	huevosPuestos ++
+}
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;redefinición&quot;&gt;&lt;a href=&quot;#redefinici%C3%B3n&quot; aria-label=&quot;redefinición permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Redefinición&lt;/h2&gt;
+&lt;p&gt;Acá vemos que la &lt;code class=&quot;language-text&quot;&gt;Gallina&lt;/code&gt; no tiene el método &lt;code class=&quot;language-text&quot;&gt;recibirDueño&lt;/code&gt;, ¿debería? 🤔&lt;/p&gt;
+&lt;p&gt;Esto es una decisión de nuestro diseño, si creemos que todos los animales deberían poder recibir dueños (que los animales deban obligatoriamente tener dueños pertenece a un debate que no vamos a tener, recordemos que esto es meramente un ejemplo), debería estar presente en nuestro código. ¿Pero qué hace un animal cualquiera al recibir a su dueño? ¿Hay alguna lógica en común entre todos los animales? ¿Qué escribo en la superclase?&lt;/p&gt;
+&lt;p&gt;Claramente no conocemos un comportamiento genérico para todos los animales, pero si queremos que todos los animales sepan recibir a su dueño sin especificar una lógica podemos crear un &lt;strong&gt;método abstracto&lt;/strong&gt; escribiendo solo la &lt;strong&gt;firma&lt;/strong&gt; de la siguiente manera:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class Animal {
+	….
+	method recibirDueño()
+	….
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;❗ ❗ Es importante diferenciar &lt;code class=&quot;language-text&quot;&gt;recibirDueño()&lt;/code&gt; de &lt;code class=&quot;language-text&quot;&gt;recibirDueño() { }&lt;/code&gt;. El segundo no es un método abstracto sino un método vacío. Aquellas clases que tienen métodos abstractos son llamadas &lt;strong&gt;clases abstractas&lt;/strong&gt; y tienen la particularidad de que no pueden ser instanciadas. En nuestro ejemplo podemos tener gallinas, gatos y perros pero no animales a secas.&lt;/p&gt;
+&lt;p&gt;Luego de hacer esto es importante redefinir el método en cada subclase con la palabra &lt;code class=&quot;language-text&quot;&gt;override&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;class Perro inherits Animal {
+	var sonido = &amp;quot;guau&amp;quot;
+	
+	override method recibirDueño() {
+	energia += 100
+}
+}
+
+class Gato inherits Animal {
+	var sonido = &amp;quot;miau&amp;quot;
+	
+	override method recibirDueño() { }
+}
+
+class Gallina inherits Animal {
+	var sonido = &amp;quot;A River lo sigo a donde va&amp;quot;
+var huevosPuestos = 0
+
+	override method jugar(unTiempo) {
+	super(unTiempo)
+	huevosPuestos ++
+}
+
+	override method recibirDueño() { 
+	huevosPuestos = 0 /* el dueño llega y le roba los huevos*/
+}
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;method-lookup&quot;&gt;&lt;a href=&quot;#method-lookup&quot; aria-label=&quot;method lookup permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Method lookup&lt;/h2&gt;
+&lt;p&gt;Hasta ahora vimos que cuando le enviamos un mensaje a un &lt;strong&gt;well known object&lt;/strong&gt; busca el método en la definición de ese objeto 🔎. Si se lo enviamos a una &lt;strong&gt;instancia&lt;/strong&gt;, lo busca en la clase a la que pertenece. Esto sigue siendo correcto, pero también aprendimos que si el método no está definido en la clase de la cual el objeto es instancia buscará en la superclase, y en caso que no esté seguirá buscando “para arriba” en la jerarquía de clases 🕵️‍♀️🕵️‍♂️. En caso que la superclase más super de todas, es decir, la clase &lt;code class=&quot;language-text&quot;&gt;Object&lt;/code&gt; no defina ese método obtendremos el famoso error &lt;code class=&quot;language-text&quot;&gt;wollok.lang.MessageNotUnderstoodException&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;diagrama-de-clases&quot;&gt;&lt;a href=&quot;#diagrama-de-clases&quot; aria-label=&quot;diagrama de clases permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Diagrama de clases&lt;/h2&gt;
+&lt;p&gt;El diagrama de clases es una herramienta que nos permite modelar nuestra solución a partir de un esquema. En el mismo encontraremos las clases, objetos e interfaces (aún no vieron este tema), sus atributos, sus métodos y cómo se relacionan estos componentes. Es una manera de representar nuestras soluciones más allá del código.&lt;/p&gt;
+&lt;p&gt;En esta clase en particular vimos cómo representar clases concretas, clases abstractas, objetos y las flechas de “hereda de” y “tiene”.&lt;/p&gt;
+&lt;h2 id=&quot;links-útiles&quot;&gt;&lt;a href=&quot;#links-%C3%BAtiles&quot; aria-label=&quot;links útiles permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Links útiles&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1DHstVgBAM4rVCH2kNAC9zwWXoCJdkazb/view&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Video de la clase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/pdep-lunes/clase16-objetos-2020&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Código de la clase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.plantuml.com/plantuml/png/ZL5DJy9043splwBXr1fxq1z0842CYGI3mVlGZhXakukpirpG_-uiz4DBWbxQ-PWtR-UziMSW3fLHaurdWeAJPoJlBEmmEIgqI5iDIji3MfdKJcr9ivlXgoxOaRG6_KgQDJ29M4iyRrCJYdUWgRD2bU97q7kNgJrIYTGC5M1Pbr1cgebcE3TO2R_piY8OrfLhAbAGBGoqxfKJLO5rauLyQZh7v9uYV-aeKrzAJGrutvsxV4FhzS4bnmkekGARuGkOK7PYJLPO1Ba9w3zxfgxQ0AF0ptBSrVzxLPmwcjAea44GXPWm3NP-6hXDua7dEAj13s3Z-iw1Sxl5P68auvP0ldu1VeLUUyQODMuCBfucoX8S_tv3KXkvjeyjISSSroutEomuOKSYydL_BcqMV0Jc-UUerLxrpUkr-oRzxlwyBtRglAdd-MXuC-p6nsZBK9bl&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Diagrama de clases de la clase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/pdep-noche-mavi/tutorial-plantuml&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Instructivo Plant UML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1KdG7NrKPgPh4bAcyLuDG2G1iWP7Ze2GFs91qzlvDKqI/edit#heading=h.mpvsrdz55x8g&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Herencia, super, redinifición y method lookup en Wollok&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Quinceava clase]]></title><description><![CDATA[Tarea para la clase que viene: Corregir la entrega 1 del TP cuatrimestral de objetos. Corregir la tarea Batalla de estrellas. Clases ¿Cómo…]]></description><link>https://pdep-lunes.github.io/bitacora/objetos/clase-15/</link><guid isPermaLink="false">https://pdep-lunes.github.io/bitacora/objetos/clase-15/</guid><pubDate>Mon, 28 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-para-la-clase-que-viene&quot;&gt;&lt;a href=&quot;#tarea-para-la-clase-que-viene&quot; aria-label=&quot;tarea para la clase que viene permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea para la clase que viene:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Corregir la entrega 1 del TP cuatrimestral de objetos.&lt;/li&gt;
 &lt;li&gt;Corregir la tarea Batalla de estrellas.&lt;/li&gt;
