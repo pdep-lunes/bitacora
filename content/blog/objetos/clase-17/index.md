@@ -83,7 +83,9 @@ Una interfaz es un contrato que cumplen dos o más clases u objetos la cual obli
 
 Cuando dos objetos o clases tienen una interfaz en común, es posible para un tercero utilizar sus instancias de forma polimórfica, aunque recordemos que el polimorfismo solo está si efectivamente un tercero interactua indistintamente.
 
-Las interfaces nos sirven para explicitar lógica que debe ser cumplida para quienes las implementen. En algunos lenguajes, las interfaces se escriben en código y existen validaciones de compilación para asegurar su cumplimiento. En `Wollok` no se escriben las interfaces en código, pero en la materia siempre vamos a explicitar las interfaces en el diagrama de clases. 
+Las interfaces nos sirven para explicitar lógica que debe ser cumplida para quienes las implementen. En algunos lenguajes, las interfaces se escriben en código y existen validaciones de compilación para asegurar su cumplimiento. En `Wollok` no se escriben las interfaces en código, pero en la materia siempre vamos a explicitar las interfaces en el diagrama de clases.
+
+¿Cuál es la diferencia entre una interfaz y una clase abstracta? Si bien son similares, la clase abstracta tiene como objetivo reutilizar comportamiento, ya que siempre la tenemos en código y la idea es que otras clases puedan heredar de la misma implementando sus métodos. En cambio, el concepto de la interfaz es demostrar partes comunes entre clases u objetos para que puedan ser utilizados polimórficamente.
 
 ## Tarea
 
@@ -96,3 +98,4 @@ Las interfaces nos sirven para explicitar lógica que debe ser cumplida para qui
 - [Diagrama de clases de la clase](completar)
 - [Wiki excepciones](http://wiki.uqbar.org/wiki/articles/excepciones.html)
 - [Apunte](https://docs.google.com/document/d/1T87tmdXv_39RoE_zR7alVFK8TUl-KJYOhdoIsoVTRb4/edit#) de excepciones
+- [Clase abstracta vs interfaz](https://wiki.uqbar.org/wiki/articles/clase-abstracta-vs-interfaz.html)
