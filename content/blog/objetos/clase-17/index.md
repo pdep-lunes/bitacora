@@ -1,6 +1,6 @@
 ---
 title: Excepciones
-date: '2019-10-19'
+date: '2020-10-19'
 description: Clase de excepciones.
 tags: [objetos, excepciones]
 ---
