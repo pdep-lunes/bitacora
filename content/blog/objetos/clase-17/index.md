@@ -95,7 +95,7 @@ Las interfaces nos sirven para explicitar lógica que debe ser cumplida para qui
 
 - [Video de la clase](completar)
 - [Código de la clase](completar)
-- [Diagrama de clases de la clase](completar)
+- [Diagrama de clases de la clase](http://www.plantuml.com/plantuml/png/NP11IiOm44RtEKMMklZ_4uYqAaA5RlG4O_8LWqagauaWhNStiQMKR0BpNdW9qoKXbXoy6gA09pBG_JUYP0RFUb6E4vwm8xgvLLyP5aDBVrN_deJ9Y7xqb99-fk2y8zPBSHjwTUQpZ1O1qJWw-3Yp_1IHo6Sx8Whvmpr0FegY2KRc6YZcID-jbukki47_mORLaAh7Dhxb4C3x8ozWBXyubQ_NzVwq1xNTQ6c7QClg_W00)
 - [Wiki excepciones](http://wiki.uqbar.org/wiki/articles/excepciones.html)
 - [Apunte](https://docs.google.com/document/d/1T87tmdXv_39RoE_zR7alVFK8TUl-KJYOhdoIsoVTRb4/edit#) de excepciones
 - [Clase abstracta vs interfaz](https://wiki.uqbar.org/wiki/articles/clase-abstracta-vs-interfaz.html)
