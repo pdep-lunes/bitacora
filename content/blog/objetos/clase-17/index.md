@@ -1,8 +1,8 @@
 ---
-title: Excepciones
+title: Decimoseptima clase
 date: '2020-10-19'
-description: Clase de excepciones.
-tags: [objetos, excepciones]
+description: Decimoseptima clase de PdeP.
+tags: [objetos, excepciones, interfaz]
 ---
 
 Hicimos [este](https://docs.google.com/document/d/1YPZMyKI4fFij22QM8QfbDU8pfV78bP7vesl2__HIj64/edit?usp=sharing) ejercicio.
@@ -76,6 +76,14 @@ try {
 ```
 
 Algo a notar, es que la excepción a atrapar tiene que ser **la que quiero atrapar y lo menos general posible.** Si atrapo, por ejemplo, `Exception`, seguramente esté atrapando errores que no hubiese querido atrapar (Por ejemplo, división por cero).
+
+## Interfaz
+
+Una interfaz es un contrato que cumplen dos o más clases u objetos la cual obliga a que estos cumplan con la implementación de un conjunto de métodos.
+
+Cuando dos objetos o clases tienen una interfaz en común, es posible para un tercero utilizar sus instancias de forma polimórfica, aunque recordemos que el polimorfismo solo está si efectivamente un tercero interactua indistintamente.
+
+Las interfaces nos sirven para explicitar lógica que debe ser cumplida para quienes las implementen. En algunos lenguajes, las interfaces se escriben en código y existen validaciones de compilación para asegurar su cumplimiento. En `Wollok` no se escriben las interfaces en código, pero en la materia siempre vamos a explicitar las interfaces en el diagrama de clases. 
 
 ## Tarea
 
