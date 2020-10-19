@@ -95,7 +95,7 @@ Las interfaces nos sirven para explicitar lógica que debe ser cumplida para qui
 
 - [Video de la clase](completar)
 - [Código de la clase](https://github.com/pdep-lunes/clase17-objetos-2020)
-- [Diagrama de clases de la clase](http://www.plantuml.com/plantuml/png/NP11IiOm44RtEKMMklZ_4uYqAaA5RlG4O_8LWqagauaWhNStiQMKR0BpNdW9qoKXbXoy6gA09pBG_JUYP0RFUb6E4vwm8xgvLLyP5aDBVrN_deJ9Y7xqb99-fk2y8zPBSHjwTUQpZ1O1qJWw-3Yp_1IHo6Sx8Whvmpr0FegY2KRc6YZcID-jbukki47_mORLaAh7Dhxb4C3x8ozWBXyubQ_NzVwq1xNTQ6c7QClg_W00)
+- [Diagrama de clases de la clase](http://www.plantuml.com/plantuml/png/bL7RIiD047sVhzZ716m_GHeKmOU2w1TCDbFSk9SmkniGzT-TqBB6sXNw5iwPSzcJNKp8AJiBnYVY0sfI3-YCDSZg0wPC0ptoFNKp-PGPcmFfLsnXDhFX0hOma2El3NPJu8J30dq1T7rCZ3eLovE2E8ZvkQQMTj6zmJwswho6P6gBCQgz7BvBHaIRXxtmQA5wNDf9N3BpqWsNp_0K-Ddejxho9Jj7_mubfw4VnKoDn2oLhdbbFNYfjPeGpCeltWNVJCGnU1pfHlqqkV0RjjlFsp80_5bYiodqMWR7VMliQPOrNIpXkCFltEKv0gsG7VaXE_iD)
 - [Wiki excepciones](http://wiki.uqbar.org/wiki/articles/excepciones.html)
 - [Apunte](https://docs.google.com/document/d/1T87tmdXv_39RoE_zR7alVFK8TUl-KJYOhdoIsoVTRb4/edit#) de excepciones
 - [Clase abstracta vs interfaz](https://wiki.uqbar.org/wiki/articles/clase-abstracta-vs-interfaz.html)
