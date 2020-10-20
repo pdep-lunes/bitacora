@@ -87,13 +87,15 @@ Las interfaces nos sirven para explicitar lógica que debe ser cumplida para qui
 
 ¿Cuál es la diferencia entre una interfaz y una clase abstracta? Si bien son similares, la clase abstracta tiene como objetivo reutilizar comportamiento, ya que siempre la tenemos en código y la idea es que otras clases puedan heredar de la misma implementando sus métodos. En cambio, el concepto de la interfaz es demostrar partes comunes entre clases u objetos para que puedan ser utilizados polimórficamente.
 
+En el diagrama de clases, la podemos ver indicada con una _I_, en este caso en el Familiar.
+
 ## Tarea
 
 - Mumuki: [Lección 9](https://mumuki.io/pdep-utn/lessons/91-programacion-con-objetos-excepciones)
 
 ## Links útiles
 
-- [Video de la clase](completar)
+- [Video de la clase](https://drive.google.com/file/d/1FD4I1kKZKB1REJVXmDA9Aoxzd97uQu7b/view?usp=drivesdk)
 - [Código de la clase](https://github.com/pdep-lunes/clase17-objetos-2020)
 - [Diagrama de clases de la clase](http://www.plantuml.com/plantuml/png/bL7RIiD047sVhzZ716m_GHeKmOU2w1TCDbFSk9SmkniGzT-TqBB6sXNw5iwPSzcJNKp8AJiBnYVY0sfI3-YCDSZg0wPC0ptoFNKp-PGPcmFfLsnXDhFX0hOma2El3NPJu8J30dq1T7rCZ3eLovE2E8ZvkQQMTj6zmJwswho6P6gBCQgz7BvBHaIRXxtmQA5wNDf9N3BpqWsNp_0K-Ddejxho9Jj7_mubfw4VnKoDn2oLhdbbFNYfjPeGpCeltWNVJCGnU1pfHlqqkV0RjjlFsp80_5bYiodqMWR7VMliQPOrNIpXkCFltEKv0gsG7VaXE_iD)
 - [Wiki excepciones](http://wiki.uqbar.org/wiki/articles/excepciones.html)
