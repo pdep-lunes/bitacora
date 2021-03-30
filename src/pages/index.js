@@ -7,36 +7,45 @@ import SEO from '../components/seo'
 import '../css/tags.css'
 import PostListItem from '../components/post-list-item'
 
-class BlogIndex extends React.Component {
-  render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
 
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title="PDEP"
-          keywords={[
-            `pdep`,
-            `paradigmas`,
-            `funcional`,
-            `haskell`,
-            `utn`,
-            `logico`,
-            `prolog`,
-            `oop`,
-            `objetos`,
-            `wollok`,
-          ]}
-        />
-        <Bio />
-        {posts.map(({ node }, index) => (
-          <PostListItem key={index} node={node} />
-        ))}
-      </Layout>
-    )
-  }
+const BlogIndex = (props) => {
+  const { data } = props
+  const siteTitle = data.site.siteMetadata.title
+  const posts = data.allMarkdownRemark.edges
+
+  const currentYear = new Date().getFullYear()
+
+  const postsToShow = React.useMemo(() => {
+    return posts.filter(({node: { frontmatter: {date} }}) => {
+      const [DD, MM, YYYY] = date.split('-')
+      return parseInt(YYYY) === currentYear
+    })
+  }, [currentYear, posts])
+
+  return (
+    <Layout location={props.location} title={siteTitle}>
+      <SEO
+        title="PDEP"
+        keywords={[
+          `pdep`,
+          `paradigmas`,
+          `funcional`,
+          `haskell`,
+          `utn`,
+          `logico`,
+          `prolog`,
+          `oop`,
+          `objetos`,
+          `wollok`,
+        ]}
+      />
+      <Bio />
+      {postsToShow.map(({ node }) => (
+        <PostListItem key={node.id} node={node} />
+      ))}
+      {/* <div></div> */}
+    </Layout>
+  )
 }
 
 export default BlogIndex

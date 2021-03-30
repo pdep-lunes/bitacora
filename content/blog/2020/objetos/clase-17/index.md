@@ -1,6 +1,6 @@
 ---
 title: Decimoseptima clase
-date: '2020-10-19'
+date: "2020-10-19"
 description: Decimoseptima clase de PdeP.
 tags: [objetos, excepciones, interfaz]
 ---
