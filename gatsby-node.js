@@ -17,6 +17,7 @@ const createClasesPages = async (graphql, createPage) => {
               }
               frontmatter {
                 title
+                date(formatString: "DD-MM-YYYY")
               }
             }
           }

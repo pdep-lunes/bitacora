@@ -18,3 +18,8 @@ export const dateParser = dateString => {
   const [day, month, year] = dateString.split('-')
   return `${day} de ${months[month - 1]}, ${year}`
 }
+
+export const getYearAsNumber = dateString => {
+  const [DD, MM, YYYY] = dateString.split('-')
+  return parseInt(YYYY)
+}

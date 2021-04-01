@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Tag from '../components/tag'
 import { rhythm, scale } from '../utils/typography'
-import { dateParser } from '../utils/dateParser'
+import { dateParser, getYearAsNumber } from '../utils/dateParser'
 
 import RetomarScrollTooltip from '../components/retomar-scroll-tooltip'
 
@@ -17,6 +17,8 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
 
     const { previous, next } = this.props.pageContext
+
+    const YYYY = getYearAsNumber(date)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -57,14 +59,14 @@ class BlogPostTemplate extends React.Component {
             }}
           >
             <li>
-              {previous && (
+              {previous && getYearAsNumber(previous.frontmatter.date) === YYYY && (
                 <Link to={previous.fields.slug} rel="prev">
                   ← {previous.frontmatter.title}
                 </Link>
               )}
             </li>
             <li>
-              {next && (
+              {next && getYearAsNumber(next.frontmatter.date) === YYYY && (
                 <Link to={next.fields.slug} rel="next">
                   {next.frontmatter.title} →
                 </Link>
