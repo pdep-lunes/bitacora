@@ -2,7 +2,7 @@
 title: Primera clase
 date: "2021-04-05"
 description: "Primera clase de PdeP"
-tags: [funcional. composición]
+tags: [funcional, composición]
 ---
 
 ## Tarea para la clase que viene:
