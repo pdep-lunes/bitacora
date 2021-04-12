@@ -203,7 +203,7 @@ Y así como tenemos una familia de tipos para los números, tenemos otro montón
 
 Podemos los tipos que pertenecen a cada familia en el siguiente diagrama:
 
-![diagrama-de-tipos](./Tipos_de_Haskell.png "Tipo de Haskell")
+![diagrama_tipo_clases](https://raw.githubusercontent.com/pdep-lunes/bitacora/2019-completo/content/blog/funcional/haskell-type-classes.jpg 'Diagrama de tipos de clases')
 
 \*Es posible que haya alguna mentira blanca en este diagrama\*
 
