@@ -1,6 +1,6 @@
 ---
 title: Segunda clase
-date: "2021-04-13"
+date: "2021-04-12"
 description: "Segunda clase de PdeP"
 tags: [funcional, tipado, inmutabilidad, precedencia-de-operadores]
 ---
@@ -209,6 +209,7 @@ Podemos los tipos que pertenecen a cada familia en el siguiente diagrama:
 
 ## Links Útiles
 
+- [Video de la clase](https://drive.google.com/file/d/1h1xIVhhax2i7ohei1Ofd3U1EH9mFCCeD/view)
 - [Tipos en Haskell](http://wiki.uqbar.org/wiki/articles/tipos-de-haskell.html)
 - [Inferencia de tipos](http://wiki.uqbar.org/wiki/articles/inferencia-de-tipos.html)
 
