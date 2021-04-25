@@ -2,7 +2,7 @@
 title: Tercera clase
 date: "2021-04-19"
 description: "Tercera clase de PdeP"
-tags: [aplicacion-parcial, orden-superior, pattern-matching, tuplas, listas]
+tags: [funcional, aplicacion-parcial, orden-superior, pattern-matching, tuplas, listas]
 ---
 
 ## Tarea para la clase que viene:
@@ -11,7 +11,7 @@ Resolver hasta el punto del **nombreDeLaBiblioteca** (incluído) del [TP "Hora d
 
 ## ¿Qué vimos hoy? 
 
-Resolvimos el [TP "Hora de lectura"](https://docs.google.com/document/d/11uYGXvG-TnNhveawDjKD1iSWKW9Qy8PVqlvtHhV58F8/edit) y para eso vimos estos nuevos temas:
+Comenzamos a resolver el [TP "Hora de lectura"](https://docs.google.com/document/d/11uYGXvG-TnNhveawDjKD1iSWKW9Qy8PVqlvtHhV58F8/edit) y para eso vimos estos nuevos temas:
 
 - Aplicación parcial: aplicar a una función con menos argumentos de los "normales", para obtener otra que reciba los faltantes. Por ejemplo: 
 
