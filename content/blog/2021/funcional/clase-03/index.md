@@ -193,7 +193,18 @@ Algo muy importante que hicimos en esta solución fue **delegar**. Es decir, div
 Enfoquémonos en `cantidadDePaginas` 🔍. Es una función que dada una tupla, nos devuelve un elemento en específico de la misma. Esto es lo que llamamos un **accessor**. 
 En este caso, ya que teníamos una terna, tuvimos que hacer nuestra propia definición del accessor. Para las duplas ya tenemos definidas `fst` y `snd` que devuelven el primer y el segundo elemento, respectivamente, de una tupla de dos elementos.
 
-Algo más para decir de esta función es que está usando **variables anónimas** (los `_`). Las vamos a utilizar cuando necesitemos recibir un parámetro pero que no nos interesa conocer su valor (no nos es útil conocerlo) para la definición de la función. **Sólo van del lado izquierdo del igual y nunca deben ir del lado derecho ni en el tipado. Hacer esto en el parcial equivale a un 2.**
+El uso del accessor es posible gracias a **pattern matching**, que es el concepto asociado al chequeo estructural de un dato respecto de una estructura esperada. Gracias a esto podemos tener un código más declarativo y simple. Sin embargo, su desventaja es que depende de los cambios de estructuras. Imaginémonos que nosotros agregamos un cuarto elemento a la tupla que representa al Libro. Esto haría que no fuera posible utilizar nuestro accessor inicial, ya que estructuralmente la tupla cambió.  
+
+Algo más para decir de esta función es que está usando **variables anónimas** (los `_`). Las vamos a utilizar cuando necesitemos recibir un parámetro pero que no nos interesa conocer su valor (no nos es útil conocerlo) para la definición de la función.
+
+Una cuestión muy importante a tener en cuenta es que en funcional existen tres mundos: **el de los valores, el de los tipos y el de los patrones**. 
+
+```haskell
+nombreDeLaFuncion :: Mundo de los Tipos
+nombreDeLaFuncion Mundo de los Patrones = Mundo de los Valores
+```
+     
+Las variables anónimas solo viven en el mundo de los patrones. Por lo tanto, **van del lado izquierdo del igual y nunca deben ir del lado derecho ni en el tipado.** En el mundo de los tipos no puede ir porque tenemos que especificar los tipo es nuestras funciones y valores, aún cuando son variables. En el de los valores tampoco tiene sentido porque es donde especificamos nuestros retornos, no podemos devolver "lo que sea".
 
 ¡Y hasta acá llegamos por hoy! La clase que viene seguimos. 👋
 
