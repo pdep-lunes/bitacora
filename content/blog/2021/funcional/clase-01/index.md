@@ -6,8 +6,8 @@ tags: [funcional, composición]
 ---
 
 ## Tarea para la clase que viene:
-Crearse una cuenta en GitHub y en Mumuki. Para eso, lee este [instructivo](https://docs.google.com/document/d/15GPmaCmp7ET9KFzSwZRYfm5JFxleos3kMO98d7pQJCk/edit?usp=sharing).
-Hacer las lecciones 1 y 2 de [Mumuki](https://mumuki.io/pdep-utn).
+* Crearse una cuenta en GitHub y en Mumuki. Para eso, lee este [instructivo](https://docs.google.com/document/d/15GPmaCmp7ET9KFzSwZRYfm5JFxleos3kMO98d7pQJCk/edit?usp=sharing).
+* Hacer las lecciones 1 y 2 de [Mumuki](https://mumuki.io/pdep-utn).
 
 ## Primero un poco de burocracia…
 Dadas las circunstancias actuales debido a la pandemia 👑🦠, esta cursada será virtual. Nuestro medio de comunicación será [discord](https://discordapp.com/)
