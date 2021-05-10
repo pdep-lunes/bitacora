@@ -6,8 +6,8 @@ tags: [funcional, aplicacion-parcial, orden-superior, pattern-matching, tuplas, 
 ---
 
 ## Tarea para la clase que viene:
-Lecciones 5 y 6 de [Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional)
-Resolver hasta el punto del **nombreDeLaBiblioteca** (incluído) del [TP "Hora de lectura"](https://docs.google.com/document/d/11uYGXvG-TnNhveawDjKD1iSWKW9Qy8PVqlvtHhV58F8/edit)
+* Lecciones 5 y 6 de [Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional)
+* Resolver hasta el punto del **nombreDeLaBiblioteca** (incluído) del [TP "Hora de lectura"](https://docs.google.com/document/d/11uYGXvG-TnNhveawDjKD1iSWKW9Qy8PVqlvtHhV58F8/edit)
 
 ## ¿Qué vimos hoy? 
 
