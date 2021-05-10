@@ -6,10 +6,10 @@ tags: [funcional, listas infinitas, lazy evaluation]
 ---
 
 ## Tarea para la clase que viene:
-Corregir la primera entrega del TP integrador.
-Comenzar la segunda entrega del [TP integrador](https://docs.google.com/document/d/11q_pAjZo_TKzNASjzk4sNpueAV9N2Aa-LtJPQyDOaio/edit?usp=sharing)
-Ya pueden realizar todas las lecciones del [primer capítulo de Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional)
-Pueden comenzar a realizar [parciales](https://www.pdep.com.ar/material/parciales) para practicar. 
+- Corregir la primera entrega del TP integrador.
+- Comenzar la segunda entrega del [TP integrador](https://docs.google.com/document/d/11q_pAjZo_TKzNASjzk4sNpueAV9N2Aa-LtJPQyDOaio/edit?usp=sharing)
+- Ya pueden realizar todas las lecciones del [primer capítulo de Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional)
+- Pueden comenzar a realizar [parciales](https://www.pdep.com.ar/material/parciales) para practicar. 
 
 
 ## ¿Qué vimos hoy? 
