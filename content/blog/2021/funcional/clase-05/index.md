@@ -6,8 +6,8 @@ tags: [funcional, git, currificación, expresiones lambda, recursividad, fold]
 ---
 
 ## Tarea para la clase que viene:
-[TP Monopoly](https://docs.google.com/document/d/1WkyTU1tnUhtFIrxVt1BMgKBNEdghpTtANPsNvmdltG4/edit?usp=sharing)
-Terminar la primera entrega del [TP integrador](https://docs.google.com/document/d/1WRU-T71IJ4aGgUrwiw_OqBPXDT9V9v-uwuBLGX7inzU/edit?usp=sharing)
+* [TP Monopoly](https://docs.google.com/document/d/1WkyTU1tnUhtFIrxVt1BMgKBNEdghpTtANPsNvmdltG4/edit?usp=sharing)
+* Terminar la primera entrega del [TP integrador](https://docs.google.com/document/d/1WRU-T71IJ4aGgUrwiw_OqBPXDT9V9v-uwuBLGX7inzU/edit?usp=sharing)
 
 
 ## ¿Qué vimos hoy? 
