@@ -7,8 +7,8 @@ tags: [funcional, guardas, data]
 
 ## Tarea para la clase que viene:
 
-Comenzar a resolver la primera entrega del [TP integrador](https://docs.google.com/document/d/1WRU-T71IJ4aGgUrwiw_OqBPXDT9V9v-uwuBLGX7inzU/edit?usp=sharing)
-Pueden hacer hasta la lección 11 del [capítulo 1 de Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional).
+* Comenzar a resolver la primera entrega del [TP integrador](https://docs.google.com/document/d/1WRU-T71IJ4aGgUrwiw_OqBPXDT9V9v-uwuBLGX7inzU/edit?usp=sharing)
+* Pueden hacer hasta la lección 11 del [capítulo 1 de Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional).
 
 ## ¿Qué vimos hoy? 
 
