@@ -6,8 +6,8 @@ tags: [funcional, tipado, inmutabilidad, precedencia-de-operadores]
 ---
 
 ## Tarea para la clase que viene:
-Realizar el [TP PdeP-Commerce](https://docs.google.com/document/d/14FdoEE4n2tgCSyK05P3kHryxQobbg1iwXgOIKjvPnjs/edit).
-Lecciones [2](https://mumuki.io/pdep-utn/lessons/690-programacion-funcional-introduccion-a-los-tipos-de-datos) y [4](https://mumuki.io/pdep-utn/lessons/689-programacion-funcional-practica-valores-y-funciones) de Mumuki. 
+* Realizar el [TP PdeP-Commerce](https://docs.google.com/document/d/14FdoEE4n2tgCSyK05P3kHryxQobbg1iwXgOIKjvPnjs/edit).
+* Lecciones [2](https://mumuki.io/pdep-utn/lessons/690-programacion-funcional-introduccion-a-los-tipos-de-datos) y [4](https://mumuki.io/pdep-utn/lessons/689-programacion-funcional-practica-valores-y-funciones) de Mumuki. 
 
 ## ¿Qué vimos hoy? 
 
