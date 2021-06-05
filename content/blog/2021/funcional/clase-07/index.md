@@ -1,6 +1,6 @@
 ---
 title: Séptima clase
-date: "2021-17-10"
+date: "2021-05-17"
 description: "Séptima clase de PdeP"
 tags: [funcional, simulacro de parcial]
 ---
