@@ -5,13 +5,12 @@
   "version": "0.1.0",
   "author": "pdep-lunes",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages -r https://$GITHUB_TOKEN@github.com/pdep-lunes/bitacora.git"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "husky": {
     "hooks": {
