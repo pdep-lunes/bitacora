@@ -29,6 +29,10 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Use Node.js (.nvmrc)
+        uses: actions/setup-node@v1
+      with:
+        node-version: "${{ steps.nvm.outputs.NVMRC }}"
+      - name: Cache node modules
         uses: actions/cache@v2
         with:
           path: ~/.npm
@@ -36,6 +40,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - run: npm ci
+      - run: git config user.email "deploys@pdeplunes.com" && git config user.name "Deploy Bot"
       - run: npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
