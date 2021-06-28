@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby'
 
 import Bio from '../components/bio'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import Tag from '../components/tag'
 import { rhythm, scale } from '../utils/typography'
 import { dateParser, getYearAsNumber } from '../utils/dateParser'
@@ -23,7 +23,7 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <RetomarScrollTooltip postTitle={postTitle} />
-        <SEO title={postTitle} description={description || post.excerpt} />
+        <Seo title={postTitle} description={description || post.excerpt} />
         <h1>{postTitle}</h1>
         {tags ? (
           <div className="tags-container" style={{ marginTop: rhythm(-1) }}>

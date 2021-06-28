@@ -20,6 +20,6 @@ export const dateParser = dateString => {
 }
 
 export const getYearAsNumber = dateString => {
-  const [DD, MM, YYYY] = dateString.split('-')
+  const YYYY = dateString.split('-')[2]
   return parseInt(YYYY)
 }

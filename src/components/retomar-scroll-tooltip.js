@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 
 import '../css/retomar-scroll-tooltip.css'
 
 const RetomarScrollTooltip = ({ postTitle }) => {
   const [showTooltip, setShowTooltip] = React.useState(false)
 
-  let interval
+  const interval = useRef(null)
 
   function savePostScrolling(postTitle) {
-    interval = setInterval(function() {
+    interval.current = setInterval(function() {
       localStorage.setItem(postTitle, window.scrollY)
     }, 5000)
   }
@@ -26,9 +26,9 @@ const RetomarScrollTooltip = ({ postTitle }) => {
       savePostScrolling(postTitle)
     }
     return () => {
-      clearInterval(interval)
+      clearInterval(interval.current)
     }
-  }, [postTitle])
+  }, [postTitle, interval])
 
   const onClick = (option /* si | no */) => () => {
     setShowTooltip(false)

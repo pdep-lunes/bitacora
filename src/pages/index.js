@@ -3,9 +3,10 @@ import { graphql } from 'gatsby'
 
 import Bio from '../components/bio'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import '../css/tags.css'
 import PostListItem from '../components/post-list-item'
+import { getYearAsNumber } from '../utils/dateParser'
 
 
 const BlogIndex = (props) => {
@@ -17,14 +18,13 @@ const BlogIndex = (props) => {
 
   const postsToShow = React.useMemo(() => {
     return posts.filter(({node: { frontmatter: {date} }}) => {
-      const [DD, MM, YYYY] = date.split('-')
-      return parseInt(YYYY) === currentYear
+      return getYearAsNumber(date) === currentYear
     })
   }, [currentYear, posts])
 
   return (
     <Layout location={props.location} title={siteTitle}>
-      <SEO
+      <Seo
         title="PDEP"
         keywords={[
           `pdep`,
