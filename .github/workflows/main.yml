@@ -30,8 +30,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Use Node.js (.nvmrc)
         uses: actions/setup-node@v1
-      with:
-        node-version: "${{ steps.nvm.outputs.NVMRC }}"
+        with:
+          node-version: "${{ steps.nvm.outputs.NVMRC }}"
       - name: Cache node modules
         uses: actions/cache@v2
         with:
