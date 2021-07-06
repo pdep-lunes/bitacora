@@ -2,7 +2,7 @@
 title: Décima clase
 date: '2021-07-05'
 description: Décima clase de PdeP
-tags: [forall, functores, is, pattern-matching, polimorfismo]
+tags: [logico, forall, functores, is, pattern-matching, polimorfismo]
 ---
 
 ## ¿Qué vimos hoy?
