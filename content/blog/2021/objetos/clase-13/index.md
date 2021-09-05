@@ -2,7 +2,7 @@
 title: Décimo tercera clase
 date: '2021-08-30'
 description: Décimo tercera clase de PdeP
-tags: [objetos, introducción, atributos, accessors, mensaje, método]
+tags: [objetos, introducción, atributos, accessors, mensaje, método, identidad]
 ---
 
 ## ¿Qué vimos hoy?
@@ -137,7 +137,15 @@ object sally {
 }
 ```
 
-A pesar de que `sally` y `poroto` tengan los mismos atributos, con los mismos valores iniciales y sus métodos sean iguales no son objetos idénticos, es decir, no tienen la misma identidad. Cuando hablamos de identidad nos referimos a dos objetos que sean exactamente el mismo o dicho de otra forma a dos referencias que apunten al mismo objeto.
+### Identidad vs Igualdad
+
+`Identidad`: decimos que dos objetos son idénticos si son el mismo objeto. Dentro del ambiente podemos tener dos referencias diferentes al mismo objeto. En Wollok el operador usado para comparar dos objetos por identidad es ===.
+
+`Igualdad`: (o equivalencia) por defecto dos objetos son iguales si son idénticos, o sea si son el mismo objeto. Al mismo tiempo dos objetos que no son idénticos pueden ser iguales.
+
+
+A pesar de que `sally` y `poroto` tengan los mismos atributos, con los mismos valores iniciales y sus métodos sean iguales no son objetos idénticos, es decir, no tienen la misma identidad.
+
 
 ## Links útiles:
 
