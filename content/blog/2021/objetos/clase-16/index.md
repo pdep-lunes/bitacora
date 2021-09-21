@@ -1,6 +1,6 @@
 ---
 title: Dieciseisava clase
-date: '2020-09-20'
+date: '2021-09-20'
 description: Dieciseisava clase de PdeP
 tags: [objetos, colecciones, testing]
 ---
