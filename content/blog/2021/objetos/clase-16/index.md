@@ -2,7 +2,7 @@
 title: Décimo sexta clase
 date: '2021-09-20'
 description: Décimo sexta clase de PdeP
-tags: [objetos, colecciones, testing]
+tags: [objetos, práctica]
 ---
 
 ## Tarea 
