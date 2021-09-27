@@ -1,7 +1,7 @@
 ---
-title: Décimo sexta clase
+title: Décimo séptima clase
 date: '2021-09-27'
-description: Décimo sexta clase de PdeP
+description: Décimo séptima clase de PdeP
 tags: [objetos, clases, method lookup, diagrama de clases, constructores.]
 ---
 
