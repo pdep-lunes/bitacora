@@ -2,7 +2,7 @@
 title: Décimoctava clase
 date: '2021-10-04'
 description: Décimoctava clase de PdeP
-tags: [herencia, super, clases abstractas, redefinición, diagrama de clases, interfaces]
+tags: [objetos, herencia, super, clases abstractas, redefinición, diagrama de clases, interfaces]
 ---
 
 ## Tarea para la clase que viene:
