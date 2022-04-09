@@ -198,7 +198,9 @@ Y así como tenemos una familia de tipos para los números, tenemos otro montón
 * Integral: Para números enteros; entienden la división entera (`div`), el resto de la división `rem`, se les puede preguntar si son pares (`even`) o impares (`odd`).
 * Fractional: Para números reales, que se pueden dividir con la división flotante `(/)`
 
-Podemos los tipos que pertenecen a cada familia en el siguiente diagrama:
+Podemos ver los tipos que pertenecen a cada familia en el siguiente diagrama:
+
+![diagrama_tipo_clases](https://user-images.githubusercontent.com/11720274/162550806-7f093ab3-fce5-494d-9da3-3a7611c6a2bb.jpg 'Diagrama de tipos de clases')
 
 \*Es posible que haya alguna mentira blanca en este diagrama\*
 
