@@ -3,7 +3,7 @@ title: Cuarta clase
 date: "2022-04-18"
 description: "Cuarta clase de PdeP"
 tags: [funcional, guardas, práctica]
-—
+---
 
 Resolvimos el ejercicio [Hora de lectura](https://docs.google.com/document/d/1YBTaPNfEd4s82UxmsRjYRZXCCA8-lQgFaLOEVbr0fGw/edit). Pero… ¿Por dónde empezamos? 😅 Si vamos a trabajar con libros, empecemos por ahí. ¡A modelarlos! 🎨
 
