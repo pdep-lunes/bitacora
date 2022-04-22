@@ -134,8 +134,8 @@ autor (_, unAutor, _) = unAutor
 esLecturaObligatoria :: Libro -> Bool
 esLecturaObligatoria unLibro = esDeStephenKing unLibro || perteneceASagaEragon unLibro || esFundacion unLibro
 
-esDeStephenKing :: Autor -> Libro -> Bool
-esDeStephenKing unAutor unLibro = ((== "Stephen King") . autor) unLibro
+esDeStephenKing :: Libro -> Bool
+esDeStephenKing unLibro = ((== "Stephen King") . autor) unLibro
 
 perteneceASagaEragon :: Libro -> Bool
 perteneceASagaEragon unLibro = elem unLibro sagaDeEragon
