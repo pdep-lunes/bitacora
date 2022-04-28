@@ -7,9 +7,9 @@ tags: [funcional, pattern matching, data, git]
 
 ## Tarea para la clase que viene:
 
-Subir a un repositorio de Github **propio** la solución de PdeP Commerce que hayan resuelto con tuplas. **No subirlo al repositorio grupal.**
-Comenzar a resolver la primera entrega del [TP integrador grupal](https://docs.google.com/document/d/1zNEmieCaC79F_QJ8Siwgq9-ASV_YdyLzYH-pC_j4jv8/edit?usp=sharing)
-Pueden hacer hasta la lección 11 del [capítulo 1 de Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional).
+- Subir a un repositorio de Github **propio** la solución de PdeP Commerce que hayan resuelto con tuplas. **No subirlo al repositorio grupal.**
+- Comenzar a resolver la primera entrega del [TP integrador grupal](https://docs.google.com/document/d/1zNEmieCaC79F_QJ8Siwgq9-ASV_YdyLzYH-pC_j4jv8/edit?usp=sharing)
+- Pueden hacer hasta la lección 11 del [capítulo 1 de Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional).
 
 ## ¿Qué vimos hoy? 
 
@@ -76,8 +76,8 @@ esLecturaObligatoria unLibro
 
 Usar **guardas** de esta forma es un 2 (2️⃣) automático en el parcial, un desaprobado. Es un **mal uso de booleanos** y una **muy muy mala práctica** de programación. Dicho esto, quien avisa no traiciona… 👀
 
-Entonces… ¿cuándo usar guardas y cuando pattern matching? 😩
-Usamos pattern matching cuando tenemos algo que encaja con un patrón, por ejemplo una tupla de 3 elementos, una lista vacía, etc. 🧩
+Entonces… ¿cuándo usar guardas y cuando pattern matching? 😩<br>
+Usamos pattern matching cuando tenemos algo que encaja con un patrón, por ejemplo una tupla de 3 elementos, una lista vacía, etc. 🧩<br>
 Usamos guardas cuando queremos evaluar conjuntos de dominios (en matemática, esto es muy similar a las funciones partidas). 🔀
 
 ¿Y qué pasó cuando creamos una etiqueta del libro Fundación?¿Esto funcionaba?
