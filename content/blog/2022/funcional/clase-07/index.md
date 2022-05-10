@@ -143,7 +143,7 @@ all even [2, 4..]
 all odd [2, 4..]
 -- Devuelve False
 
-head . filter (<3) $ [1..])
+head . filter (<3) $ [1..]
 -- Termina con lazy pero no con eager. Devuelve 1.
 
 head . filter (<3) $ [5..]
@@ -156,7 +156,7 @@ fst ("Hola", [1..])
 -- Devuelve "Hola". No terminaría de evaluarse con eager.
 
 fst("Hola", head [])
--- Devuelve "Hola". Con eager rompería porque no se puede hacer head de la lista infinita.
+-- Devuelve "Hola". Con eager rompería porque no se puede hacer head de la lista vacía.
 
 snd ([1, "Hola"], 2)
 -- Rompe porque las listas deben ser homogéneas.
@@ -183,10 +183,10 @@ En parciales es muy común que tengamos estructuras de datos complejos y se repi
 
 ```haskell
 cumplirAños :: Persona -> Persona
-cumplirAños    unaPersona = unaPersona { edad = edad unaPersona + 1 }
+cumplirAños unaPersona = unaPersona { edad = edad unaPersona + 1 }
 
 duplicarEdad :: Persona -> Persona
-duplicarEdad   unaPersona = unaPersona { edad = edad unaPersona * 2 }
+duplicarEdad unaPersona = unaPersona { edad = edad unaPersona * 2 }
 
 cumplir100Años :: Persona -> Persona
 cumplir100Años unaPersona = unaPersona { edad = 100 }
@@ -203,13 +203,13 @@ Ahora, podemos escribir nuestras funciones anteriores en función de `mapEdad`:
 
 ```haskell
 cumplirAños :: Persona -> Persona
-cumplirAños    unaPersona = mapEdad (+ 1)
+cumplirAños unaPersona = mapEdad (+ 1) unaPersona
 
 duplicarEdad :: Persona -> Persona
-duplicarEdad   unaPersona = mapEdad (* 2)
+duplicarEdad unaPersona = mapEdad (* 2) unaPersona
 
 cumplir100Años :: Persona -> Persona
-cumplir100Años unaPersona = mapEdad (const 100)
+cumplir100Años unaPersona = mapEdad (const 100) unaPersona
 ```
 
 El crear estas funciones auxiliares nos trae un montón de ventajas:
