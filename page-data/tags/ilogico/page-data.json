@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-posts-by-tag-js","path":"/tags/ilogico","result":{"data":{"site":{"siteMetadata":{"title":"Bitácora"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"Tarea: ¡Estudiar para el parcial! Te recomendamos resolver este enunciado. También pueden ver una posible solución del mismo. ¿Qué vimos hoy…","fields":{"slug":"/2021/logico/clase-12/"},"frontmatter":{"tags":["logico","ilogico"],"title":"Décimo segunda clase","date":"09-08-2021","description":"Décimo segunda clase de PdeP'"}}}]}},"pageContext":{"slug":"/tags/ilogico","tag":"ilogico"}},"staticQueryHashes":["452372368","63159454"]}
+{
+    "componentChunkName": "component---src-templates-posts-by-tag-js",
+    "path": "/tags/ilogico",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Bitácora"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"Tarea: ¡Estudiar para el parcial! Te recomendamos resolver este enunciado. También pueden ver una posible solución del mismo. ¿Qué vimos hoy…","fields":{"slug":"/2021/logico/clase-12/"},"frontmatter":{"tags":["logico","ilogico"],"title":"Décimo segunda clase","date":"09-08-2021","description":"Décimo segunda clase de PdeP'"}}}]}},"pageContext":{"slug":"/tags/ilogico","tag":"ilogico"}},
+    "staticQueryHashes": ["452372368","63159454"]}
