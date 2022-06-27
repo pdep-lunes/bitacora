@@ -12,7 +12,7 @@ tags: [logico, hechos, reglas, universo-cerrado, negacion, unificacion-asignacio
 - si una obra le gusta a Gus si es Sandman o la escribió Isaac Asimov. Tiene que ser inversible;
 - si conviene contratar un artista si escribió un bestseller o es reincidente. Tiene que ser inversible.
 -  si una obra es rioplatense, que es cuando la nacionalidad de su artista es platense (Uruguay o Argentina). ¡Ojo con repetir lógica!
-- [TP Individual Muerte en la Mansión Dreadbury] (https://docs.google.com/document/d/1h1gwxqiQRhgkKGr7XPhA1v8geQLeVtBMGR1ujgKbpko/edit?usp=sharing).
+- [TP Individual Muerte en la Mansión Dreadbury](https://docs.google.com/document/d/1h1gwxqiQRhgkKGr7XPhA1v8geQLeVtBMGR1ujgKbpko/edit?usp=sharing).
 
 ## ¿Qué vimos hoy?
 
