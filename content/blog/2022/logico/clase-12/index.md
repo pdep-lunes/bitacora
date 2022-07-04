@@ -1,6 +1,6 @@
 ---
 title: Décimo segunda clase
-date: '2022-07-04
+date: '2022-07-04'
 description: Décimo segunda clase de PdeP
 tags: [logico, is, listas, findall]
 ---
