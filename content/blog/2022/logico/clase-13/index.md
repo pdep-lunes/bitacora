@@ -16,6 +16,6 @@ Hoy resolvimos el enunciado de [iLógico](https://docs.google.com/document/d/1E9
 ## Links útiles:
 
 - [Enunciado de iLógico](https://docs.google.com/document/d/1E9TRUAeg37gDEMXZcjKCzo3X48o_b_RF3JvyrBFd8j0/edit?usp=sharing)
-- [Código de la clase](https://github.com/pdep-lunes/pdep-clases-2022/blob/master/Logico/clase13/clase-13.pl)
+- [Código de la clase](https://github.com/pdep-lunes/pdep-clases-2022/blob/master/Logico/Clase13/clase-13.pl)
 - [Video de la clase](https://drive.google.com/file/d/10nRneMa_7xsPjb8MmjR3X3t8hSvwJ2J3/view?usp=sharing)
 
