@@ -7,7 +7,7 @@ tags: [objetos, clases, method lookup, diagrama de clases]
 
 ## Tarea para la clase que viene:
 
-- Comenzar la entrega 1 del TP cuatrimestral de objetos.
+- Comenzar la [entrega 1 del TP cuatrimestral de objetos](https://docs.google.com/document/d/1h_0rOPYMgr4n0XPnNubiKdjoZp2DFBlJ7Mweydt2SN0/edit).
 
 ## Clases
 
