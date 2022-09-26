@@ -2,7 +2,7 @@
 title: Décimo novena clase
 date: '2022-09-26'
 description: Décimo novena clase de PdeP
-tags: [herencia, super, clases abstractas, redefinición, diagrama de clases, interfaces]
+tags: [objetos, herencia, super, clases abstractas, redefinición, diagrama de clases, interfaces]
 ---
 
 ## Tarea para la clase que viene:
