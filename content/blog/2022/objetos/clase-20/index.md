@@ -1,9 +1,14 @@
 ---
 title: Vigésima clase
-date: '2022-10-02'
+date: '2022-10-03'
 description: Vigésima clase de PdeP.
 tags: [objetos, excepciones, interfaz]
 ---
+
+## Tarea
+
+- Mumuki: [Lección 9](https://mumuki.io/pdep-utn/lessons/91-programacion-con-objetos-excepciones)
+- Comenzar la [entrega 2 del TP de Objetos](https://docs.google.com/document/d/16Uc4LCv2OcRB1mBJSxD-F5sp17IS9n7v0NafRohLCXA/edit?usp=sharing).
 
 Hicimos [este](https://docs.google.com/document/d/1YPZMyKI4fFij22QM8QfbDU8pfV78bP7vesl2__HIj64/edit?usp=sharing) ejercicio.
 
@@ -76,15 +81,12 @@ try {
 ```
 
 Algo a notar, es que la excepción a atrapar tiene que ser **la que quiero atrapar y lo menos general posible.** Si atrapo, por ejemplo, `Exception`, seguramente esté atrapando errores que no hubiese querido atrapar (Por ejemplo, división por cero).
-## Tarea
 
-- Mumuki: [Lección 9](https://mumuki.io/pdep-utn/lessons/91-programacion-con-objetos-excepciones)
-- Comenzar la [entrega 2 del TP de Objetos](completar).
 
 ## Links útiles
 
 - [Video de la clase](completar)
-- [Código de la clase](https://github.com/pdep-lunes/pdep-clases-2021/tree/master/objetos/clase_07/src)
+- [Código de la clase](completar)
 - [Diagrama de clases de la clase](https://github.com/pdep-lunes/pdep-clases-2021/blob/master/objetos/clase_07/diagrama.png)
 - [Wiki excepciones](http://wiki.uqbar.org/wiki/articles/excepciones.html)
 - [Apunte](https://docs.google.com/document/d/1T87tmdXv_39RoE_zR7alVFK8TUl-KJYOhdoIsoVTRb4/edit#) de excepciones
