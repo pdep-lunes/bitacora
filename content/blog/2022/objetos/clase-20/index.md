@@ -85,8 +85,8 @@ Algo a notar, es que la excepción a atrapar tiene que ser **la que quiero atrap
 
 ## Links útiles
 
-- [Video de la clase](completar)
-- [Código de la clase](completar)
-- [Diagrama de clases de la clase](https://github.com/pdep-lunes/pdep-clases-2021/blob/master/objetos/clase_07/diagrama.png)
+- [Video de la clase](https://github.com/pdep-lunes/pdep-clases-2022/tree/master/Objetos/Clase23)
+- [Código de la clase](https://drive.google.com/file/d/1XE2yFf4Ad6YXs-7CdAKWf_SlMDHpGcpI/view)
+- [Diagrama de clases de la clase](https://github.com/pdep-lunes/pdep-clases-2022/blob/master/Objetos/Clase23/diagrama.png)
 - [Wiki excepciones](http://wiki.uqbar.org/wiki/articles/excepciones.html)
 - [Apunte](https://docs.google.com/document/d/1T87tmdXv_39RoE_zR7alVFK8TUl-KJYOhdoIsoVTRb4/edit#) de excepciones
