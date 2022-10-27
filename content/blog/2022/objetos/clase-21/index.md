@@ -1,6 +1,6 @@
 ---
 title: Vigésimo primera clase
-date: '2021-10-17'
+date: '2022-10-17'
 description: Vigésimo primera clase de PdeP.
 tags: [objetos, herencia vs composición, herencia, composición]
 ---
