@@ -2,30 +2,30 @@
 title: Primera clase
 date: "2023-03-27"
 description: "Primera clase de PdeP"
-tags: [funcional. composición]
+tags: [funcional, composición]
 ---
 
 ## Tarea para la clase que viene:
-Crearse una cuenta en GitHub y en Mumuki. Para eso, lee este [instructivo](https://docs.google.com/document/d/146pNb0NQyR5szaHcGiX-v0LPZ7XFdP_4m_FPqR5_avM/edit?usp=sharing).
-Hacer las lecciones 1 y 2 de [Mumuki](https://mumuki.io/pdep-utn).
+- Unirse a discord siguiendo este [instructivo](https://docs.google.com/document/d/1HCwsLjj1P_v8O2leXyrD4b61VxxWevaeic5rxU8RS80/edit).
+- [Instalarse Haskell](https://www.pdep.com.ar/software/haskell). 
+- Comenzar a practicar con estos [ejercicios](https://docs.google.com/document/d/15VME8b-t_jXznNpPaTevLM3ETlRUAX1cI79tg6TikXY/edit). ¡Nos pueden preguntar por Discord!
 
 ## Primero un poco de burocracia…
-Dadas las circunstancias actuales debido a la pandemia 👑🦠, esta cursada será virtual. Nuestro medio de comunicación será [discord](https://discordapp.com/)
 
 La materia tiene 3️⃣ parciales.  
 
 ¿Cómo los promociono?
-8 o más en los 3 parciales (con la posibilidad de recuperar 1 si te sacaste menos de 8).
-TPs aprobados.
+- 8 o más en los 3 parciales (con la posibilidad de recuperar 1 si te sacaste menos de 8).
+- TPs aprobados.
 
 ¿Cómo simplemente los apruebo?
-6 o más en los 3 parciales (hay 2 recuperatorios por cada parcial).
-TPs aprobados.
+- 6 o más en los 3 parciales (hay 2 recuperatorios por cada parcial).
+- TPs aprobados.
 
 ## Los temas de hoy
-¿Qué es un paradigma de programación?
-Expresividad y declaratividad
-Paradigma funcional
+- ¿Qué es un paradigma de programación?
+- Expresividad y declaratividad
+- Paradigma funcional
 
 ## ¿Qué es un paradigma de programación?
 
