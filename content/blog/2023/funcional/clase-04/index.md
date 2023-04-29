@@ -1,6 +1,6 @@
 ---
 title: Cuarta clase
-date: "2022-04-17"
+date: "2023-04-17"
 description: "Cuarta clase de PdeP"
 tags: [funcional, guardas, práctica, data, git]
 ---
