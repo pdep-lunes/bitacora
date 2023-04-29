@@ -1,6 +1,6 @@
 ---
 title: Quinta clase
-date: "2022-04-24"
+date: "2023-04-24"
 description: "Quinta clase de PdeP"
 tags: [funcional, práctica, git]
 ---
