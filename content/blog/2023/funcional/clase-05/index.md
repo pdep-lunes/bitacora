@@ -8,7 +8,7 @@ tags: [funcional, práctica, git]
 ## Tarea para la clase que viene:
 - Crearse una cuenta en Github lo antes posible y **enviar su nombre de usuario al canal de su equipo en Discord** ya que es necesario para comenzar el TP grupal. En la sección [Git](https://github.com/pdep-lunes/bitacora/new/master/content/blog/2023/funcional#git), de esta bitácora, hay tips para su creación.
 - Terminar el TP Monopoly de forma individual y subirlo a un repositorio privado de su cuenta para practicar lo visto en clase.
-- Comenzar el TP grupal de Funcional (pronto).
+- Comenzar con la [entrega 1 del TP grupal de Funcional](https://docs.google.com/document/d/1Ot30lC7AZLUHCqrSrIOyQIk4SocKgWgYr_J_l1XrSV8/edit#).
 
 ### Práctica en clase
 
