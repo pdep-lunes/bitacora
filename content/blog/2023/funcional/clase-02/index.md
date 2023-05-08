@@ -75,7 +75,8 @@ En Haskell también se respeta esto. Les dejamos una tabla para que puedan ver l
 
 | Precedencia (Mayor número, mayor precedencia) |            "Operador"            |
 | --------------------------------------------- | :------------------------------: |
-| 10                                            | Aplicacion prefija |
+| 11                                            | ( )                              |
+| 10                                            | Aplicacion prefija               |
 | 9                                             |                .                 |
 | 8                                             |                ^                 |
 | 7                                             |               \*,/               |
