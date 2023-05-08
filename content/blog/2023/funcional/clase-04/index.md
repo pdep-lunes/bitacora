@@ -2,7 +2,7 @@
 title: Cuarta clase
 date: "2023-04-17"
 description: "Cuarta clase de PdeP"
-tags: [funcional, guardas, práctica, data, git]
+tags: [funcional, guardas, práctica, data]
 ---
 
 ## Tarea para la clase que viene:
