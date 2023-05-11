@@ -6,11 +6,11 @@ tags: [funcional, currificación, expresiones lambda, recursividad, fold]
 ---
 
 ## Tarea para la clase que viene:
-- Hacer una copia en su drive del documento y resolver el [TP Pattern Matching](https://docs.google.com/spreadsheets/d/17YAHAtEX-xoHoepRP7hl1Nim_ZksYf96qgeN_Ct5BK4/edit#gid=0) 
-- Terminar la primera entrega del [TP integrador](https://docs.google.com/document/d/1Ot30lC7AZLUHCqrSrIOyQIk4SocKgWgYr_J_l1XrSV8/edit) 
+- Hacer una copia en su drive del documento y resolver el [TP Pattern Matching](https://docs.google.com/spreadsheets/d/17YAHAtEX-xoHoepRP7hl1Nim_ZksYf96qgeN_Ct5BK4/edit#gid=0)
+- Terminar la primera entrega del [TP integrador](https://docs.google.com/document/d/1Ot30lC7AZLUHCqrSrIOyQIk4SocKgWgYr_J_l1XrSV8/edit)
 
 
-## ¿Qué vimos hoy? 
+## ¿Qué vimos hoy?
 
 ### Expresiones lambda
 
@@ -40,10 +40,10 @@ dobles :: Num a => [a] -> [a]
 dobles numeros = map (\numero -> numero * 2) numeros
 ```
 
-¿Esto significa que a partir de ahora todas nuestras funciones las vamos a definir utilizando expresiones lambda? ¡No! ✋ Solo estamos viendo una nueva herramienta dentro del amplio espectro del paradigma funcional. De hecho, también se conoce a estas funciones como funciones anónimas 👤, ya que, si bien podemos darles un nombre, solemos utilizarlas para casos muy específicos donde no nos interesa darle demasiada entidad a esa lógica. Entonces, ¿cuándo usarlas? 
+¿Esto significa que a partir de ahora todas nuestras funciones las vamos a definir utilizando expresiones lambda? ¡No! ✋ Solo estamos viendo una nueva herramienta dentro del amplio espectro del paradigma funcional. De hecho, también se conoce a estas funciones como funciones anónimas 👤, ya que, si bien podemos darles un nombre, solemos utilizarlas para casos muy específicos donde no nos interesa darle demasiada entidad a esa lógica. Entonces, ¿cuándo usarlas?
 
 - Cuando no tenemos un buen nombre para ponerle a una función.
-- Si sólo la vamos a usar una única vez, sino estamos repitiendo lógica. 
+- Si sólo la vamos a usar una única vez, sino estamos repitiendo lógica.
 - Si no necesitamos usar guardas ni pattern matching (con más de una ecuación).
 
 ### Currificación y parámetros implícitos
@@ -88,7 +88,7 @@ sumaDe3'' = (\numero1 -> (\numero2 numero3 -> numero1 + numero2 + numero3))
 ```
 ¡Gracias a esto podemos aplicar parcialmente nuestras funciones! Cuando llamamos a `sumaDe3'' 5`, nos va a devolver la segunda función lambda que creamos.
 
-¡Pero sabemos que `sumaDe3 5 5` también nos devuelve una función! 
+¡Pero sabemos que `sumaDe3 5 5` también nos devuelve una función!
 
 Si queremos hacer una función que replique todos los casos, tendríamos que hacer algo así:
 
@@ -140,12 +140,12 @@ nombreDeLaBiblioteca = sinVocales . concatenatoriaDeTitulos
 
 En este caso `nombreDeLaBiblioteca` recibe implícitamente a un `biblioteca :: Biblioteca`. Esto es porque a la derecha del igual tenemos una función `Biblioteca -> Biblioteca`, a la que le queremos poner un nombre, porque para nosotros esa función significa `nombreDeLaBiblioteca`.
 
-Esto no significa que de aquí en adelante sea importante dejar implícitos nuestros parámetros. Podemos hacerlo o no y nuestras funciones resolverán exactamente los mismos problemas de la misma forma ya que la lógica no cambia. 
+Esto no significa que de aquí en adelante sea importante dejar implícitos nuestros parámetros. Podemos hacerlo o no y nuestras funciones resolverán exactamente los mismos problemas de la misma forma ya que la lógica no cambia.
 
 ### Patrones de listas
 
-Además del ya conocido patrón de lista vacía (`[]`), existe otro patrón que nos puede resultar útil: el de _cabeza y cola_ `(cabeza:cola)`. De esta forma estamos describiendo una lista de por lo menos un elemento. 
-Si quisiéramos describir a una lista de por lo menos dos elementos, podríamos aplicar el patrón: `(unElemento:otroElemento:cola)`. 
+Además del ya conocido patrón de lista vacía (`[]`), existe otro patrón que nos puede resultar útil: el de _cabeza y cola_ `(cabeza:cola)`. De esta forma estamos describiendo una lista de por lo menos un elemento.
+Si quisiéramos describir a una lista de por lo menos dos elementos, podríamos aplicar el patrón: `(unElemento:otroElemento:cola)`.
 
 ### Recursividad
 
@@ -203,13 +203,13 @@ Para solucionar este problema de repetición de lógica, surge `fold`:
 ```haskell
 -- Tipo de foldr
 
-foldl :: (a -> b -> b) -> b -> [a] -> b
+foldr :: (a -> b -> b) -> b -> [a] -> b
 
 -- Caso base: si la lista está vacía, retorno el acumulador
 
 foldr _ acumulador []     =  acumulador
 
--- Caso recursivo: si la lista no está vacía, ejecuto el operador con la cabeza de la lista y la llamada recursiva con la cola de la lista 
+-- Caso recursivo: si la lista no está vacía, ejecuto el operador con la cabeza de la lista y la llamada recursiva con la cola de la lista
 
 foldr operador acumulador (cabeza : cola) = cabeza `operador` foldr operador acumulador cola
 ```
@@ -228,7 +228,7 @@ length lista = foldl sumarUno 0 lista
 ```
 
 
-También, existe la función `foldl` que tiene la misma funcionalidad que `foldr` _pero_ aplica la función recursiva cambiando la posición de los parámetros de la función que le pasamos por parámetro. ¡Así que cuidado con usarla con funciones que no sean asociativas! Por ejemplo: 
+También, existe la función `foldl` que tiene la misma funcionalidad que `foldr` _pero_ aplica la función recursiva cambiando la posición de los parámetros de la función que le pasamos por parámetro. ¡Así que cuidado con usarla con funciones que no sean asociativas! Por ejemplo:
 
 ```haskell
 -- Como la suma es asociativa, obtenemos el mismo resultado si hacemos:
@@ -255,7 +255,7 @@ foldl (-) 0 [1,2,3,4]
 
 ```haskell
 foldl1 :: (a -> a -> a) -> [a] -> a
-foldl1 o (x:xs) = foldl funcion x xs
+foldl1 funcion (x:xs) = foldl funcion x xs
 
 foldr1 :: (a -> a -> a) -> [a] -> a
 foldr1 funcion (x:xs) = foldr funcion x xs
@@ -264,7 +264,7 @@ foldr1 funcion (x:xs) = foldr funcion x xs
 ## Links Útiles
 
 - [Video de la clase del 2022](https://drive.google.com/file/d/1_OOHBV8A7ixwUYX4wRihRiYDmQ2GIBvw/view?usp=sharing)
-- [Código de la clase](https://github.com/pdep-lunes/pdep-clases-2023/blob/main/Funcional/Clase06/src/Lib.hs) 
+- [Código de la clase](https://github.com/pdep-lunes/pdep-clases-2023/blob/main/Funcional/Clase06/src/Lib.hs)
 - [Expresiones Lambda](http://wiki.uqbar.org/wiki/articles/expresiones-lambda.html)
 - [Currificación](http://wiki.uqbar.org/wiki/articles/currificacion.html)
 - [Recursividad en haskell](http://wiki.uqbar.org/wiki/articles/recursividad-en-haskell.html)
