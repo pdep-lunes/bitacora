@@ -40,13 +40,13 @@ Ahora, podemos escribir nuestras funciones anteriores en función de `modificarE
 
 ```haskell
 cumplirAños :: Persona -> Persona
-cumplirAños    unaPersona = modificarEdad (+ 1)
+cumplirAños    unaPersona = modificarEdad (+ 1) unaPersona
 
 duplicarEdad :: Persona -> Persona
-duplicarEdad   unaPersona = modificarEdad (* 2)
+duplicarEdad   unaPersona = modificarEdad (* 2) unaPersona
 
 cumplir100Años :: Persona -> Persona
-cumplir100Años unaPersona = modificarEdad (const 100)
+cumplir100Años unaPersona = modificarEdad (const 100) unaPersona
 ```
 
 El crear estas funciones auxiliares nos trae un montón de ventajas:
