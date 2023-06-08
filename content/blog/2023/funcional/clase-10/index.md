@@ -1,6 +1,6 @@
 ---
 title: Décima clase
-date: "2022-06-05"
+date: "2023-06-05"
 description: "Décima clase de PdeP"
 tags: [funcional, práctica]
 ---
