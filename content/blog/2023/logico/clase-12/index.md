@@ -5,6 +5,9 @@ description: Décimo segunda de PdeP
 tags: [logico, forall, functores, pattern-matching, polimorfismo]
 ---
 
+## Tarea
+- Empezar a hacer el TP grupal de lógico [Democracia](https://docs.google.com/document/d/1Q4othulX9oW_vAfQNEWeFMhjrnhHd6kE3UHqBLZAYoA/edit). Con lo que saben hasta el momento pueden hacer hasta el punto 4 inclusive. A partir de la clase que viene ya pueden realizar el resto. Tienen tiempo para entregarlo hasta el 6/8 a las 23:59 hs. Como todos los TPs debe ser entregado en **tiempo y forma**. 
+
 ## ¿Qué vimos hoy?
 - Forall
 - Functores
