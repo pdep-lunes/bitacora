@@ -1,7 +1,7 @@
 ---
-title: Décimo segunda clase
+title: Décimo tercera clase
 date: '2023-07-10'
-description: Décimo segunda clase de PdeP
+description: Décimo tercera clase de PdeP
 tags: [logico, is, listas, findall, ilogico]
 ---
 
