@@ -1,6 +1,6 @@
 ---
 title: Décimo sexta clase
-date: '2023-09-10'
+date: '2023-09-11'
 description: Décimo sexta clase de PdeP
 tags: [objetos, colecciones, testing]
 ---
