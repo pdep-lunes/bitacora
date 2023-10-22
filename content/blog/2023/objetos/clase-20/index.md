@@ -17,7 +17,7 @@ El diagrama de clases es la herramienta que tenemos para comunicar las relacione
 
 | Relación ➡️ / Característica ⬇️ | tiene o conoce | usa | implementa | hereda |
 |----------|----------|----------|----------|----------|
-| Flecha    | Contínua con punta abierta   | Punteada con punta abierta   | Contínua con punta cerrada   | Punteada con punta cerrada  |
+| Flecha    | Contínua con punta abierta   | Punteada con punta abierta   | Punteada con punta cerrada   | Contínua con punta cerrada  |
 | Flecha en plantUMl    | -->   | ..>   | ..\|\>  | --\|\> |
 | Se usa cuando una clase u objeto …    |  …tiene/conoce un atributo. Si es una colección debe llevar un asterisco (--> "*")  | …usa a otro objeto como argumento de un método  | …implementa una interfaz (comparte los mismos mensajes que otros, aprovechando el polimorfismo) | …hereda de una clase  |
 
