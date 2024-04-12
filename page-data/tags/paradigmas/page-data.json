@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-posts-by-tag-js",
     "path": "/tags/paradigmas",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Bitácora"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"Qué hacer para la clase que viene: Unirse a discord siguiendo este instructivo. Intentar instalarse Haskell. No lo vamos a estar usando…","fields":{"slug":"/2024/funcional/clase-01/"},"frontmatter":{"tags":["expresividad","declaratividad","paradigmas"],"title":"Presentación y primeros conceptos","date":"27-04-2024","description":"Primera clase de PdeP, presentación y primeros conceptos"}}}]}},"pageContext":{"slug":"/tags/paradigmas","tag":"paradigmas"}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"Bitácora"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"Qué hacer para la clase que viene: Unirse a discord siguiendo este instructivo. Intentar instalarse Haskell. No lo vamos a estar usando…","fields":{"slug":"/2024/funcional/clase-01/"},"frontmatter":{"tags":["expresividad","declaratividad","paradigmas"],"title":"Presentación y primeros conceptos","date":"26-03-2024","description":"Primera clase de PdeP"}}}]}},"pageContext":{"slug":"/tags/paradigmas","tag":"paradigmas"}},
     "staticQueryHashes": ["452372368","63159454"]}
