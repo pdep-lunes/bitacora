@@ -6,7 +6,9 @@ tags: [funcional, aplicacion-parcial, orden-superior, pattern-matching, tuplas, 
 ---
 
 ## Tarea para la clase que viene:
-Resolver el [TP "Hora de lectura"](https://docs.google.com/document/d/1h0JQAyYL5ePak_9HS5ROgNv4afz6OE5hLXeajFG5l7o/edit). **Importante**: si bien en esta bitácora está la resolución paso a paso y el código de la misma, sugerimos que intenten resolver por su cuenta el ejercicio antes de ver la solución (¡y preguntarnos lo que no se entienda!).
+- Resolver el [TP "Hora de lectura"](https://docs.google.com/document/d/1h0JQAyYL5ePak_9HS5ROgNv4afz6OE5hLXeajFG5l7o/edit). **Importante**: si bien en esta bitácora está la resolución paso a paso y el código de la misma, sugerimos que intenten resolver por su cuenta el ejercicio antes de ver la solución (¡y preguntarnos lo que no se entienda!).
+- Comenzar a hacer las [guías de ejercicios de Funcioanl](https://www.pdep.com.ar/material/gu%C3%ADa-de-ejercicios). Cualquier duda que tengan pueden preguntar por Discord.
+- Esta semana sí o sí tienen que armar los grupos porque ya vamos a estar asignando ayudantes y creando los canales para cada equipo. 
 
 ## ¿Qué vimos hoy? 
 
