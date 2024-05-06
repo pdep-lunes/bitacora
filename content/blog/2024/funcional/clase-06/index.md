@@ -1,7 +1,7 @@
 ---
-title: Sexta clase
+title: Expresiones lambda, recursividad y fold
 date: "2024-05-06"
-description: "Expresiones lambda, recursividad y fold"
+description: "Sexta clase de PdeP"
 tags: [funcional, currificación, expresiones lambda, recursividad, fold]
 ---
 
