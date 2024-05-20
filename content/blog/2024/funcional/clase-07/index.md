@@ -18,6 +18,6 @@ Corregimos sincrónicamente los TPs.
 
 ## Links Útiles
 
-- [Resolución Tierra de Bábaros](https://drive.google.com/drive/folders/1AfNARmbRC3ODY-jYcFqzBqn9shs4QMRU)
+- [Resolución Tierra de Bábaros](https://drive.google.com/file/d/1wNE11V6sWX7q9cbYIGvidbiwrXUCvu47/view?usp=sharing)
 
 
