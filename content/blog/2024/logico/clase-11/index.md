@@ -1,6 +1,6 @@
 ---
 title: Introducción a Lógico 
-date: "2024-06-26"
+date: "2024-06-24"
 description: "Onceava clase"
 tags: [logico, hechos, reglas, universo-cerrado, negacion, unificacion-asignacion, inversibilidad]
 
