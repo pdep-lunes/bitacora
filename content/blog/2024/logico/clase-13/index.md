@@ -1,4 +1,3 @@
-
 ---
 title: Listas, is y findall
 date: '2024-07-08'
