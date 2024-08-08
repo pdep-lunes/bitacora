@@ -6,7 +6,7 @@ tags: [logico, práctica, simulacro]
 ---
 
 ## Tarea para la clase que viene:
-- Seguir realizando parciales para practicar. Podés encontrar nuestras sugerencias [acá](https://pdep-lunes.github.io/bitacora/2024/funcional/clase-08/).
+- Seguir realizando parciales para practicar. Podés encontrar nuestras sugerencias [acá](https://pdep-lunes.github.io/bitacora/2024/logico/clase-13/).
 - ¡¡Éxitos!! A estudiar mucho 💪.
 
 
