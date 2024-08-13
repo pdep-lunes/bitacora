@@ -1,5 +1,5 @@
 ---
-title: Parcial funcional
+title: Parcial lógico
 date: "2024-08-12"
 description: "Décimo quinta clase"
 tags: [logico, parcial]
