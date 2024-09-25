@@ -178,7 +178,7 @@ En esta clase repasamos cómo representar clases abstractas, interfaces y las fl
 Todo el comportamiento:
 - En común, va en una **superclase**.
 - En específico, va en la **clase**.
-- En común con la superclase pero que hace _alguito más, va **redefinido con super en la clase**.
+- En común con la superclase pero que hace _alguito más_, va **redefinido con super en la clase**.
 - Que no me dice qué hacer la superclase, lo defino como **método abstracto** en la superclase y luego lo **redefino en clase**.
 
 Si tengo clases que: 
