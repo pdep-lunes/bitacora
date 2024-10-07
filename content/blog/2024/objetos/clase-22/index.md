@@ -27,27 +27,27 @@ Por ejemplo,los géneros de los juegos dentro de *Gameflix*:
 
 ```java
 class JuegoViolento inherits Juego {
-method jugar(unUsuario,unasHoras){
-unUsuario.reducirHumor(10 * unasHoras)
-}
+  method jugar(unUsuario, unasHoras){
+    unUsuario.reducirHumor(10 * unasHoras)
+  }
 }
 
 class JuegoMOBA inherits Juego {
-method jugar(unUsuario, unasHoras){
-unUsuario.comprarSkins()
-}
+  method jugar(unUsuario, unasHoras){
+    unUsuario.comprarSkins()
+  }
 }
 
 class JuegoDeTerror inherits Juego {
-method jugar(unUsuario,unasHoras){
-unUsuario.tirarTodoAlCarajo()
-}
+  method jugar(unUsuario, unasHoras){
+    unUsuario.tirarTodoAlCarajo()
+  }
 }
 
 class JuegoDeEstrategia inherits Juego {
-method jugar(unUsuario,unasHoras){
-unUsuario.aumentarHumor(5 * unasHoras)
-}
+  method jugar(unUsuario, unasHoras){
+    unUsuario.aumentarHumor(5 * unasHoras)
+  }
 }
 ```
 
@@ -70,24 +70,24 @@ Para esto, podemos utilizar la **composición**. De esta manera, delegamos la l�
 
 ```java
 class Usuario {
-var suscripcion
-
-method puedeJugar(unJuego) {
-return suscripcion.permiteJugar(unJuego)
-}
-
-
-method actualizarSuscripcion(unaSuscripcion) {
-suscripcion = unaSuscripcion
-}
-
-method pagarSuscripcion() {
-if(self.leAlcanzaParaPagar(suscripcion.costo())) {
-self.actualizarSuscripcion(prueba)
-} else {
-plataEnCuenta -= suscripcion.costo()
-}
-}
+  var suscripcion
+  
+  method puedeJugar(unJuego) {
+    return suscripcion.permiteJugar(unJuego)
+  }
+  
+  
+  method actualizarSuscripcion(unaSuscripcion) {
+    suscripcion = unaSuscripcion
+  }
+  
+  method pagarSuscripcion() {
+    if(self.leAlcanzaParaPagar(suscripcion.costo())) {
+      self.actualizarSuscripcion(prueba)
+    } else {
+      plataEnCuenta -= suscripcion.costo()
+    }
+  }
 }
 ```
 La composición es una solución **dinámica**, que nos ayuda a resolver este tipo de contextos.
