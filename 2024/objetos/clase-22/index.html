@@ -69,27 +69,27 @@
 <p>Como ya habíamos visto, la <strong>herencia</strong> la podemos utilizar cuando tenemos lógica repetida entre distintos objetos, y queremos agruparla.</p>
 <p>Por ejemplo,los géneros de los juegos dentro de <em>Gameflix</em>:</p>
 <div class="gatsby-highlight" data-language="java"><pre class="language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">JuegoViolento</span> inherits <span class="token class-name">Juego</span> <span class="token punctuation">{</span>
-method <span class="token function">jugar</span><span class="token punctuation">(</span>unUsuario<span class="token punctuation">,</span>unasHoras<span class="token punctuation">)</span><span class="token punctuation">{</span>
-unUsuario<span class="token punctuation">.</span><span class="token function">reducirHumor</span><span class="token punctuation">(</span><span class="token number">10</span> <span class="token operator">*</span> unasHoras<span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
+  method <span class="token function">jugar</span><span class="token punctuation">(</span>unUsuario<span class="token punctuation">,</span> unasHoras<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    unUsuario<span class="token punctuation">.</span><span class="token function">reducirHumor</span><span class="token punctuation">(</span><span class="token number">10</span> <span class="token operator">*</span> unasHoras<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 
 <span class="token keyword">class</span> <span class="token class-name">JuegoMOBA</span> inherits <span class="token class-name">Juego</span> <span class="token punctuation">{</span>
-method <span class="token function">jugar</span><span class="token punctuation">(</span>unUsuario<span class="token punctuation">,</span> unasHoras<span class="token punctuation">)</span><span class="token punctuation">{</span>
-unUsuario<span class="token punctuation">.</span><span class="token function">comprarSkins</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
+  method <span class="token function">jugar</span><span class="token punctuation">(</span>unUsuario<span class="token punctuation">,</span> unasHoras<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    unUsuario<span class="token punctuation">.</span><span class="token function">comprarSkins</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 
 <span class="token keyword">class</span> <span class="token class-name">JuegoDeTerror</span> inherits <span class="token class-name">Juego</span> <span class="token punctuation">{</span>
-method <span class="token function">jugar</span><span class="token punctuation">(</span>unUsuario<span class="token punctuation">,</span>unasHoras<span class="token punctuation">)</span><span class="token punctuation">{</span>
-unUsuario<span class="token punctuation">.</span><span class="token function">tirarTodoAlCarajo</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
+  method <span class="token function">jugar</span><span class="token punctuation">(</span>unUsuario<span class="token punctuation">,</span> unasHoras<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    unUsuario<span class="token punctuation">.</span><span class="token function">tirarTodoAlCarajo</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 
 <span class="token keyword">class</span> <span class="token class-name">JuegoDeEstrategia</span> inherits <span class="token class-name">Juego</span> <span class="token punctuation">{</span>
-method <span class="token function">jugar</span><span class="token punctuation">(</span>unUsuario<span class="token punctuation">,</span>unasHoras<span class="token punctuation">)</span><span class="token punctuation">{</span>
-unUsuario<span class="token punctuation">.</span><span class="token function">aumentarHumor</span><span class="token punctuation">(</span><span class="token number">5</span> <span class="token operator">*</span> unasHoras<span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
+  method <span class="token function">jugar</span><span class="token punctuation">(</span>unUsuario<span class="token punctuation">,</span> unasHoras<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    unUsuario<span class="token punctuation">.</span><span class="token function">aumentarHumor</span><span class="token punctuation">(</span><span class="token number">5</span> <span class="token operator">*</span> unasHoras<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre></div>
 <p>Ahora, ¿Qué podemos apreciar de esta solución? ¿Puede un juego pasar de ser un <code class="language-text">moba</code> a <code class="language-text">estratégico</code>? 🤔</p>
 <p>Si bien en la realidad podría pasar (por ejemplo, quien dirige el juego podría tener un cambio de visión), en nuestro caso podemos decir que no va a cambiar. Como necesitamos que esta característica sea <strong>estática</strong> (no cambie durante la ejecución), usamos la <strong>herencia</strong>. </p>
@@ -103,24 +103,24 @@ unUsuario<span class="token punctuation">.</span><span class="token function">au
 <p>Como vemos, las suscripciones cambian a lo largo del tiempo, por lo que la herencia no es una posible solución al problema, <strong>ya que no se puede cambiar de subclase durante la ejecución del programa</strong>.</p>
 <p>Para esto, podemos utilizar la <strong>composición</strong>. De esta manera, delegamos la lógica de la suscripción a una nueva clase u objeto, la cual cada cliente conocerá a una instancia de esta clase a través de un atributo:</p>
 <div class="gatsby-highlight" data-language="java"><pre class="language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Usuario</span> <span class="token punctuation">{</span>
-<span class="token keyword">var</span> suscripcion
-
-method <span class="token function">puedeJugar</span><span class="token punctuation">(</span>unJuego<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-<span class="token keyword">return</span> suscripcion<span class="token punctuation">.</span><span class="token function">permiteJugar</span><span class="token punctuation">(</span>unJuego<span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
-
-
-method <span class="token function">actualizarSuscripcion</span><span class="token punctuation">(</span>unaSuscripcion<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-suscripcion <span class="token operator">=</span> unaSuscripcion
-<span class="token punctuation">}</span>
-
-method <span class="token function">pagarSuscripcion</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-<span class="token keyword">if</span><span class="token punctuation">(</span>self<span class="token punctuation">.</span><span class="token function">leAlcanzaParaPagar</span><span class="token punctuation">(</span>suscripcion<span class="token punctuation">.</span><span class="token function">costo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-self<span class="token punctuation">.</span><span class="token function">actualizarSuscripcion</span><span class="token punctuation">(</span>prueba<span class="token punctuation">)</span>
-<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-plataEnCuenta <span class="token operator">-=</span> suscripcion<span class="token punctuation">.</span><span class="token function">costo</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+  <span class="token keyword">var</span> suscripcion
+  
+  method <span class="token function">puedeJugar</span><span class="token punctuation">(</span>unJuego<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> suscripcion<span class="token punctuation">.</span><span class="token function">permiteJugar</span><span class="token punctuation">(</span>unJuego<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  
+  
+  method <span class="token function">actualizarSuscripcion</span><span class="token punctuation">(</span>unaSuscripcion<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    suscripcion <span class="token operator">=</span> unaSuscripcion
+  <span class="token punctuation">}</span>
+  
+  method <span class="token function">pagarSuscripcion</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>self<span class="token punctuation">.</span><span class="token function">leAlcanzaParaPagar</span><span class="token punctuation">(</span>suscripcion<span class="token punctuation">.</span><span class="token function">costo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      self<span class="token punctuation">.</span><span class="token function">actualizarSuscripcion</span><span class="token punctuation">(</span>prueba<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      plataEnCuenta <span class="token operator">-=</span> suscripcion<span class="token punctuation">.</span><span class="token function">costo</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre></div>
 <p>La composición es una solución <strong>dinámica</strong>, que nos ayuda a resolver este tipo de contextos.</p>
 <h2 id="cuándo-elegir-una-por-sobre-la-otra" style="position:relative;"><a href="#cu%C3%A1ndo-elegir-una-por-sobre-la-otra" aria-label="cuándo elegir una por sobre la otra permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>¿Cuándo elegir una por sobre la otra?</h2>
