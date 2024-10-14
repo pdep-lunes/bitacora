@@ -1,8 +1,8 @@
 ---
-title: Herencia vs composición
+title: Práctica PdeP Libre
 date: '2024-10-14'
 description: Clase 23
-tags: [objetos, herencia vs composición, herencia, composición]
+tags: [objetos, practica]
 ---
 
 ## Tarea
