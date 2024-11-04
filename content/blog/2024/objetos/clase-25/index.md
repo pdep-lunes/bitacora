@@ -1,5 +1,5 @@
 ---
-title: Simulacro de parcial objetos
+title: Clase de consulta
 date: '2024-11-04'
 description: Vigésima quinta clase de PdeP
 tags: [objetos, práctica]
