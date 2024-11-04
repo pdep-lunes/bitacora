@@ -6,7 +6,6 @@ tags: [objetos, práctica]
 ---
 
 ## Tarea para la clase que viene:
-- Continuar con la parte 3 del TP grupal de objetos.
 - Seguir realizando parciales para practicar. Podés encontrar nuestras sugerencias [acá](https://pdep-lunes.github.io/bitacora/2024/objetos/clase-22/).
 - ¡¡Éxitos!! A estudiar mucho 💪.
 
