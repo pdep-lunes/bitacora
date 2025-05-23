@@ -11,9 +11,9 @@ tags: [funcional, listas infinitas, lazy evaluation]
 - Pueden comenzar a realizar [parciales](https://www.pdep.com.ar/material/parciales) para practicar. Les recomendamos:
   - Si todavía no lo hicieron,  [Tierra de Bárbaros](https://docs.google.com/document/d/1mBwfHLXmcZKLHSy22exTxibwny9x2a81hKW000tOFMQ/edit) con [posible resolución](https://drive.google.com/drive/folders/1AfNARmbRC3ODY-jYcFqzBqn9shs4QMRU)
   - [Haskell Chef](https://docs.google.com/document/d/13SS-HXVR7z5SOgQCwYh2Maob7QhSh858PTSzc7MymCY/edit) con [posible resolución](https://github.com/pdep-lunes/pdep-clases-2023/blob/main/Funcional/Clase09/src/Lib.hs)
-- [Padrinos mágicos](https://drive.google.com/file/d/18c1VXjtvMaJeIIHE-gMtTOWycW4r62Ig/view).
-- [Pinky y Cerebro](https://docs.google.com/document/d/12PSO8F15XHRvOn53khcSMqku6qVuo0j2r9g77GCWZHk/edit)
-- Y todos los que tengan resolución así tienen con qué comparar.
+  - [Padrinos mágicos](https://drive.google.com/file/d/18c1VXjtvMaJeIIHE-gMtTOWycW4r62Ig/view).
+  - [Pinky y Cerebro](https://docs.google.com/document/d/12PSO8F15XHRvOn53khcSMqku6qVuo0j2r9g77GCWZHk/edit)
+  - Y todos los que tengan resolución así tienen con qué comparar.
 
 
 ## ¿Qué vimos hoy? 
