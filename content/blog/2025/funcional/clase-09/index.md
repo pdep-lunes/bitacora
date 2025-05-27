@@ -7,7 +7,7 @@ tags: [funcional, práctica, simulacro]
 
 ## Tarea para la clase que viene:
 - Continuar con la segunda entrega del TP.
-- Realizar el simulacro ... para debatirlo el lunes que viene.
+- Realizar el simulacro [“Infinity Haskell”](https://docs.google.com/document/d/1Y-hixhngNzgeWrNPyLqRHmmcF0h9D6CyRnrrfMhe2Gk/edit?tab=t.0#heading=h.kyr79fejyiow) para debatirlo el lunes que viene.
 - Seguir realizando parciales para practicar. Podés encontrar nuestras sugerencias [acá](https://pdep-lunes.github.io/bitacora/2025/funcional/clase-08/).
 
 
