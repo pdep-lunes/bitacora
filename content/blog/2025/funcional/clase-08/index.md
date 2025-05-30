@@ -7,7 +7,7 @@ tags: [funcional, listas infinitas, lazy evaluation]
 
 ## Tarea para la clase que viene:
 - Corregir la primera entrega del TP integrador.
-- Seguir con la segunda entrega del [TP integrador](https://docs.google.com/document/d/1WEMXPSadPVxVYSWZ7Q4vsXyofGYJq6aOhN7zJycyQY0/edit) 
+- Seguir con la segunda entrega del [TP integrador](https://docs.google.com/document/d/1Uq3lbeWwCQcMaL6mlazEIh9Bo_y670Pt9Ig7i-Y4cm4/edit?tab=t.0#heading=h.bzijjzpynqq4) 
 - Pueden comenzar a realizar [parciales](https://www.pdep.com.ar/material/parciales) para practicar. Les recomendamos:
   - Si todavía no lo hicieron,  [Tierra de Bárbaros](https://docs.google.com/document/d/1mBwfHLXmcZKLHSy22exTxibwny9x2a81hKW000tOFMQ/edit) con [posible resolución](https://drive.google.com/drive/folders/1AfNARmbRC3ODY-jYcFqzBqn9shs4QMRU)
   - [Haskell Chef](https://docs.google.com/document/d/13SS-HXVR7z5SOgQCwYh2Maob7QhSh858PTSzc7MymCY/edit) con [posible resolución](https://github.com/pdep-lunes/pdep-clases-2023/blob/main/Funcional/Clase09/src/Lib.hs)
