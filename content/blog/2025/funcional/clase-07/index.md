@@ -9,7 +9,7 @@ tags: [funcional, correccion, simulacro]
 
 - Resolver el simulacro de parcial [Tierra de Bárbaros](https://docs.google.com/document/d/1mBwfHLXmcZKLHSy22exTxibwny9x2a81hKW000tOFMQ/edit) 
 - Hacer las correcciones de la Entrega 1, si la shubiera.
-- Comenzar la segunda entrega del [TP integrador](Bueeenas, en un ratito subo las bitácoras faltantes. Les dejo el enunciado de la parte 2 del TP de funcional para entregar el lunes 2/6 (lo atrasamos una semana) https://docs.google.com/document/d/1Uq3lbeWwCQcMaL6mlazEIh9Bo_y670Pt9Ig7i-Y4cm4/edit?usp=sharing) 
+- Comenzar la segunda entrega del [TP integrador](https://docs.google.com/document/d/1Uq3lbeWwCQcMaL6mlazEIh9Bo_y670Pt9Ig7i-Y4cm4/edit?usp=sharing) 
 
 
 ## ¿Qué hicimos hoy? 
