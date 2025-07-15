@@ -1,7 +1,7 @@
 ---
 title: Listas, is y findall
 date: '2025-07-07'
-description: Décimo tercera clase de PdeP
+description: Décimo cuarta clase de PdeP
 tags: [logico, is, listas, findall, ilogico]
 ---
 
