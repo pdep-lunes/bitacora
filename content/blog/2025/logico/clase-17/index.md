@@ -1,7 +1,7 @@
 ---
 title: Parcial lógico
 date: '2025-08-18'
-description: Décimo quinta clase de PdeP
+description: Décimo séptima clase de PdeP
 tags: [logico, parcial]
 ---
 

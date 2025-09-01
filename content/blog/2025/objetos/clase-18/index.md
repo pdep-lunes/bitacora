@@ -1,7 +1,7 @@
 ---
 title: Introducción a Objetos
 date: '2025-08-25'
-description: Décimo quinta clase de PdeP
+description: Décimo octava clase de PdeP
 tags: [objetos, introducción, atributos, accessors, mensaje, método, identidad]
 ---
 
