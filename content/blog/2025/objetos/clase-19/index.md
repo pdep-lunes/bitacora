@@ -1,6 +1,6 @@
 ---
 title: Self y polimorfismo (otra vez 😝)
-date: '2024-09-01'
+date: '2025-09-01'
 description: Décimo novena clase de PdeP
 tags: [objetos, self, encapsulamiento, responsabilidad, polimorfismo]
 ---
