@@ -2,7 +2,7 @@
 title: Práctica objetos
 date: '2025-10-13'
 description: Clase 25
-tags: [objetos, herencia vs composición, herencia, composición]
+tags: [objetos, práctica]
 ---
 
 ## Tarea
