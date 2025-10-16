@@ -8,13 +8,12 @@ tags: [objetos, herencia vs composición, herencia, composición]
 ## Tarea
 
 - Recomendamos ir haciendo de la [página de pdep](https://www.pdep.com.ar/material/parciales):
-
-- todos los que tengan una posible solución;
-- Intensa Mente;
-- Jalogüin;
-- Navidad;
-- Yaar;
-- Estanciero (modificado).
+  - todos los que tengan una posible solución;
+  - Intensa Mente;
+  - Jalogüin;
+  - Navidad;
+  - Yaar;
+  - Estanciero (modificado).
 
 # Herencia
 
